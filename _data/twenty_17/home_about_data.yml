@@ -1,23 +1,16 @@
-- inverted: 
-  img: icon-about.jpeg
-  name: Theme, Vision, Mission
-  info: Read more about our Theme, Vision, and Mission
-  link: /about
-
 - inverted:
   img: icon-agenda.jpeg
   name: Agenda
-  info: Check out the agenda
   link: /agenda
   
 - inverted:
   img: icon-venue.jpeg
-  name: Online event
-  info: The event is online, you can join on Remo
+  name: Where?
+  info: This is an online event
   link: /venue
 
 - inverted: timeline-inverted
   img: icon-team.jpeg
-  name: The Italian C++ Community Staff
+  name: Team
   info: Contact us if you need assistance
   link: /team
