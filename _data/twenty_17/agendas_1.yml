@@ -3,3 +3,30 @@
 
 - time: 09:30 AM - 10:20 AM
   info: "<u>Let's make a telegram bot with C++</u><br><b>Alberto Bignotti</b>"
+
+- time: 10:20 AM - 10:45 AM
+  info: "<u>Short Break</u><br><b></b>"
+  
+- time: 10:45 AM - 11:35 AM
+  info: "<u>Understanding values categories in C++</u><br><b>Kris van Rens</b>"
+    
+- time: 11:35 AM - 12:15 PM
+  info: "<u>Long Break</u><br><b></b>"
+      
+- time: 12:15 PM - 1:05 PM
+  info: "<u>TBD</u><br><b>Federico Ficarelli</b>"
+
+- time: 1:05 AM - 2:30 PM
+  info: "<u>Lunch Break</u><br><b>And Networking ;)</b>"
+
+- time: 2:30 PM - 3:20 PM
+  info: "<u>Interoperable AI: ONNX & ONNXRuntime in C++</u><br><b>Marco Arena & Mattia Verasani</b>"
+  
+- time: 3:20 PM - 3:30 PM
+  info: "<u>Short Break</u><br><b></b>"
+  
+- time: 3:30 PM - 3:45 AM
+  info: "<u>Closing Message</u><br><b>Marco Arena</b>"
+  
+- time: from 3:45 PM
+  info: "<u>Networking</u><br><b>Our virtual room for stays open for networking!</b>"
