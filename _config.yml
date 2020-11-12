@@ -1,5 +1,7 @@
 title: Italian C++ Day 2020
-date: 23rd November 2020
+date: 28th November 2020
+place: Online Edition
+
 description: > # this means to ignore newlines until "baseurl:"
   Your description
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,9 +29,11 @@ plugins:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url: https://www.facebook.com
+    url: https://www.facebook.com/italiancpp/
   - title: twitter
-    url: https://twitter.com
+    url: https://twitter.com/italiancpp
+  - title: linkedin
+    url: https://www.linkedin.com/company/italiancpp
 
 # Build settings
 markdown: kramdown
