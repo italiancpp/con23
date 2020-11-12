@@ -37,11 +37,10 @@ published: true
                 </tr>
 
             </thead>
-
-            {% for agenda in site.data.twenty_17.agendas_2 %}
+           {% for agenda in site.data.twenty_17.agendas_2 %}
                 <tr>
                     <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
+                    <td><u>{{ agenda.item }}</u><br><b>{{ agenda.speaker }}</b></td>
                 </tr> 
             {% endfor %}
         </table>
