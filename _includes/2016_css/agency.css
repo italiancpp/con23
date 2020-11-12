@@ -305,7 +305,6 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
     .navbar-default-color {
         padding: 25px 0;
-        background-color: transparent;
     }
     .navbar-default {
         border: 0;
@@ -339,7 +338,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/C-Day-2020.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
