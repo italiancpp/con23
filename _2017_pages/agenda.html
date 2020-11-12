@@ -1,7 +1,6 @@
 ---
 layout: 2017_default
 permalink: /agenda
-title: C++ Day 2020
 published: true
 ---
     <!--background color-->
@@ -10,7 +9,7 @@ published: true
     </script>
 
     <div class="event black-frame">
-      <h1>{{ page.title }}</h1>
+      <h1>{{ site.title }}</h1>
 
         <h2>Track A</h2>
         <table class="agenda">
@@ -24,7 +23,7 @@ published: true
             {% for agenda in site.data.twenty_17.agendas_1 %}
                 <tr>
                     <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
+                    <td><u>{{ agenda.item }}</u><br><b>{{ agenda.speaker }}</b></td>
                 </tr> 
             {% endfor %}
         </table>

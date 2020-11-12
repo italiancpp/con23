@@ -1,32 +1,43 @@
 - time: 9:00 AM - 9:15 AM
-  info: "<u>Welcome Message</u><br><b>Marco Arena</b>"
+  item: "Welcome Message"
+  speaker: "Marco Arena"
 
 - time: 09:30 AM - 10:20 AM
-  info: "<u>Let's make a telegram bot with C++</u><br><b>Alberto Bignotti</b>"
+  item: "Let's make a telegram bot with C++"
+  speaker: "Alberto Bignotti"
 
 - time: 10:20 AM - 10:45 AM
-  info: "<u>Short Break</u><br><b></b>"
+  item: "Short Break"
+  speaker: ""
   
 - time: 10:45 AM - 11:35 AM
-  info: "<u>Understanding values categories in C++</u><br><b>Kris van Rens</b>"
+  item: "Understanding values categories in C++"
+  speaker: "Kris van Rens"
     
 - time: 11:35 AM - 12:15 PM
-  info: "<u>Long Break</u><br><b></b>"
+  item: "Long Break"
+  speaker: ""
       
 - time: 12:15 PM - 1:05 PM
-  info: "<u>TBD</u><br><b>Federico Ficarelli</b>"
+  item: "TBD"
+  speaker: "Federico Ficarelli"
 
 - time: 1:05 AM - 2:30 PM
-  info: "<u>Lunch Break</u><br><b>And Networking ;)</b>"
+  item: "Lunch Break"
+  speaker: "Everyone! Networking ;)"
 
 - time: 2:30 PM - 3:20 PM
-  info: "<u>Interoperable AI: ONNX & ONNXRuntime in C++</u><br><b>Marco Arena & Mattia Verasani</b>"
+  item: "Interoperable AI: ONNX & ONNXRuntime in C++"
+  speaker: "Marco Arena & Mattia Verasani"
   
 - time: 3:20 PM - 3:30 PM
-  info: "<u>Short Break</u><br><b></b>"
+  item: "Short Break"
+  speaker: ""
   
 - time: 3:30 PM - 3:45 AM
-  info: "<u>Closing Message</u><br><b>Marco Arena</b>"
+  item: "Closing Message"
+  speaker: "Marco Arena"
   
 - time: from 3:45 PM
-  info: "<u>Networking</u><br><b>Our virtual room for stays open for networking!</b>"
+  item: "Networking"
+  speaker: "Our virtual room for stays open for networking!"
