@@ -11,37 +11,24 @@ published: true
     <div class="event black-frame">
       <h1>{{ site.title }}</h1>
 
-        <h2>Track A</h2>
+        <h2> </h2> <!-- Keep space between title and table (sorry, no energy left to hunt the css). -->
         <table class="agenda">
             <thead>
                 <tr>
                     <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Session</center></th>  
+                    <th class="row-2 agenda-activity"><center>Track A</center></th>
+                    <th class="row-2 agenda-activity"><center>Track B</center></th>  
                 </tr>
             </thead>
-
-            {% for agenda in site.data.twenty_17.agendas_1 %}
+            
+            {% assign track_a = site.data.twenty_17.agendas_1 %}
+            {% assign track_b = site.data.twenty_17.agendas_2 %}
+            {% assign rows = track_a.size | minus: 1 %}
+            {% for i in (0..rows) %}
                 <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td><u>{{ agenda.item }}</u><br><b>{{ agenda.speaker }}</b></td>
+                    <td>{{ track_a[i].time }}</td>
+                    <td><b>{{ track_a[i].item }}</b><br>{{ track_a[i].speaker }}</td>
+                    <td><b>{{ track_b[i].item }}</b><br>{{ track_b[i].speaker }}</td>
                 </tr> 
             {% endfor %}
-        </table>
-
-        <h2>Track B</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Session</center></th>  
-                </tr>
-
-            </thead>
-           {% for agenda in site.data.twenty_17.agendas_2 %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td><u>{{ agenda.item }}</u><br><b>{{ agenda.speaker }}</b></td>
-                </tr> 
-            {% endfor %}
-        </table>
     </div>

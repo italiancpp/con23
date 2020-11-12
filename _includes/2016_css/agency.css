@@ -926,3 +926,7 @@ body {
   font-style: normal !important;
   font-weight: 100 !important;
 }
+
+.navbar-header {
+    min-height: 70px;
+}

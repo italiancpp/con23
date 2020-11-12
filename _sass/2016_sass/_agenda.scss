@@ -13,27 +13,28 @@
   .agenda-time {
     width: 40%;
   }
-  .agenda-actiity {
+  .agenda-activity {
      width: 60%;
   }
   th, td {
-    border: 1px solid #00283c;
-    font-size: 120%;
+    border: 1px solid #2945a4;
+    font-size: 130%;
   }
   th {
-    background: #00283c;
+    background: #2945a4;
     color: white;
     letter-spacing: 1px;
+    font-size: 150%;
   }
   td {
+    color: #2945a4;
     text-align: center;
-    font-size: 110%;
     a {
         color: #ff6738;
         text-decoration: none;
     }
     b {
-        color: #ff6738;
+        color: #00283c;
     }
   }
   td + td {
