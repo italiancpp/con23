@@ -32,7 +32,7 @@
 - time: 2:30 PM - 3:20 PM
   item: "TDD is not about testing"
   speaker: "Giaunluca Padovani"
-  abstract: "TDD is now mainstream but a lot people don't know or don't remember what is its purpose. TDD is about software design not testing or catching bug. TDD helps developers to shape and create software with "good" design, what is a \"good\" design is something that we will discuss in the topic."
+  abstract: "TDD is now mainstream but a lot people don't know or don't remember what is its purpose. TDD is about software design not testing or catching bug. TDD helps developers to shape and create software with \"good\" design, what is a \"good\" design is something that we will discuss in the topic."
   
 - time: 3:20 PM - 3:30 PM
   item: "Short Break"
