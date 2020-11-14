@@ -3,6 +3,21 @@ layout: 2017_default
 permalink: /agenda
 published: true
 ---
+<script type="text/javascript">
+function swapShortVersion(abstract_id) {
+  var short = document.getElementById(abstract_id + "_short");
+  var long = document.getElementById(abstract_id + "_long");
+
+  if (long.style.display === "none") {
+    short.style.display = "none";
+    long.style.display = "block";
+  } else {
+    long.style.display = "none";
+    short.style.display = "block";
+  }
+} 
+</script>
+
     <!--background color-->
     <script type="text/javascript">
         document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
@@ -27,7 +42,10 @@ published: true
             {% for i in (0..rows) %}
                 <tr>
                     <td>{{ track_a[i].time }}</td>
-                    <td><b>{{ track_a[i].item }}</b><br>{{ track_a[i].speaker }}<p class="abstract">{{ track_a[i].abstract }}</p></td>
+                    <td><b>{{ track_a[i].item }}</b><br>{{ track_a[i].speaker }}
+                        <p class="abstract" id="{{i}}A_short" onclick="swapShortVersion('{{i}}A')">{{ track_a[i].abstract | truncate 125 }}...</p>
+                        <p class="abstract" id="{{i}}A_long" onclick="swapShortVersion('{{i}}A')" style="display:none">{{ track_a[i].abstract }}</p>
+                    </td>
                     <td><b>{{ track_b[i].item }}</b><br>{{ track_b[i].speaker }}<p class="abstract">{{ track_b[i].abstract }}</p></td>
                 </tr> 
             {% endfor %}
