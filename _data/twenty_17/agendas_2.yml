@@ -5,7 +5,7 @@
 - time: 09:30 AM - 10:20 AM
   item: "WebAssembly: an overview"
   speaker: "Lorenzo Veneri"
-  abstract: " - Abstract TBD -"
+  abstract: "An introduction and overview about the WebAssembly technology"
 
 - time: 10:20 AM - 10:45 AM
   item: "Short Break"
@@ -14,6 +14,7 @@
 - time: 10:45 AM - 11:35 AM
   item: "Comunicazione real-time con WebRTC in C++"
   speaker: "Yuri Valentini [ITA]"
+  abstract: "WebRTC è una libreria di Google, scritta in C++, per la comunicazione audio/video/dati in tempo reale via internet. Rappresenta lo standard di fatto in quanto è integrata all'interno dei maggiori web browser e utilizzata da tantissime applicazioni javascript per audio/video chat. Illustreremo i concetti relativi alla comunicazione audio/video in tempo reale, analizzeremo le caratteristiche della base di codice e vedremo come utilizzare la libreria all'interno di programmi C++."
     
 - time: 11:35 AM - 12:15 PM
   item: "Long Break"
@@ -22,6 +23,7 @@
 - time: 12:15 PM - 1:05 PM
   item: "Our first game using UE4 and C++"
   speaker: "Michele Mischitelli"
+  abstract: "During this brief session I will try to show you how to create some key aspects of a simple vertical scrolling shooter game. The player's pawn, projectiles, enemies and special effects. Some knowledge of UE4 is required to fully understand what's going on, but in the mean time you can head over my previous talks where I explain the basics. I will also make the full source code available for everyone to download and play with it."
 
 - time: 1:05 AM - 2:30 PM
   item: "Lunch Break"
@@ -30,6 +32,7 @@
 - time: 2:30 PM - 3:20 PM
   item: "TDD is not about testing"
   speaker: "Giaunluca Padovani"
+  abstract: "TDD is now mainstream but a lot people don't know or don't remember what is its purpose. TDD is about software design not testing or catching bug. TDD helps developers to shape and create software with "good" design, what is a \"good\" design is something that we will discuss in the topic."
   
 - time: 3:20 PM - 3:30 PM
   item: "Short Break"
