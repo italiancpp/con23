@@ -27,8 +27,8 @@ published: true
             {% for i in (0..rows) %}
                 <tr>
                     <td>{{ track_a[i].time }}</td>
-                    <td><b>{{ track_a[i].item }}</b><br>{{ track_a[i].speaker }}</td>
-                    <td><b>{{ track_b[i].item }}</b><br>{{ track_b[i].speaker }}</td>
+                    <td><b>{{ track_a[i].item }}</b><br>{{ track_a[i].speaker }}<p class="abstract">{{ track_a[i].abstract }}</p></td>
+                    <td><b>{{ track_b[i].item }}</b><br>{{ track_b[i].speaker }}<p class="abstract">{{ track_b[i].abstract }}</p></td>
                 </tr> 
             {% endfor %}
     </div>

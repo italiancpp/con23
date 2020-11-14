@@ -2,15 +2,8 @@
   img: icon-agenda.jpeg
   name: Agenda
   link: /agenda
-  
-- inverted:
-  img: icon-venue.jpeg
-  name: Where?
-  info: This is an online event
-  link: /venue
 
 - inverted: timeline-inverted
   img: icon-team.jpeg
-  name: Team
-  info: Contact us if you need assistance
-  link: /team
+  name: How to connect 
+  link: https://cppday.italiancpp.org/howto.pdf
