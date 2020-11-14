@@ -43,8 +43,13 @@ function swapShortVersion(abstract_id) {
                 <tr>
                     <td>{{ track_a[i].time }}</td>
                     <td><b>{{ track_a[i].item }}</b><br>{{ track_a[i].speaker }}
-                        <p class="abstract" id="{{i}}A_short" onclick="swapShortVersion('{{i}}A')">{{ track_a[i].abstract | truncate 125 }}...</p>
-                        <p class="abstract" id="{{i}}A_long" onclick="swapShortVersion('{{i}}A')" style="display:none">{{ track_a[i].abstract }}</p>
+                      {% assign abstract = track_a[i].abstract %}
+                      {% if abstract.size > 300 %}
+                        <p class="abstract" id="{{i}}A_short" onclick="swapShortVersion('{{i}}A')">{{ abstract | truncate 300}} (...click to read more...)</p>
+                        <p class="abstract" id="{{i}}A_long" onclick="swapShortVersion('{{i}}A')" style="display:none">{{ abstract }} (click to reduce)</p>
+                      {% else %}
+                        <p class="abstract">{{ abstract }}</p>
+                      {% endif %}
                     </td>
                     <td><b>{{ track_b[i].item }}</b><br>{{ track_b[i].speaker }}<p class="abstract">{{ track_b[i].abstract }}</p></td>
                 </tr> 
