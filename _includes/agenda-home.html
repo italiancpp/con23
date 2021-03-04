@@ -1,8 +1,3 @@
----
-layout: 2017_default
-permalink: /agenda
-published: true
----
 <script type="text/javascript">
 function swapShortVersion(abstract_id) {
   var short = document.getElementById(abstract_id + "_short");
@@ -18,13 +13,22 @@ function swapShortVersion(abstract_id) {
 } 
 </script>
 
+    <!-- TODO: this may "corrupt" elements we add after. Bring out? Include in home itself? -->
+  <style type="text/css">
+    /*INCLUDE MAIN CSS FILE*/
+    {% capture criticalcss %}
+      {% include /2016_css/critical.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
+
     <!--background color-->
     <script type="text/javascript">
         document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
     </script>
 
     <div class="event black-frame">
-      <h1>{{ site.title }}</h1>
+      <h1>Agenda</h1>
 
         <h2> </h2> <!-- Keep space between title and table (sorry, no energy left to hunt the css). -->
         <table class="agenda">
@@ -36,8 +40,8 @@ function swapShortVersion(abstract_id) {
                 </tr>
             </thead>
             
-            {% assign track_a = site.data.twenty_17.agendas_1 %}
-            {% assign track_b = site.data.twenty_17.agendas_2 %}
+            {% assign track_a = site.data.agenda_track_A %}
+            {% assign track_b = site.data.agenda_track_B %}
             {% assign rows = track_a.size | minus: 1 %}
             {% assign truncation_limit = 200 %}
             {%- for i in (0..rows) -%}
