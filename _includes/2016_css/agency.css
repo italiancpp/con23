@@ -337,14 +337,15 @@ header {
     height: 100vh;
     text-align: center;
     color: #fff;
+    background-color: #0000FF;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/C-Day-2020.png');
+    background-image: url('{{ site.baseurl }}/img/{{site.poster}}');
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 header .intro-text {

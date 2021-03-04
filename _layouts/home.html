@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-  {% include 2016_data/head.html %}
+  {% include head.html %}
 
 
     <body id="page-top" class="index">
 
-    {% include 2017_data/header-home.html %}
+    <!-- Header with logo and contacts. -->    
+    {% include header-home.html %}
 
-    <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading monospace">{{ site.title }}<br></div>
+                <div class="intro-heading monospace">{{ site.title }}</div>
                 <div class="intro-lead-in">{{ site.date }}</div>
                 <div class="intro-lead-in">{{ site.place }}</div>
                 <a href="#about" class="page-scroll btn btn-xl">Tell me more</a>

@@ -1,6 +1,8 @@
-title: Italian C++ Day 2020
-date: 28th November 2020
-place: Online Edition
+# Use site.<name> to read the stuff from here.
+
+title: Italian C++ Conference 2021
+date: 19th June 2021
+place: Online
 
 description: > # this means to ignore newlines until "baseurl:"
   Your description
@@ -9,15 +11,12 @@ url: "Your-Link.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-facebook:
-  app_id: 
 
 logo: "https://raw.githubusercontent.com/italiancpp/misc/master/logo/logo_completo.png"
 contact_url: mailto:info@italiancpp.org
 
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
+#Image in the header
+poster: Locandina.png
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
@@ -27,7 +26,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames 
 social:
   - title: facebook
     url: https://www.facebook.com/italiancpp/
