@@ -1,8 +1,8 @@
 # Use site.<name> to read the stuff from here.
 
-title: Italian C++ Conference 2021
-date: 19th June 2021
-place: Online
+title: # Included in intro image. Italian C++ Conference 2021
+date: # Included in intro image. 19th June 2021
+place: # Included in intro image. Online
 
 description: > # this means to ignore newlines until "baseurl:"
   Your description
@@ -16,7 +16,7 @@ logo: "https://raw.githubusercontent.com/italiancpp/misc/master/logo/logo_comple
 contact_url: mailto:info@italiancpp.org
 
 #Image in the header
-poster: Locandina.png
+poster: locandina-itcppcon21-fullsize.png
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 

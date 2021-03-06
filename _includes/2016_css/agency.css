@@ -340,12 +340,12 @@ header {
     background-color: #0000FF;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/{{site.poster}}');
-    background-position: center center;
+     background-position: top center;
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .intro-text {
