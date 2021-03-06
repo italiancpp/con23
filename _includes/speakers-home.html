@@ -8,24 +8,23 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.data.speakers %}
+            {% for speaker in site.data.speakers %}
                 <div class="col-md-4 col-sm-6 speakers-item">
-                    <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
+                    <!-- <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal"> -->
+                    <a href="#speaker_id_{{forloop.index}}" class="speakers-link" data-toggle="modal">
                         <div class="speakers-hover">
                             <div class="speakers-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="../css/2017_style/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="img/{{ speaker.img }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="speakers-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <h4>{{ speaker.name }}</h4>
+                        <p class="text-muted">{{ speaker.job }}</p>
                     </div>
                 </div>
             {% endfor %}
             </div>
-            <p>Visit 2016's page.</p>
-            <center><a href="/2016" class="page-scroll btn btn-xl">Visit Now</a></center>
         </div>
     </section>

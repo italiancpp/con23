@@ -1,26 +1,27 @@
-- title: Mario Buchi
-  name: Name-1
-  subtitle: Position
+- name: Mario Buchi
+  job: Perforatore di CD presso Mustafà
+  img: DelTrapano.png
+  alt: Picture of Mario at work
+  topic: Punte widia, a legno e a ferro.
+  description: Ciao, io sono l'addetto alla macchina che fa il buco al centro dei CD.
+
+- name: Name
+  job: Position
   img: TBD.jpg
-  thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
 
-- title: Name
-  name: Name-2
-  subtitle: Position
+- name: Name
+  job: Position
   img: TBD.jpg
-  thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
-
-- title: Name
-  name: Name-3
-  subtitle: Position
+  
+- name: Name
+  job: Position
   img: TBD.jpg
-  thumbnail: TBD.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
