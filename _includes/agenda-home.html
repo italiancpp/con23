@@ -41,21 +41,27 @@ function swapShortVersion(abstract_id) {
                 </tr>
             </thead>
             
+            <!--Careful with white spaces. This section is really sensitive to any space. The resulting code is... questionable.-->
             {% assign track_a = site.data.agenda_track_A %}
             {% assign track_b = site.data.agenda_track_B %}
             {% assign rows = track_a.size | minus: 1 %}
             {% assign truncation_limit = 200 %}
             {%- for i in (0..rows) -%}
+                {%- assign abstract = track_a[i].abstract -%}
+                {% assign slides_link = track_a[i].slides %}
+                {% assign video_link = track_a[i].video %}
                 <tr>
                     <td>{{ track_a[i].time }}</td>
-                    <td><b>{{- track_a[i].item -}}</b><br>{{- track_a[i].speaker -}}
-                    {%- assign abstract = track_a[i].abstract -%}
+                    <td><b>{{- track_a[i].item -}}</b><br>{{- track_a[i].speaker -}}<br>{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
                     {%- if abstract.size > truncation_limit -%}<p class="abstract" id="{{i}}A_long" onclick="swapShortVersion('{{i}}A')" style="display:none">{{- abstract -}} (click to reduce)</p><p class="abstract" id="{{i}}A_short" onclick="swapShortVersion('{{i}}A')">{{- abstract | truncate: truncation_limit -}} (...click to read more...)</p>
                     {%- else -%}
                         <p class="abstract">{{- abstract -}}</p>
                     {%- endif -%}
                     </td>
-                    <td><b>{{- track_b[i].item -}}</b><br>{{- track_b[i].speaker -}}
+                {%- assign abstract = track_b[i].abstract -%}
+                {% assign slides_link = track_b[i].slides %}
+                {% assign video_link = track_b[i].video %}
+                    <td><b>{{- track_b[i].item -}}</b><br>{{- track_b[i].speaker -}}<br>{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
                     {%- assign abstract = track_b[i].abstract -%}
                     {%- if abstract.size > truncation_limit -%}<p class="abstract" id="{{i}}B_short" onclick="swapShortVersion('{{i}}B')">{{- abstract | truncate: truncation_limit -}} (...click to read more...)</p><p class="abstract" id="{{i}}B_long" onclick="swapShortVersion('{{i}}B')" style="display:none">{{- abstract -}} (click to reduce)</p>
                     {%- else -%}
