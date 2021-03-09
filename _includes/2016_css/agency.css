@@ -337,7 +337,7 @@ header {
     height: 100vh;
     text-align: center;
     color: #fff;
-    background-color: #0000FF;
+    background-color: #294AA5;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/{{site.poster}}');
      background-position: top center;
@@ -347,6 +347,16 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
+@media (max-width: 765px) {
+    header {
+    padding-top: 15vh;
+    background-origin: content-box;
+    background-size: contain;
+    height: unset;
+    }
+}
+
 
 header .intro-text {
     padding-top: 25vh;
