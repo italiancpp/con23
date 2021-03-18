@@ -941,3 +941,8 @@ body {
 .navbar-header {
     min-height: 70px;
 }
+
+.narrow {
+  width: 75%;
+  margin: auto;
+}
