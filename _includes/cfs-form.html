@@ -5,7 +5,7 @@
 </div>
 
 <div  class="narrow">
-{% markdown %}
+{% assign ugly_workaround = "
 Currently, we accept talk proposals in both **English** and **Italian** (if you are confident with both, use English). 
 
 You can submit:
@@ -19,13 +19,14 @@ You can submit:
 You can submit more than one talk.
 
 You should submit a talk about anything you think it’s worth sharing with the *C++ Community*.
-{% endmarkdown %}
+"%}
+{{ ugly_workaround | markdownify }}
 <div>
 <div>
     <a data-toggle="collapse" data-target="#hot_topics">See what the hot topics are.</a>
 
     <div id="hot_topics" class="collapse" data-toggle="collapse" data-target="#hot_topics">
-{% markdown %}
+{% assign ugly_workaround = '
 _(click to close)_
 
 ### Most wanted topics from our past events attendees, in "hot-ness" order: ###
@@ -74,12 +75,12 @@ _(click to close)_
 * Regex
 
 Shout-out to **Michele skypjack Caini** for having organized such a list.
-
-{% endmarkdown %}
+'%}
+{{ ugly_workaround | markdownify }}
     </div>
 </div>
 
-{% markdown %}
+{% assign ugly_workaround = '
 For example, have you learned something interesting about C++, maybe a new technique possible in C++17/20? Or perhaps you have implemented something cool related to C++, maybe a new C++ library.
 
 As C++ developers, C++ is important to us. However, we are happy to host talks on other topics that can inspire us.
@@ -94,7 +95,9 @@ When the conference gets more talks than the capacity (e.g. 10), we open a poll.
 
 The conference has no real dedicated program committee, all attendees of the past, the Italian C++ Community staff and this year speakers are included in this voting. Each vote is between 0 – 5 points per talk. Visible in the voting tool are usually only the talk info (title, abstract, notes only if important for the voting), staff members only are able to see also the speaker name and bio. More details on this once the voting begins.
 
-Final decision is then made once the voting deadline has passed.{% endmarkdown %}
+Final decision is then made once the voting deadline has passed.
+'%}
+{{ ugly_workaround | markdownify }}
 </div>
 
 <div class="text-center">

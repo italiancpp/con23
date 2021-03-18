@@ -1,6 +1,7 @@
 <section class="bg-light-gray">
     <div class="narrow" markdown="1">
-    {% assign my_variable = "The Italian C++ Conference is the biggest and most successful event organized by the Italian C++ Community.  
+{% assign ugly_workaround = "
+The Italian C++ Conference is the biggest and most successful event organized by the Italian C++ Community.  
 Here professionals, companies and students meet to share experience about C++ development and practices.
 
 The first **Italian C++ Conference** took place in [2016](https://www.italiancpp.org/event/conference-2016/) and hosted **100+ attendees**.
@@ -13,9 +14,11 @@ Last year, in [2020](https://www.italiancpp.org/itcppcon20), the COVID emergency
 We are all pioneering the age of virtual conferences. Will you join us?
 ----
 
-* * *" %}
-    {{ my_variable | markdownify }}
+* * *
+" %}
 
+
+{{ ugly_workaround | markdownify }}
 
 
     </div>
