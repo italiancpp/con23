@@ -25,13 +25,18 @@
     
     {% include intro-text-home.html %}
    
-    {% include cfs-form.html %}
+    {% if site.sections contains "cfs" %}
+        {% include cfs-form.html %}
+    {% endif %}
    
-    {% include speakers-home.html %}
-    {% include speaker-info-home.html %}
+    {% if site.sections contains "speakers" %}
+        {% include speakers-home.html %}
+        {% include speaker-info-home.html %}
+    {% endif %}
     
-    {% include agenda-home.html %}
-
+    {% if site.sections contains "agenda" %}
+        {% include agenda-home.html %}
+    {% endif %}
 
     {% include footer.html %}
     {% include 2016_data/js.html %}
