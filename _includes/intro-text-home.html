@@ -1,6 +1,4 @@
-<section class="bg-light-gray">
-    <div class="narrow" markdown="1">
-{% assign ugly_workaround = "
+{% capture ugly_workaround %}
 The Italian C++ Conference is the biggest and most successful event organized by the Italian C++ Community.  
 Here professionals, companies and students meet to share experience about C++ development and practices.
 
@@ -15,11 +13,10 @@ We are all pioneering the age of virtual conferences. Will you join us?
 ----
 
 * * *
-" %}
+{% endcapture %}
 
-
+<section class="bg-light-gray">
+    <div class="narrow" markdown="1">
 {{ ugly_workaround | markdownify }}
-
-
     </div>
 </section>

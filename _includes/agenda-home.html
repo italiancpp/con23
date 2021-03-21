@@ -1,4 +1,8 @@
 <section>
+<div class="text-center">
+    <h1>Agenda</h1>
+</div>
+
 <script type="text/javascript">
 function swapShortVersion(abstract_id) {
   var short = document.getElementById(abstract_id + "_short");
@@ -23,15 +27,8 @@ function swapShortVersion(abstract_id) {
     {{ criticalcss | scssify }}
   </style>
 
-    <!--background color-->
-    <script type="text/javascript">
-        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
-    </script>
-
-    <div class="event black-frame">
-      <h1>Agenda</h1>
-
-        <h2> </h2> <!-- Keep space between title and table (sorry, no energy left to hunt the css). -->
+    <!--This div sizes the agenda and gives rule context to inner elements. -->
+    <div class="event">
         <table class="agenda">
             <thead>
                 <tr>
