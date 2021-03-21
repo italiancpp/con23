@@ -20,7 +20,7 @@ poster: locandina-itcppcon21-fullsize.png
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2016_pages', '_2017_pages']
+include: []
 
 plugins:
   - jekyll-sitemap
