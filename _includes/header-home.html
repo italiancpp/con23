@@ -18,6 +18,16 @@
                     <li class="hidden">
                         <a href="/"></a>
                     </li>
+                    <li><a class="page-scroll" href="#page-top">Top</a></li>
+                    {% if site.sections contains "cfs" %}
+                        <li><a class="page-scroll" href="#csf-form">Call For Sessions</a></li>
+                    {% endif %}
+                    {% if site.sections contains "speakers" %}
+                        <li><a class="page-scroll" href="#speakers">Speakers</a></li>
+                    {% endif %}
+                    {% if site.sections contains "agenda" %}
+                        <li><a class="page-scroll" href="#agenda">Agenda</a></li>
+                    {% endif %}
                     <li>
                         <a class="page-scroll" href="{{ site.contact_url }}">Contact</a>
                     </li>

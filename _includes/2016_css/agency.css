@@ -278,10 +278,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    /* The background is defined somewhere (after this?) and has to be overridden. */
+    background-color: #222  !important;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
 }
+
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -292,13 +295,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    /* This must be !important because the non-hover rule also is. */
+    background-color: #{{ site.data.template.color.italiacpp-blue }}   !important;
 }
 
 @media(min-width:768px) {
