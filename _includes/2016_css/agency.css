@@ -406,6 +406,12 @@ header .intro-text .intro-heading {
     }
 }
 
+/*https://stackoverflow.com/a/11842865 - nothing else worked...*/
+.push-down-anchor {
+   padding-top: 70px;
+   margin-top: -70px;
+}
+
 
 aside.clients h2,
 section h2.section-heading {
