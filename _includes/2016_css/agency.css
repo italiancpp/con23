@@ -790,8 +790,12 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+/* Keep it out of the footer. */
+.event {
+    padding-bottom: 90px;
+}
+
 footer {
-    margin-top: 100px;
     text-align: center;
     background-color: white;
     position: absolute;
