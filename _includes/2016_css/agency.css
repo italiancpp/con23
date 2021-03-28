@@ -407,10 +407,12 @@ header .intro-text .intro-heading {
     }
 }
 
-/*https://stackoverflow.com/a/11842865 - nothing else worked...*/
-.push-down-anchor {
-   padding-top: 70px;
-   margin-top: -70px;
+.push-down-anchor::before { 
+  display: block; 
+  content: " "; 
+  padding-top: 80px;
+  margin-top: -80px;
+  visibility: hidden; 
 }
 
 
