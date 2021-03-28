@@ -20,7 +20,8 @@ html {
 body {
     position: absolute;
     margin: 0;
-    padding-bottom: 90px;
+    /* The padding overlaps with the footer. */
+    padding-bottom: 200px;
     min-height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -788,11 +789,6 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
-
-/* Keep it out of the footer. */
-.event {
-    padding-bottom: 90px;
 }
 
 footer {
