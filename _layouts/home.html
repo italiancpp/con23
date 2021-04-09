@@ -29,6 +29,10 @@
         {% include cfs-form.html %}
     {% endif %}
    
+    {% if site.sections contains "reservation" %}
+        {% include embedded-reservation.html %}
+    {% endif %}
+   
     {% if site.sections contains "speakers" %}
         {% include speakers-home.html %}
         {% include speaker-info-home.html %}

@@ -9,8 +9,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "Your-Link.github.io" # the base hostname & protocol for your site
 
-# Allowed values: cfs, speakers, agenda.
-sections: ['speakers', 'agenda']
+# Allowed values: cfs, reservation speakers, agenda.
+sections: ['reservation', 'speakers', 'agenda']
+
+general_feedback: "https://forms.gle/n8Zf6ADLdst2yYmS7"
+eventbrite_id: "150003704117"
 
 # Build settings
 markdown: kramdown
