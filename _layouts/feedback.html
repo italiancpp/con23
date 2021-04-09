@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>{{site.title}}</title>
+	<style> 
+	a {
+		font-family: Verdana;
+		font-size: 20px; 		
+	}
+	
+	p {
+		font-family: Verdana;
+		font-size: 20px;
+	}
+	
+	p.trackA {	
+		color: e65117
+	}
+	
+	p.trackB {
+		color: 02b564
+	}
+	</style>
+</head>
+<body>
+  <h1 style="font-size:40px; color: 2945A4; font-family: Verdana">{{site.title}}</h1>
+  <p>Give feedback to sessions you have attended so far and to the event in general (take this at the end).</p> 
+  <ul>
+	<br/>
+	<li><a href="https://forms.gle/n8Zf6ADLdst2yYmS7" target="_blank">General Event Feedback</a></li>
+	
+	<br/>
+	
+    {% assign track_a = site.data.agenda_track_A %}
+    {% assign track_b = site.data.agenda_track_B %}
+	
+    {% assign rows = track_a.size | minus: 1 %}
+    {%- for i in (0..rows) -%}
+    {% if track_a[i].feedback or track_b[i].feedback%}
+        {%- assign time = track_a[i].time -%}
+        	<p>Sessions at {{time}} </p>
+        	
+        	{% if track_a[i].feedback %}
+	        <li><p class="trackA">Track A: <a href="{{track_a[i].feedback}}" target="_blank">{{track_a[i].item}}</a> {{track_a[i].speaker}}</p></li>
+	    	{% endif %}
+	    	
+	    	{% if track_b[i].feedback %}
+	        <li><p class="trackB">Track B: <a href="{{track_b[i].feedback}}" target="_blank">{{track_b[i].item}}</a> {{track_b[i].speaker}}</p></li>
+		    {% endif %}
+		    
+	    <br/>
+	{% endif %}
+    {% endfor %}
+  </ul>
+</body>
+</html>
