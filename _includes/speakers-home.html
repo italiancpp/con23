@@ -11,7 +11,7 @@
             {% for speaker in site.data.speakers %}
                 <div class="col-md-2 col-sm-6 speakers-item">
                     <!-- <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal"> -->
-                    <a href="#speaker_id_{{forloop.index}}" class="speakers-link" data-toggle="modal">
+                    <a href="#speaker_id_{{ speaker.name | replace: " ", "_" }}" class="speakers-link" data-toggle="modal">
                         <div class="speakers-hover">
                             <div class="speakers-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>

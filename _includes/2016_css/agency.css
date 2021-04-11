@@ -954,3 +954,7 @@ body {
   width: 75%;
   margin: auto;
 }
+
+.agenda td a {
+    color: #{{ site.data.template.color.italiacpp-blue }};
+}
