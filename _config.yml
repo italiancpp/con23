@@ -12,7 +12,7 @@ url: "Your-Link.github.io" # the base hostname & protocol for your site
 # Allowed values: cfs, reservation speakers, agenda.
 sections: ['reservation', 'speakers', 'agenda']
 
-general_feedback: "https://forms.gle/n8Zf6ADLdst2yYmS7"
+general_feedback: "https://forms.gle/rctcxe9jou87TydF8"
 eventbrite_id: "150003704117"
 
 # Build settings
