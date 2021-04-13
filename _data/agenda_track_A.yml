@@ -1,55 +1,64 @@
-- time: 9:00 AM - 9:15 AM
-  item: "Welcome Message"
+- time: 08:30 - 10:00
+  item: "Introduction and Keynote"
   speaker: "Marco Arena"
   abstract:
 
-- time: 09:30 AM - 10:20 AM
-  item: "Let's make a telegram bot with C++"
-  speaker: "Alberto Bignotti"
-  abstract: "During the evolution of a software I had the need to send notification messages to users and receive messages from the user to the app. I studied telegram, created a Bot and implemented a C++ library that communicates with users. The object of the session is not how to use my library, but to give ideas so that everyone can create their own."
-  feedback: "https://forms.gle/HkGJ27yXF7DcAEsv5"
-  slides: "www.leSlideStannoSu.com"
-  
-- time: 10:20 AM - 10:45 AM
+- time: 10:00 - 10:30
   item: "Short Break"
   speaker: ""
   
-- time: 10:45 AM - 11:35 AM
-  item: "Understanding values categories in C++"
-  speaker: "Kris van Rens"
-  abstract: "In C++ today, do you know what an xvalue is? Or a prvalue? Why would you want to know? Because it matters! In C++, each expression is characterized by a value category. These value categories are used to describe parts of the C++ standard, and are often used in books and articles. You might have heard of terms like 'lvalue' or 'rvalue', which are the most commonly known ones. Over the years, changes to the C++ language changed the meaning of value categories. This means a lot of information about value categories is outdated or just plain wrong. In this talk, I will explain what expression value categories are in today's C++ standard. It turns out that knowledge about value categories can really be beneficial. Not only will it enrich your understanding of C++ in general, it will deepen your understanding of mechanisms like move semantics. Also, it can help you to make better choices about code. These choices can then leverage language rules to enable compilers to generate efficient code without redundant copies. Other, related topics that will be covered: copy elision, return value optimization, temporary materialization."
-  feedback: "https://forms.gle/24YxLxAKs1JHzwPd7"
-  slides: "https://www.leSlideStannoSu.com"
-  video: "www.tuMetro.com"
-
+- time: 10:30 - 11:20
+  item: "WebAssembly for non-beginners"
+  speaker: "Paolo Severini"
+  abstract: "As WebAssembly (Wasm) is becoming more and more popular in the industry, there is a variety of introductory talks and blog posts. The purpose of this talk is to take the next step and quickly dive into more advanced details of this interesting technology. We’ll see how script engines turn WebAssembly into machine code, how Wasm is used in real-world applications, how debugging works and what the future holds for WebAssembly. "
+  feedback: "https://forms.gle/???"
+  slides: "Not ready"
+  video: "Aveccelo..."
   
-- time: 11:35 AM - 12:15 PM
-  item: "Long Break"
-  speaker: ""
-    
-- time: 12:15 PM - 1:05 PM
-  item: ""
-  speaker: ""
+- time: 11:30 - 12:20
+  item: "Concepts, Type Traits and Specialization"
+  speaker: "Roi Barkan"
+  abstract: "C++20 concepts give us a brand new way to specify how our generic libraries and algorithms should be used and allow library users to better understand what is expected of them. However, concepts didn't rise from chaos, and before their adoption C++ library authors had other mechanisms to meet that goal. In this talk I'll briefly discuss concepts, and focus on their pros and cons compared to more mature mechanisms. Special attention will be given to the 'semantic' vs. 'syntactic' nature of concepts, and I'll try to give motivating examples of semantic-only concepts. I'll explore best practices, and show potential pitfalls in various approaches to the challenge of defining interactions between generic code authors and users."
+  feedback: "https://forms.gle/???"
+  slides: "Not ready"
+  
+- time: 12:30 - 13:00
+  item: "Hook: The C++ library you were waiting for."
+  speaker: "Marcos Rojas"
+  abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
+  feedback: "https://forms.gle/???"
+  slides: "Not ready"
 
-- time: 1:05 AM - 2:30 PM
-  item: "Lunch Break"
+- time: 13:00 - 13:45
+  item: "Lunch and Networking"
   speaker: "Everyone! Networking ;)"
+    
+- time: 13:45 - 14:35
+  item: "Ai4Prod: the ecosystem to bring AI in production through C++"
+  speaker: "
+  Mattia Verasani"
+  abstract: "Ai4Prod is an end-to-end tested pipeline that enables you to train Machine Learning models in python and directly deploy them in a production environment with minimum effort, through our inference platform built in C++. The software stack relies on libraries such as OpenCV, LibTorch and ONNX Runtime and it supports both Linux and Windows. In this session you will learn about Ai4Prod, and see some practical examples on how to exploit it for different use cases."
+  feedback: "https://forms.gle/???"
+  slides: "Not ready"
 
-- time: 2:30 PM - 3:20 PM
-  item: "Interoperable AI: ONNX & ONNXRuntime in C++"
-  speaker: "Marco Arena & Mattia Verasani"
-  abstract: "ONNX is an open source format built to represent machine learning and deep learning models. The project enables AI developers to use models with a variety of frameworks, tools, runtimes, and compilers. The development of ONNX is driven by a community of partners including Microsoft, Facebook, NVIDIA and Mathworks.ONNXRuntime is an open source project driven by Microsoft which provides an optimized implementation of all the standard ONNX operators for the CPU. It supports a plenty of acceleration targets like cuDNN by NVIDIA and MKL-DNNL by Intel, and it exposes the right abstraction and runtime support for custom accelerators and runtimes. In this session you'll hear about ONNX and ONNXRuntime, and you will see some practical examples of using ONNX models in C++ with ONNXRuntime."
-  feedback: "https://forms.gle/LyQisQD4s2MeW5tG7"
-  video: "www.tuMetro.com"
-  
-- time: 3:20 PM - 3:30 PM
+- time: 14:45 - 15:35
+  item: "A bird's-eye view of template C++"
+  speaker: "Kris van Rens"
+  abstract: "C++ is a multi-paradigm programming language. This means it lends itself to solve a specific problem in various forms or styles. One of those forms or styles is object-oriented programming, with which C++ is often identified. Another strong suit of C++ is the support for generic programming and template metaprogramming. In this session we are going to look at modern-day C++ templates, and how we can use them effectively. Template programming sometimes has the reputation of being hard to understand and adopt, which surely may be the case for highly advanced usage. However, we will see that templates can be used for a myriad of purposes, which often have a low barrier to entry. Command of templates will greatly improve your efficiency and productivity as a C++ programmer. The topics we are going to cover include: generic programming, metaprogramming, type traits, static/compile-time polymorphism, variadic templates, and much more. Not only will we look at the state of templates in C++17, we will also address what C++20 and the future has to offer. Join me in this session exploring the wonderful and interesting world of C++ templates, and improve or refresh your knowledge."
+  feedback: "https://forms.gle/???"
+  slides: "Not ready"
+
+- time: 15:35 - 16:00
   item: "Short Break"
   speaker: ""
   
-- time: 3:30 PM - 3:45 AM
-  item: "Closing Message"
+- time: 16:00-16:50
+  item: "Inside a static analyser: type system"
+  speaker: "Yuri Minaev"
+  abstract: "C++ is a wonderful language to use. It becomes even more wonderful if you're looking at it from the other side of the fence. Parsing and compiling C++ code is far from trivial. We'll take a look at possible representations of types inside a program which does just that. For that, we'll look at the PVS-Studio C++ analyser's internal mechanisms that deal with types. The current implementation is somewhat questionable, so, it is being redone. I'll give you an idea of how it currently works and how it will be working. We'll also take a look at some implementation details of the new type system."
+  feedback: "https://forms.gle/???"
+  slides: "Not ready"
+
+- time: 17:00 - 17:20
+  item: "Closing message"
   speaker: "Marco Arena"
-  
-- time: from 3:45 PM
-  item: "Networking"
-  speaker: "Our virtual room stays open for networking!"
