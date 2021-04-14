@@ -964,5 +964,8 @@ body {
     float: none;
     display: inline;
     vertical-align: middle;
-    width: 30%;
+}
+
+.guest-star-portrait {
+    max-width: 400px;
 }
