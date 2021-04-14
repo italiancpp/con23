@@ -1,26 +1,36 @@
-- name: Mario Buchi
-  job: Perforatore di CD presso Mustafà
-  img: DelTrapano.png
-  topic: Punte widia, a legno e a ferro.
-  description: Ciao, io sono l'addetto alla macchina che fa il buco al centro dei CD.
+- name: Sean Parent
+  job: Sr. Principal Scientist, Adobe Photoshop
+  img: sean.png
+  alt: Sean Parent
+  topic: WARNING: `std::find()` is broken!
+  description: Sean Parent is a senior principal scientist and software architect for Adobe’s mobile digital imaging group and Photoshop. Sean has been at Adobe since 1993 when he joined as a senior engineer working on Photoshop and later managed Adobe’s Software Technology Lab. In 2009 Sean spent a year at Google working on Chrome OS before returning to Adobe. From 1988 through 1993 Sean worked at Apple, where he was part of the system software team that developed the technologies allowing Apple’s successful transition to PowerPC.
 
-- name: "Victor Ciura"
-  job: Position
+- name: Victor Ciura
+  alt: Victor Ciura
+  job: Principal Engineer, CAPHYON
   img: victor.png
-  topic: Topic
+  topic: The Quest For A Better Crash
   description: "Victor Ciura is a Principal Engineer at CAPHYON, Technical Lead on the Advanced Installer team and a Microsoft MVP (Developer Technologies). He’s a regular guest at Computer Science Department of his Alma Mater, University of Craiova, where he gives student lectures & workshops on using C++ STL Algorithms. Since 2005, he has been designing and implementing several core components and libraries of Advanced Installer. Currently, he spends most of his time working with his team on improving and extending the repackaging and virtualization technologies in Advanced Installer IDE, helping clients migrate their traditional desktop apps to the modern Windows application format: MSIX. 
 One of his “hobbies” is tidying-up and modernizing (C++20) the aging codebase of Advanced Installer and has been known to build tools that help this process: Clang Power Tools.
 More details: @ciura_victor & https://ciura.ro & linkedin.com/victor-ciura"
 
-- name: "Walter E Brown"
-  job: Position
+- name: Walter E Brown
+  job: Retired programmer and WG21 participant
   img: walter.png
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  alt: Walter E Brown
+  topic: Extrema: Correctly Calculating min and max
+  description: "With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a C++ programmer for 40 years. He joined the C++ standards effort in 2000, and has since written circa 170 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and <cmath>’s mathematical special functions, as well as the headers <random> and <ratio>. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator<=> (the C++20 “spaceship operator”)."
   
-- name: New line
-  job: Position
-  img: TBD.jpg
-  topic: Topic
-  description: More Info
+- name: Paolo Severini
+  job: Senior Software Engineer at Microsoft
+  img: paolo-severini.png
+  alt: Paolo Severini
+  topic: WebAssembly for non-beginners
+  description: "I work at Microsoft in the team that deals with the V8 script engine in the new Microsoft Edge browser. I am a huge fan of WebAssembly and I have contributed WebAssembly-related code to V8, Emscripten and LLVM."
+
+- name: Sandor Dargo
+  job: Software Engineer at Amadeus
+  img: sandor.png
+  alt: Sandor Dargo
+  topic: How to use correctly the const qualifier?
+  description: "Sandor is a passionate software craftsman focusing on reducing the maintenance costs by developing, applying and enforcing clean code standards. His other core activity is knowledge sharing both oral and written, within and outside of his employer. When not reading or writing, he spends most of his free time with his two children and his wife baking at home or travelling to new places."
