@@ -444,9 +444,10 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#speakers .speakers-item {
+.speakers-item {
     right: 0;
     margin: 0 0 15px;
+    min-height: 380px;
 }
 
 #speakers .speakers-item .speakers-link {
