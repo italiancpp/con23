@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+ 
+    <body>
+
+    <h1>{{page.title}}</h1>
+    
+    <p>Eravamo in {{page.participants}} e le foto stanno su {{page.pictures}}.</p>
+    
+    <img src="dovunque sia la locandina"/>
+    
+    <section>
+        <h2>...e se semo detti:</h2>
+        <ul>
+            {% for archive_hash in site.data.archive %}
+                {% assign file_name = archive_hash[0] %}
+                {% if file_name == page.agenda-track-1 %}
+                    {% assign event_data = archive_hash[1] %}
+                    {% for conference in event_data %}
+                        <li>{{conference.item}}</li>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
+    
+    {{page.content}}
+    
+    </body>
+</html>
