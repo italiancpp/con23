@@ -969,3 +969,8 @@ body {
 .guest-star-portrait {
     max-width: 400px;
 }
+
+@media(min-width:1200px) {
+.speaker-info-portrait {
+    max-width: 500px;
+}
