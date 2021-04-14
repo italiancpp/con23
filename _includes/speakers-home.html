@@ -7,16 +7,26 @@
                     <h1 class="section-heading">Speakers</h1>
                 </div>
             </div>
+            
+            {% assign guestStar = site.data.speakers | first %}
+            <div class="row"> 
+                <div class="speakers-item guest-star">
+                    <a href="#speaker_id_{{ guestStar.name | replace: " ", "_" }}" class="speakers-link" data-toggle="modal">
+                        <img src="img/{{ guestStar.img }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="speakers-caption text-center">
+                        <h4>{{ guestStar.name }}</h4>
+                        <p class="text-muted">{{ guestStar.job }}</p>
+                    </div>
+                </div>
+            </div>
+            
             <div class="row">
-            {% for speaker in site.data.speakers %}
+            <!-- The slicing below has an off by one (size... - 1) but Jekyll accepts it. -->
+            {% assign otherSpeakers = site.data.speakers | slice:1,site.data.speakers.size %}
+            {% for speaker in otherSpeakers %}
                 <div class="col-md-2 col-sm-6 speakers-item">
-                    <!-- <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal"> -->
                     <a href="#speaker_id_{{ speaker.name | replace: " ", "_" }}" class="speakers-link" data-toggle="modal">
-                        <div class="speakers-hover">
-                            <div class="speakers-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="img/{{ speaker.img }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="speakers-caption">

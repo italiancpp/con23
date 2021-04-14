@@ -958,3 +958,10 @@ body {
 .agenda td a {
     color: #{{ site.data.template.color.italiacpp-blue }};
 }
+
+.guest-star {
+    float: none;
+    display: inline;
+    vertical-align: middle;
+    width: 30%;
+}
