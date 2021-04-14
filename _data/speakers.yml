@@ -2,7 +2,7 @@
   job: Sr. Principal Scientist, Adobe Photoshop
   img: sean.png
   alt: Sean Parent
-  topic: WARNING: `std::find()` is broken!
+  topic: "WARNING: `std::find()` is broken!"
   description: Sean Parent is a senior principal scientist and software architect for Adobe’s mobile digital imaging group and Photoshop. Sean has been at Adobe since 1993 when he joined as a senior engineer working on Photoshop and later managed Adobe’s Software Technology Lab. In 2009 Sean spent a year at Google working on Chrome OS before returning to Adobe. From 1988 through 1993 Sean worked at Apple, where he was part of the system software team that developed the technologies allowing Apple’s successful transition to PowerPC.
 
 - name: Victor Ciura
@@ -18,7 +18,7 @@ More details: @ciura_victor & https://ciura.ro & linkedin.com/victor-ciura"
   job: Retired programmer and WG21 participant
   img: walter.png
   alt: Walter E Brown
-  topic: Extrema: Correctly Calculating min and max
+  topic: "Extrema: Correctly Calculating min and max"
   description: "With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a C++ programmer for 40 years. He joined the C++ standards effort in 2000, and has since written circa 170 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and <cmath>’s mathematical special functions, as well as the headers <random> and <ratio>. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator<=> (the C++20 “spaceship operator”)."
   
 - name: Paolo Severini
@@ -34,3 +34,66 @@ More details: @ciura_victor & https://ciura.ro & linkedin.com/victor-ciura"
   alt: Sandor Dargo
   topic: How to use correctly the const qualifier?
   description: "Sandor is a passionate software craftsman focusing on reducing the maintenance costs by developing, applying and enforcing clean code standards. His other core activity is knowledge sharing both oral and written, within and outside of his employer. When not reading or writing, he spends most of his free time with his two children and his wife baking at home or travelling to new places."
+
+- name: Roland Grinis
+  job: CTO at GrinisRIT,  Researcher at MIPT-NPM
+  img: roland.png
+  alt: Roland Grinis
+  topic: Bayesian Computation for Deep Learning in Modern C++
+  description: "I studied Maths at Oxford, Cambridge and Imperial. Then I worked in the financial industry as a quantitative developer building models for interest rates exotic derivatives and optimization algorithms for initial margins. A couple of years ago, I launched GrinisRIT, a software company which develops simulation and data analytics software for the scientific community, as well as financial and entertainment industries. Currently, I am also a researcher in computational physics at the MIPT-NPM lab."
+
+- name: Yuri Minaev
+  alt: Yuri Minaev
+  job: CTO at GrinisRIT,  Researcher at MIPT-NPM
+  img: yuri.png  
+  topic: "Inside a static analyser: type system"
+  description: "Yuri is working in the PVS-Studio company as one of developers of the C++ static analyzer. His primary responsibility is to keep low-level stuff in order and add new features to the core module. He joined the team in 2018 after about 12 years of IT experience. Apart from that, he periodically gives talks at various conferences - mainly on topics related to static analysis and C++."
+
+- name: Mattia Verasani
+  alt: Mattia Verasani
+  job: Machine Learning Engineer
+  img: mattia.png  
+  topic: "Ai4Prod: the ecosystem to bring AI in production through C++"
+  description: "Mattia Verasani is a Machine Learning Engineer currently working at Tetra Pak and one of the founders of Machine Learning Modena."
+
+- name: Eric Tondelli
+  alt: Eric Tondelli
+  job: Freelance software engineer
+  img: eric.png  
+  topic: "Ai4Prod: the ecosystem to bring AI in production through C++"
+  description: "I have a master degree in mechatronical engineering. Since 2017 i have started developing Artificial intelligence solution for production line. In particular i have worked for different system integrator companies developing custom artificial intelligence application like defect detection, classification ,anomaly detection and autonomous grasping with cobot."
+
+- name: Marek Krajewski
+  alt: Marek Krajewski
+  job: Freelance Programmer
+  img: marek.png  
+  topic: PMRs for performance in C++17/20
+  description: "Marek is an independent freelance programmer specializing in Qt, C++, GUIs, system programming, and communication protocols. He has been programming in C++ since the mid 90s, and in his career, he has been involved with Unix and Windows system programming, client-server systems, UMTS network management, enterprise Java, RESTful APIs, satellite protocol decoding, neural networks, mage processing, DVB-T testing appliances and embedded Linux. He holds a Ph.D. in computer science and is also a technical book's author."
+
+- name: Kris van Rens
+  alt: Kris van Rens
+  job: Software developer at ViNotion
+  img: kris.png  
+  topic: "A bird's-eye view of template C++"
+  description: "C++ is a multi-paradigm programming language. This means it lends itself to solve a specific problem in various forms or styles. One of those forms or styles is object-oriented programming, with which C++ is often identified. Another strong suit of C++ is the support for generic programming and template metaprogramming. In this session we are going to look at modern-day C++ templates, and how we can use them effectively. Template programming sometimes has the reputation of being hard to understand and adopt, which surely may be the case for highly advanced usage. However, we will see that templates can be used for a myriad of purposes, which often have a low barrier to entry. Command of templates will greatly improve your efficiency and productivity as a C++ programmer. The topics we are going to cover include: generic programming, metaprogramming, type traits, static/compile-time polymorphism, variadic templates, and much more. Not only will we look at the state of templates in C++17, we will also address what C++20 and the future has to offer. Join me in this session exploring the wonderful and interesting world of C++ templates, and improve or refresh your knowledge."
+
+- name: Marcos Rojas
+  alt: Marcos Rojas
+  job: Co-founder & C++ Technical Lead
+  img: rojas.png  
+  topic: "Hook: The C++ library you were waiting for"
+  description: "20+ years of experience over Object-Oriented Analysis/Design and Implementation Methodologies. Specially focused on C/C++ (C++14/17) over cross-platform, distributed and/or real-time systems."
+
+- name: Clare Macrae
+  alt: Clare Macrae
+  job: Director at Clare Macrae Consulting Ltd
+  img: clare.png  
+  topic: "Refactoring Superpowers: make your C++ IDE do your work, faster and more safely"
+  description: "Clare is an independent consultant, helping teams work sustainably and efficiently to test and refactor legacy and hard-to-test code. She has worked in software development for over 30 years, and in C++ and Qt for 20 years, and is now branching out to other languages. Since 2017, Clare has used her spare time to work remotely with Llewellyn Falco on ApprovalTests.cpp, to radically simplify testing of legacy code. She has enjoyed this so much that in 2019 she set up Clare Macrae Consulting Ltd, to focus even more on helping others work with legacy code. Before this, Clare was a Principal Scientific Software Engineer at Cambridge Crystallographic Data Centre. She is the original author of their popular C++ and Qt-based 3D crystal structure visualisation program Mercury."
+
+- name: Roi Barkan
+  alt: Roi Barkan
+  job: VP Technologies at Istra Research
+  img: roi.png  
+  topic: Argument Passing, Core Guidelines, and Aliasing
+  description: "A professional software developer and architect since 2000, Roi's main focus throughout his career was on high performance and distributed systems, implementing complex and innovative algorithms. Roi has been the VP technologies of Istra Research since 2014, where he helps creating low latency financial systems. Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel, and his executive MBA from Tel Aviv University."
