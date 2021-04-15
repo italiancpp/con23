@@ -97,3 +97,10 @@ More details: @ciura_victor & https://ciura.ro & linkedin.com/victor-ciura"
   img: roi.png  
   topic: Argument Passing, Core Guidelines, and Aliasing
   description: "A professional software developer and architect since 2000, Roi's main focus throughout his career was on high performance and distributed systems, implementing complex and innovative algorithms. Roi has been the VP technologies of Istra Research since 2014, where he helps creating low latency financial systems. Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel, and his executive MBA from Tel Aviv University."
+
+- name: Marco Arena
+  job: Founder of the Italian C++ Community
+  img: marco.png
+  alt: Marco Arena
+  topic: Event chair
+  description: "Marco is the founder of the Italian C++ Community. He works at Tetra Pak as an AI software engineer. From 2011 to 2019, he served the Ferrari F1 Racing Team (Scuderia Ferrari) as a Software Engineer and C++ Specialist. Marco is very active in the tech communities environment: he founded the Italian C++ Community in 2013, Coding Gym in 2016, ML Modena in 2020, and he collaborates with ConoscereLinux. Since 2016, Marco has received the Microsoft MVP award for his commitment to divulgation."
