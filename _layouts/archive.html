@@ -1,7 +1,33 @@
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+  
+<body ondragstart="return false;" ondrop="return false;">
+
+<nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand page-scroll" href="/"><img src="{{ site.logo }}" style="margin-top:-15px" width="150px" alt="icon-about"></a>
+                  
+        <h2 class="text-muted text-center">Past events of the Italian C++ Community</h2>
+        </div>
+</nav>
+
+<div id="push-down-header"></div>
+{% for post in site.posts %}
+<section class="h-flex">
+    <img src="{{site.baseurl}}/img/DelTrapano.png" class="archive-event-image">
+    <div class="v-flex">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>🌐 {{post.where}} - 🗓  {{post.when}}</p>
+        <p><em>{{post.summary}}</em></p>
+    <hr class="archive-break">    
+    </div>
+     
+</section>
+{% endfor %}
+
+<div id="push-down-footer"></div>
+{% include footer.html %}
+    
+</body>

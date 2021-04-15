@@ -974,3 +974,34 @@ body {
 .speaker-info-portrait {
     max-width: 500px;
 }
+
+#push-down-header {
+    width: 100%;
+    height: 150px;
+}
+
+#push-down-footer {
+    width: 100%;
+    height: 30px;
+}
+
+.h-flex {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.v-flex {
+ display: flex;
+ flex-direction: column;
+ width: 30%;
+}
+
+.archive-event-image {
+    width: 15%;
+}
+
+.archive-break {
+  border-top: 1px solid grey;
+  width: 100%;
+}
