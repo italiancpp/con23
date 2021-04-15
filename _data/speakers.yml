@@ -2,7 +2,7 @@
   job: Sr. Principal Scientist, Adobe Photoshop
   img: sean.png
   alt: Sean Parent
-  topic: "WARNING: `std::find()` is broken!"
+  topic: "WARNING: <code>std::find()</code> is broken!"
   description: Sean Parent is a senior principal scientist and software architect for Adobe’s mobile digital imaging group and Photoshop. Sean has been at Adobe since 1993 when he joined as a senior engineer working on Photoshop and later managed Adobe’s Software Technology Lab. In 2009 Sean spent a year at Google working on Chrome OS before returning to Adobe. From 1988 through 1993 Sean worked at Apple, where he was part of the system software team that developed the technologies allowing Apple’s successful transition to PowerPC.
 
 - name: Victor Ciura
@@ -10,15 +10,13 @@
   job: Principal Engineer, CAPHYON
   img: victor.png
   topic: The Quest For A Better Crash
-  description: "Victor Ciura is a Principal Engineer at CAPHYON, Technical Lead on the Advanced Installer team and a Microsoft MVP (Developer Technologies). He’s a regular guest at Computer Science Department of his Alma Mater, University of Craiova, where he gives student lectures & workshops on using C++ STL Algorithms. Since 2005, he has been designing and implementing several core components and libraries of Advanced Installer. Currently, he spends most of his time working with his team on improving and extending the repackaging and virtualization technologies in Advanced Installer IDE, helping clients migrate their traditional desktop apps to the modern Windows application format: MSIX. 
-One of his “hobbies” is tidying-up and modernizing (C++20) the aging codebase of Advanced Installer and has been known to build tools that help this process: Clang Power Tools.
-More details: @ciura_victor & https://ciura.ro & linkedin.com/victor-ciura"
+  description: "Victor Ciura is a Principal Engineer at <a href='https://www.caphyon.com/'>CAPHYON</a>, Technical Lead on the <a href='https://www.advancedinstaller.com/'>Advanced Installer</a> team and a <a href='https://mvp.microsoft.com/en-us/PublicProfile/5003461'>Microsoft MVP</a> (Developer Technologies). He’s a regular guest at Computer Science Department of his <i>Alma Mater</i>, <a href='http://www.ace.ucv.ro/'>University of Craiova</a>, where he gives student lectures & workshops on using C++ STL Algorithms. Since 2005, he has been designing and implementing several core components and libraries of Advanced Installer. Currently, he spends most of his time working with his team on improving and extending the repackaging and virtualization technologies in Advanced Installer IDE, helping clients migrate their traditional desktop apps to the modern Windows application format: <a href='https://www.advancedinstaller.com/msix-introduction.html'>MSIX</a>. One of his “hobbies” is tidying-up and modernizing (C++20) the aging codebase of Advanced Installer and has been known to build tools that help this process: <a href='http://clangpowertools.com/'>Clang Power Tools</a>. More details: <a href='https://twitter.com/ciura_victor'>@ciura_victor</a> & <a href='https://ciura.ro/'>https://ciura.ro</a> & <a href='https://www.linkedin.com/in/victor-ciura/'>linkedin.com/victor-ciura</a>"
 
 - name: Walter E Brown
   job: Retired programmer and WG21 participant
   img: walter.png
   alt: Walter E Brown
-  topic: "Extrema: Correctly Calculating min and max"
+  topic: "<i>Extrema</i>: Correctly Calculating <code>min</code> and <code>max</code>"
   description: "With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a C++ programmer for 40 years. He joined the C++ standards effort in 2000, and has since written circa 170 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and <cmath>’s mathematical special functions, as well as the headers <random> and <ratio>. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator<=> (the C++20 “spaceship operator”)."
   
 - name: Paolo Severini
@@ -97,3 +95,10 @@ More details: @ciura_victor & https://ciura.ro & linkedin.com/victor-ciura"
   img: roi.png  
   topic: Argument Passing, Core Guidelines, and Aliasing
   description: "A professional software developer and architect since 2000, Roi's main focus throughout his career was on high performance and distributed systems, implementing complex and innovative algorithms. Roi has been the VP technologies of Istra Research since 2014, where he helps creating low latency financial systems. Prior to working for Istra Research, Roi spent 12 years in software development, architecture and management in the IT Security field. Roi received his B.A in Computer Science with high honors from the Technion in Israel, and his executive MBA from Tel Aviv University."
+
+- name: Marco Arena
+  job: Founder of the Italian C++ Community
+  img: marco.png
+  alt: Marco Arena
+  topic: Event chair
+  description: "Marco is the founder of the <a href='https://italiancpp.org'>Italian C++ Community</a>. He works at Tetra Pak as an AI software engineer. From 2011 to 2019, he served the Ferrari F1 Racing Team (<i>Scuderia Ferrari</i>) as a Software Engineer and C++ Specialist. Marco is very active in the tech communities environment: he founded the <a href='https://italiancpp.org'>Italian C++ Community</a> in 2013, <a href='https://coding-gym.org'>Coding Gym</a> in 2016, <a href='https://mlmodena.it'>ML Modena</a> in 2020, and he collaborates with <a href='https://conoscerelinux.org'>ConoscereLinux</a>. Since 2016, Marco has received the <a href='https://mvp.microsoft.com/it-it/PublicProfile/5001726'>Microsoft MVP</a> award for his commitment to divulgation."
