@@ -1,7 +1,12 @@
-- time: 08:30 - 10:00
-  item: "Introduction and Keynote"
+- time: 08:15 - 08:30
+  item: "Welcome Message"
   speaker: "Marco Arena"
   abstract:
+  
+- time: 08:30 - 10:00
+  item: "Keynote: WARNING: <code>std::find()</code> is broken!"
+  speaker: "Sean Parent"
+  abstract: "We often take it for granted that calling one of the Standard algorithms will do something meaningful. For example, when invoking <code>position = find(first, last, value)</code> we expect that if an element equal to <code>value</code> is contained in the range <code>[first, last)</code> then <code>position</code> will point to the first such element, otherwise <code>position</code> will equal <code>last</code>. But how do we know <code>find</code> will perform this operation? This talk explores requirements, guarantees, and domains, and we'll discover that maybe <code>find</code> doesn't."
 
 - time: 10:00 - 10:30
   item: "Short Break"
@@ -57,6 +62,6 @@
   feedback: "https://forms.gle/???"
   slides: "Not ready"
 
-- time: 17:00 - 17:20
+- time: 17:00 - 17:15
   item: "Closing message"
   speaker: "Marco Arena"
