@@ -1,6 +1,10 @@
+- time: 08:15 - 08:30
+  item: " "
+  speaker: "Welcome Message in Track A"
+
 - time: 08:30 - 10:00
   item: " "
-  speaker: "Introduction and Keynote in Track A"
+  speaker: "Keynote in Track A"
 
 - time: 10:00 - 10:30
   item: "Short Break"
