@@ -15,21 +15,20 @@
   speaker: "Victor Ciura"
   abstract: "Crashed! Now What? Sometimes reproducing a crash on a developer's machine is next to impossible. Most of the time remote debugging is out of the question and all you’re left with are some scant log files and maybe a memory dump file, if you’re lucky. Wouldn’t you like to know the exact point of failure in the program and how it got there, on the client’s PC? How can you get your hands on a StackTrace of that crash on the client’s machine? And how can you make any sense of it without symbols? In this session, I’ll present a Windows specific technique we developed, that my team uses regularly to debug such scenarios in production. We leverage OS APIs like the Image Help Library (ImageHlp.dll), the Debug Help Library (DbgHelp.dll) to work with PE/COFF images and PDBs and reconstruct symbolicated StackTraces for Release crashes in production. The technique and APIs work all the way from Windows XP up to Windows 10, both for x86 and x64 executables. We’ll see how symbols are loaded and how PDBs work; we’ll discuss partial/incremental PDBs and we’ll have to get comfortable with Structured Exception Handling and Address Space Layout Randomization."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
   
 - time: 11:30 - 12:20
   item: "How to use correctly the const qualifier?"
   speaker: "Sandor Dargo"
   abstract: "We all use const in our code. But why? Do we use it enough or too much? Do we use it well? This presentation will provide the answers to those questions! We'll discuss why we need to bring constness to our code and why we need more of it. We'll go into detail to see all the different contexts where const can appear, where it helps, where it's ignored and where it's even harmful!"
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
   
 - time: 12:30 - 13:00
   item: "Bayesian Computation for Deep Learning in Modern C++"
   speaker: "Roland Grinis"
   abstract: "In this talk I will introduce NOA - a C++17 library built on top of LibTorch. With this library, we aim to make it easier to integrate Bayesian computation algorithms with Deep Learning applications, larger simulation frameworks, as well as performance demanding systems such as the ones encountered in streaming analytics, games, high frequency trading and many other applications. "
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
 
 - time: 13:00 - 13:45
   item: "Lunch and Networking"
@@ -40,14 +39,14 @@
   speaker: "Marek Krajewski"
   abstract: "In this talk we will discuss polymorphic memory resources. We start with a little of history of allocators in STL, their shortcommings and evolution. Next, we will have a look at the PMR design origins at Bloomberg, then discuss some basic PMR usage and than follow up with advanced patterns like \"Winking Out\"  and \"Local Garbage Collection\". Later we will have a brief look at the practical applications of PMRs and the possible performance improvements. Finaly we will discuss changes introduced to PMR in C++20."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
 
 - time: 14:45 - 15:35
   item: "Refactoring Superpowers: make your IDE do your work, faster and more safely"
   speaker: "Clare Macrae"
   abstract: "You've got to make a change, and the tests are passing, but you're struggling to get the code to do what you need. You think you can see a way... Maybe the code won't compile for half an hour whilst you bend it to your will... And maybe your code reviewers won't complain about the size of the change, taking them hours to review? And if you're lucky and concentrate very hard, it will be OK. Won't it? As Kent Beck says, \"Make the change easy (warning: this may be hard), then make the easy change.\" This talk will show you techniques to be kind to yourself - and your team - by making seemingly complex edits in small, safe steps, with your IDE doing much of the heavy lifting. You'll be less tired at the end, and confident that the behaviour is unchanged. And users get the feature sooner - win, win!"
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
   
 - time: 15:35 - 16:00
   item: "Short Break"
@@ -58,7 +57,7 @@
   speaker: "Walter E Brown"
   abstract: "The C++ standard library long ago selected operator< as its ordering primitive. This brief talk will explain why this operator must be used with care, in even such seemingly simple algorithms as max and min. We also discuss the use of operator< in other order-related algorithms, showing how easy it is to make mistakes when directly using the primitive."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
   
 - time: 08:30 - 10:00
   item: " "

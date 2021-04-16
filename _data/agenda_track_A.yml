@@ -17,22 +17,21 @@
   speaker: "Paolo Severini"
   abstract: "As WebAssembly (Wasm) is becoming more and more popular in the industry, there is a variety of introductory talks and blog posts. The purpose of this talk is to take the next step and quickly dive into more advanced details of this interesting technology. We’ll see how script engines turn WebAssembly into machine code, how Wasm is used in real-world applications, how debugging works and what the future holds for WebAssembly. "
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
-  video: "Aveccelo..."
+  slides:
   
 - time: 11:30 - 12:20
   item: "Concepts, Type Traits and Specialization"
   speaker: "Roi Barkan"
   abstract: "C++20 concepts give us a brand new way to specify how our generic libraries and algorithms should be used and allow library users to better understand what is expected of them. However, concepts didn't rise from chaos, and before their adoption C++ library authors had other mechanisms to meet that goal. In this talk I'll briefly discuss concepts, and focus on their pros and cons compared to more mature mechanisms. Special attention will be given to the 'semantic' vs. 'syntactic' nature of concepts, and I'll try to give motivating examples of semantic-only concepts. I'll explore best practices, and show potential pitfalls in various approaches to the challenge of defining interactions between generic code authors and users."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
   
 - time: 12:30 - 13:00
   item: "Hook: The C++ library you were waiting for."
   speaker: "Marcos Rojas"
   abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
 
 - time: 13:00 - 13:45
   item: "Lunch and Networking"
@@ -49,7 +48,7 @@
   speaker: "Kris van Rens"
   abstract: "C++ is a multi-paradigm programming language. This means it lends itself to solve a specific problem in various forms or styles. One of those forms or styles is object-oriented programming, with which C++ is often identified. Another strong suit of C++ is the support for generic programming and template metaprogramming. In this session we are going to look at modern-day C++ templates, and how we can use them effectively. Template programming sometimes has the reputation of being hard to understand and adopt, which surely may be the case for highly advanced usage. However, we will see that templates can be used for a myriad of purposes, which often have a low barrier to entry. Command of templates will greatly improve your efficiency and productivity as a C++ programmer. The topics we are going to cover include: generic programming, metaprogramming, type traits, static/compile-time polymorphism, variadic templates, and much more. Not only will we look at the state of templates in C++17, we will also address what C++20 and the future has to offer. Join me in this session exploring the wonderful and interesting world of C++ templates, and improve or refresh your knowledge."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
 
 - time: 15:35 - 16:00
   item: "Short Break"
@@ -60,7 +59,7 @@
   speaker: "Yuri Minaev"
   abstract: "C++ is a wonderful language to use. It becomes even more wonderful if you're looking at it from the other side of the fence. Parsing and compiling C++ code is far from trivial. We'll take a look at possible representations of types inside a program which does just that. For that, we'll look at the PVS-Studio C++ analyser's internal mechanisms that deal with types. The current implementation is somewhat questionable, so, it is being redone. I'll give you an idea of how it currently works and how it will be working. We'll also take a look at some implementation details of the new type system."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  slides:
 
 - time: 17:00 - 17:15
   item: "Closing message"
