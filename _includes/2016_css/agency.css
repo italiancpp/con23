@@ -992,6 +992,7 @@ body {
  flex-direction: column;
 }
 
+
 .one-third-wide {
  width: 30%;
 }
@@ -999,6 +1000,11 @@ body {
 .two-thirds-wide {
  width: 60%;
 }
+
+.full-width {
+ width: 100%;
+}
+
 
 .archive-event-image {
     width: 15%;
@@ -1012,3 +1018,4 @@ body {
   border-top: 1px solid grey;
   width: 100%;
 }
+

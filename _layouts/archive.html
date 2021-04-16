@@ -6,12 +6,10 @@
 <body ondragstart="return false;" ondrop="return false;">
 
 <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
-        <div class="container">
-            <a class="navbar-brand page-scroll" href="/"><img src="{{ site.logo }}" style="margin-top:-15px" width="150px" alt="icon-about"></a>
-                  
-        <h2 class="text-muted text-center">Past events of the Italian C++ Community</h2>
-        </div>
+    <a class="navbar-brand" href="/"><img src="{{ site.logo }}" style="margin-top:-15px" width="150px" alt="icon-about"></a>    
+        <h2 class="text-muted text-center navbar-nav ">Past events of the Italian C++ Community</h2>
 </nav>
+
 <div id="push-down-header"></div>
 
 {% for post in site.posts %}
@@ -29,6 +27,6 @@
 
 <div id="push-down-footer"></div>
 {% include footer.html %}
-    
+{% include 2016_data/js.html %}
 </body>
 </html>

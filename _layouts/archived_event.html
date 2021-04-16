@@ -23,9 +23,12 @@
                      alt="icon-about">
             </a>
         </div>
+        <h2 class="navbar-nav text-muted text-center">{{page.title}} ({{page.when}})</h2>
         <div class="collapse navbar-collapse" id="collapsed-navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="{{site.baseurl}}/archive">All the past events</a></li>
+                <li>
+                    <a class="page-scroll" href="{{site.baseurl}}/archive">All the past events</a>
+                    </li>
             </ul>
         </div>
     </div>
@@ -79,9 +82,7 @@
     </div>
 </div>
 
-
-
 {% include footer.html %}
-    
+{% include 2016_data/js.html %}
 </body>
 </html>
