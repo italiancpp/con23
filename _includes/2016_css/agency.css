@@ -1019,3 +1019,6 @@ body {
   width: 100%;
 }
 
+.content-on-top {
+    vertical-align:top
+}
