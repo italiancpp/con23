@@ -1,19 +1,15 @@
-- time: 08:15 - 08:30
+- time: 08:30 - 08:45
   item: "Welcome Message"
   speaker: 
     - Marco Arena
   abstract:
   
-- time: 08:30 - 10:00
+- time: 08:45 - 10:30
   item: "Keynote: WARNING: <code>std::find()</code> is broken!"
   speaker: "Sean Parent"
   abstract: "We often take it for granted that calling one of the Standard algorithms will do something meaningful. For example, when invoking <code>position = find(first, last, value)</code> we expect that if an element equal to <code>value</code> is contained in the range <code>[first, last)</code> then <code>position</code> will point to the first such element, otherwise <code>position</code> will equal <code>last</code>. But how do we know <code>find</code> will perform this operation? This talk explores requirements, guarantees, and domains, and we'll discover that maybe <code>find</code> doesn't."
 
-- time: 10:00 - 10:30
-  item: "Short Break"
-  speaker: ""
-  
-- time: 10:30 - 11:20
+- time: 10:45 - 11:45
   item: "WebAssembly for non-beginners"
   speaker:
     - Paolo Severini
@@ -21,50 +17,46 @@
   feedback: "https://forms.gle/???"
   slides:
   
-- time: 11:30 - 12:20
-  item: "Concepts, Type Traits and Specialization"
-  speaker: "Roi Barkan"
-  abstract: "C++20 concepts give us a brand new way to specify how our generic libraries and algorithms should be used and allow library users to better understand what is expected of them. However, concepts didn't rise from chaos, and before their adoption C++ library authors had other mechanisms to meet that goal. In this talk I'll briefly discuss concepts, and focus on their pros and cons compared to more mature mechanisms. Special attention will be given to the 'semantic' vs. 'syntactic' nature of concepts, and I'll try to give motivating examples of semantic-only concepts. I'll explore best practices, and show potential pitfalls in various approaches to the challenge of defining interactions between generic code authors and users."
-  feedback: "https://forms.gle/???"
-  slides:
-  
-- time: 12:30 - 13:00
-  item: "Hook: The C++ library you were waiting for."
-  speaker: "Marcos Rojas"
-  abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
+- time: 12:00 - 13:00
+  item: "Refactoring Superpowers: make your IDE do your work, faster and more safely"
+  speaker: "Clare Macrae"
+  abstract: "You've got to make a change, and the tests are passing, but you're struggling to get the code to do what you need. You think you can see a way... Maybe the code won't compile for half an hour whilst you bend it to your will... And maybe your code reviewers won't complain about the size of the change, taking them hours to review? And if you're lucky and concentrate very hard, it will be OK. Won't it? As Kent Beck says, \"Make the change easy (warning: this may be hard), then make the easy change.\" This talk will show you techniques to be kind to yourself - and your team - by making seemingly complex edits in small, safe steps, with your IDE doing much of the heavy lifting. You'll be less tired at the end, and confident that the behaviour is unchanged. And users get the feature sooner - win, win!"
   feedback: "https://forms.gle/???"
   slides:
 
-- time: 13:00 - 13:45
+- time: 13:00 - 13:30
   item: "Lunch and Networking"
   speaker: "Everyone! Networking ;)"
-    
-- time: 13:45 - 14:35
+
+- time: 13:30 - 14:30
   item: "Ai4Prod: the ecosystem to bring AI in production through C++"
   speaker: 
   - Mattia Verasani
   - Eric Tondelli
   abstract: "Ai4Prod is an end-to-end tested pipeline that enables you to train Machine Learning models in python and directly deploy them in a production environment with minimum effort, through our inference platform built in C++. The software stack relies on libraries such as OpenCV, LibTorch and ONNX Runtime and it supports both Linux and Windows. In this session you will learn about Ai4Prod, and see some practical examples on how to exploit it for different use cases."
   feedback: "https://forms.gle/???"
+
+
+- time: 14:45 - 15:45
+  item: "How to use correctly the const qualifier?"
+  speaker: "Sandor Dargo"
+  abstract: "We all use const in our code. But why? Do we use it enough or too much? Do we use it well? This presentation will provide the answers to those questions! We'll discuss why we need to bring constness to our code and why we need more of it. We'll go into detail to see all the different contexts where const can appear, where it helps, where it's ignored and where it's even harmful!"
+  feedback: "https://forms.gle/???"
   
-- time: 14:45 - 15:35
-  item: "A bird's-eye view of template C++"
-  speaker: "Kris van Rens"
-  abstract: "C++ is a multi-paradigm programming language. This means it lends itself to solve a specific problem in various forms or styles. One of those forms or styles is object-oriented programming, with which C++ is often identified. Another strong suit of C++ is the support for generic programming and template metaprogramming. In this session we are going to look at modern-day C++ templates, and how we can use them effectively. Template programming sometimes has the reputation of being hard to understand and adopt, which surely may be the case for highly advanced usage. However, we will see that templates can be used for a myriad of purposes, which often have a low barrier to entry. Command of templates will greatly improve your efficiency and productivity as a C++ programmer. The topics we are going to cover include: generic programming, metaprogramming, type traits, static/compile-time polymorphism, variadic templates, and much more. Not only will we look at the state of templates in C++17, we will also address what C++20 and the future has to offer. Join me in this session exploring the wonderful and interesting world of C++ templates, and improve or refresh your knowledge."
+- time: 16:00 - 17:00
+  item: "Concepts, Type Traits and Specialization"
+  speaker: "Roi Barkan"
+  abstract: "C++20 concepts give us a brand new way to specify how our generic libraries and algorithms should be used and allow library users to better understand what is expected of them. However, concepts didn't rise from chaos, and before their adoption C++ library authors had other mechanisms to meet that goal. In this talk I'll briefly discuss concepts, and focus on their pros and cons compared to more mature mechanisms. Special attention will be given to the 'semantic' vs. 'syntactic' nature of concepts, and I'll try to give motivating examples of semantic-only concepts. I'll explore best practices, and show potential pitfalls in various approaches to the challenge of defining interactions between generic code authors and users."
   feedback: "https://forms.gle/???"
   slides:
-
-- time: 15:35 - 16:00
-  item: "Short Break"
-  speaker: ""
-  
-- time: 16:00-16:50
-  item: "Inside a static analyser: type system"
-  speaker: "Yuri Minaev"
-  abstract: "C++ is a wonderful language to use. It becomes even more wonderful if you're looking at it from the other side of the fence. Parsing and compiling C++ code is far from trivial. We'll take a look at possible representations of types inside a program which does just that. For that, we'll look at the PVS-Studio C++ analyser's internal mechanisms that deal with types. The current implementation is somewhat questionable, so, it is being redone. I'll give you an idea of how it currently works and how it will be working. We'll also take a look at some implementation details of the new type system."
+   
+- time: 17:15 - 17:45
+  item: "Bayesian Computation for Deep Learning in Modern C++"
+  speaker: "Roland Grinis"
+  abstract: "In this talk I will introduce NOA - a C++17 library built on top of LibTorch. With this library, we aim to make it easier to integrate Bayesian computation algorithms with Deep Learning applications, larger simulation frameworks, as well as performance demanding systems such as the ones encountered in streaming analytics, games, high frequency trading and many other applications. "
   feedback: "https://forms.gle/???"
-  slides:
+  slides:  
 
-- time: 17:00 - 17:15
+- time: 18:00 - 18:15
   item: "Closing message"
   speaker: "Marco Arena"
