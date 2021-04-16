@@ -1,32 +1,91 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
+  
+<body ondragstart="return false;" ondrop="return false;">
 
-  {% include head.html %}
- 
-    <body>
+<nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" 
+                    class="navbar-toggle" 
+                    data-toggle="collapse"
+                    data-target="#collapsed-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="{{ site.logo }}"
+                     style="margin-top:-15px"
+                     width="150px" 
+                     alt="icon-about">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="page-scroll" href="{{site.baseurl}}/archive">All the past events</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="push-down-header"></div>
+    
+<div class="h-flex">
 
-    <h1>{{page.title}}</h1>
-    
-    <p>Eravamo in {{page.participants}} e le foto stanno su {{page.pictures}}.</p>
-    
-    <img src="dovunque sia la locandina"/>
-    
-    <section>
-        <h2>...e se semo detti:</h2>
+    <div class="v-flex two-thirds-wide">
+        <h1>{{page.title}}</h1>
+        <div>
+            {{page.content}}
+        </div>  
+    </div>
+
+    <div class="v-flex one-third-wide">
+        <img src="{{site.baseurl}}/{{page.poster}}">
+        <hr class="archive-break">
         <ul>
-            {% for archive_hash in site.data.archive %}
-                {% assign file_name = archive_hash[0] %}
-                {% if file_name == page.agenda-track-1 %}
-                    {% assign event_data = archive_hash[1] %}
-                    {% for conference in event_data %}
-                        <li>{{conference.item}}</li>
-                    {% endfor %}
-                {% endif %}
-            {% endfor %}
+            <!-- TODO... all those unicode pictures may impair accessibility. The rest of the layout may be pretty terrible as well. Check screen readers. -->
+            <li>🌐 {{page.where}}</li>
+            <li>🗓  {{page.when}}</li>
+            <li>👤 {{page.participants}}</li>
         </ul>
-    </section>
+        <hr class="archive-break">
+        <div>
+            <h3>Talks</h3>
+            <ul>
+                {% for archive_hash in site.data.archive %}
+                    {% assign file_name = archive_hash[0] %}
+                    {% if file_name == page.agenda %}
+                        {% assign event_data = archive_hash[1] %}
+                        {% for talk in event_data %}
+                            <li class="archived-agenda-list">
+                                <b>{{talk.item}}</b><br>
+                                <em>{{talk.speaker}}</em><br>
+                                {% if talk.slides %}
+                                    <a href="{{talk.slides}}" 
+                                       target="_blank">&#x1F64B; Slides</a>
+                                 {% endif %}
+                                 {% if talk.video %}
+                                    <a href="{{talk.video}}" target="_blank">📽 Video</a>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<!-- Extremely sad workaround to keep the footer out of the way. -->
+<br>
+<div id="push-down-footer"></div>
+<div id="push-down-footer"></div>
+{% include footer.html %}
     
-    {{page.content}}
-    
-    </body>
+</body>
 </html>

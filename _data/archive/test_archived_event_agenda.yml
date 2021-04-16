@@ -3,10 +3,6 @@
   speaker: "Marco Arena"
   abstract:
 
-- time: 10:00 - 10:30
-  item: "Short Break"
-  speaker: ""
-  
 - time: 10:30 - 11:20
   item: "WebAssembly for non-beginners"
   speaker: "Paolo Severini"
@@ -28,10 +24,6 @@
   abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
   feedback: "https://forms.gle/???"
   slides: "Not ready"
-
-- time: 13:00 - 13:45
-  item: "Lunch and Networking"
-  speaker: "Everyone! Networking ;)"
     
 - time: 13:45 - 14:35
   item: "Ai4Prod: the ecosystem to bring AI in production through C++"
@@ -48,17 +40,23 @@
   feedback: "https://forms.gle/???"
   slides: "Not ready"
 
-- time: 15:35 - 16:00
-  item: "Short Break"
-  speaker: ""
-  
 - time: 16:00-16:50
   item: "Inside a static analyser: type system"
   speaker: "Yuri Minaev"
   abstract: "C++ is a wonderful language to use. It becomes even more wonderful if you're looking at it from the other side of the fence. Parsing and compiling C++ code is far from trivial. We'll take a look at possible representations of types inside a program which does just that. For that, we'll look at the PVS-Studio C++ analyser's internal mechanisms that deal with types. The current implementation is somewhat questionable, so, it is being redone. I'll give you an idea of how it currently works and how it will be working. We'll also take a look at some implementation details of the new type system."
   feedback: "https://forms.gle/???"
-  slides: "Not ready"
+  video: "Not ready"
 
 - time: 17:00 - 17:20
   item: "Closing message"
   speaker: "Marco Arena"
+  video: "Not ready"
+  
+  
+- time: 17:20 - 17:30
+  item: "Standing ovation"
+  speaker: "Marco Arena"
+  
+- time: 17:30 - 18:20
+  item: "Bis"
+  speaker: "--"

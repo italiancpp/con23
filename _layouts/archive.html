@@ -12,12 +12,12 @@
         <h2 class="text-muted text-center">Past events of the Italian C++ Community</h2>
         </div>
 </nav>
-
 <div id="push-down-header"></div>
+
 {% for post in site.posts %}
 <section class="h-flex">
-    <img src="{{site.baseurl}}/img/DelTrapano.png" class="archive-event-image">
-    <div class="v-flex">
+    <img src="{{site.baseurl}}/{{post.poster}}" class="archive-event-image">
+    <div class="v-flex one-third-wide">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>🌐 {{post.where}} - 🗓  {{post.when}}</p>
         <p><em>{{post.summary}}</em></p>
@@ -31,3 +31,4 @@
 {% include footer.html %}
     
 </body>
+</html>

@@ -982,7 +982,7 @@ body {
 
 #push-down-footer {
     width: 100%;
-    height: 30px;
+    height: 32px;
 }
 
 .h-flex {
@@ -994,11 +994,22 @@ body {
 .v-flex {
  display: flex;
  flex-direction: column;
+}
+
+.one-third-wide {
  width: 30%;
+}
+
+.two-thirds-wide {
+ width: 60%;
 }
 
 .archive-event-image {
     width: 15%;
+}
+
+.archived-agenda-list {
+    margin-bottom: 2%;
 }
 
 .archive-break {
