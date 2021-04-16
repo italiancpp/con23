@@ -55,10 +55,10 @@ function swapShortVersion(abstract_id) {
                 {%- assign abstract = track_a[i].abstract -%}
                 {% assign slides_link = track_a[i].slides %}
                 {% assign video_link = track_a[i].video %}
-                {% assign speaker_id = track_a[i].speaker | replace: " ", "_"  %}
+                
                 <tr>
                     <td>{{ track_a[i].time }}</td>
-                    <td class="content-on-top"><b>{{- track_a[i].item -}}</b><br><a href="#speaker_id_{{speaker_id}}" class="speakers-link" data-toggle="modal">{{- track_a[i].speaker -}}</a><br>{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
+                    <td class="content-on-top"><b>{{- track_a[i].item -}}</b><br>{% for person in track_a[i].speaker %}{% assign speaker_id = person | replace: " ", "_"  %}<a href="#speaker_id_{{speaker_id}}" class="speakers-link" data-toggle="modal">{{- person -}}</a><br>{% endfor %}{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
                     {%- if abstract.size > truncation_limit -%}
                         <p class="abstract" 
                            id="{{i}}A_long"
@@ -76,8 +76,7 @@ function swapShortVersion(abstract_id) {
                 {%- assign abstract = track_b[i].abstract -%}
                 {% assign slides_link = track_b[i].slides %}
                 {% assign video_link = track_b[i].video %}
-                {% assign speaker_id = track_b[i].speaker | replace: " ", "_"  %}
-                    <td class="content-on-top"><b>{{- track_b[i].item -}}</b><br><a href="#speaker_id_{{speaker_id}}" class="speakers-link" data-toggle="modal">{{- track_b[i].speaker -}}</a><br>{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
+                    <td class="content-on-top"><b>{{- track_b[i].item -}}</b><br>{% for person in track_b[i].speaker %}{% assign speaker_id = person | replace: " ", "_"  %}<a href="#speaker_id_{{speaker_id}}" class="speakers-link" data-toggle="modal">{{- person -}}</a><br>{% endfor %}{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
                     {%- assign abstract = track_b[i].abstract -%}
                     {%- if abstract.size > truncation_limit -%}
                         <p class="abstract" 

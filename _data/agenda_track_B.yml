@@ -1,6 +1,7 @@
 - time: 08:15 - 08:30
   item: " "
-  speaker: "Welcome Message in Track A"
+  speaker: 
+    - Welcome Message in Track A
 
 - time: 08:30 - 10:00
   item: " "

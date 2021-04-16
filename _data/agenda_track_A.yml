@@ -1,6 +1,7 @@
 - time: 08:15 - 08:30
   item: "Welcome Message"
-  speaker: "Marco Arena"
+  speaker: 
+    - Marco Arena
   abstract:
   
 - time: 08:30 - 10:00
@@ -14,7 +15,8 @@
   
 - time: 10:30 - 11:20
   item: "WebAssembly for non-beginners"
-  speaker: "Paolo Severini"
+  speaker:
+    - Paolo Severini
   abstract: "As WebAssembly (Wasm) is becoming more and more popular in the industry, there is a variety of introductory talks and blog posts. The purpose of this talk is to take the next step and quickly dive into more advanced details of this interesting technology. We’ll see how script engines turn WebAssembly into machine code, how Wasm is used in real-world applications, how debugging works and what the future holds for WebAssembly. "
   feedback: "https://forms.gle/???"
   slides:
@@ -39,7 +41,9 @@
     
 - time: 13:45 - 14:35
   item: "Ai4Prod: the ecosystem to bring AI in production through C++"
-  speaker: "Mattia Verasani"
+  speaker: 
+  - Mattia Verasani
+  - Eric Tondelli
   abstract: "Ai4Prod is an end-to-end tested pipeline that enables you to train Machine Learning models in python and directly deploy them in a production environment with minimum effort, through our inference platform built in C++. The software stack relies on libraries such as OpenCV, LibTorch and ONNX Runtime and it supports both Linux and Windows. In this session you will learn about Ai4Prod, and see some practical examples on how to exploit it for different use cases."
   feedback: "https://forms.gle/???"
   
