@@ -11,14 +11,14 @@
   item: "The Quest For A Better Crash"
   speaker: "Victor Ciura"
   abstract: "Crashed! Now What? Sometimes reproducing a crash on a developer's machine is next to impossible. Most of the time remote debugging is out of the question and all you’re left with are some scant log files and maybe a memory dump file, if you’re lucky. Wouldn’t you like to know the exact point of failure in the program and how it got there, on the client’s PC? How can you get your hands on a StackTrace of that crash on the client’s machine? And how can you make any sense of it without symbols? In this session, I’ll present a Windows specific technique we developed, that my team uses regularly to debug such scenarios in production. We leverage OS APIs like the Image Help Library (ImageHlp.dll), the Debug Help Library (DbgHelp.dll) to work with PE/COFF images and PDBs and reconstruct symbolicated StackTraces for Release crashes in production. The technique and APIs work all the way from Windows XP up to Windows 10, both for x86 and x64 executables. We’ll see how symbols are loaded and how PDBs work; we’ll discuss partial/incremental PDBs and we’ll have to get comfortable with Structured Exception Handling and Address Space Layout Randomization."
-  feedback: "https://forms.gle/???"
+  feedback: "https://forms.gle/BQEtCuaWqeGPymCX9"
   slides:
   
 - time: 12:00-13:00
   item: "Inside a static analyser: type system"
   speaker: "Yuri Minaev"
   abstract: "C++ is a wonderful language to use. It becomes even more wonderful if you're looking at it from the other side of the fence. Parsing and compiling C++ code is far from trivial. We'll take a look at possible representations of types inside a program which does just that. For that, we'll look at the PVS-Studio C++ analyser's internal mechanisms that deal with types. The current implementation is somewhat questionable, so, it is being redone. I'll give you an idea of how it currently works and how it will be working. We'll also take a look at some implementation details of the new type system."
-  feedback: "https://forms.gle/???"
+  feedback: "https://forms.gle/uBqxQ18z26Cr5X4S9"
   slides:
 
 - time: 13:00 - 13:30
@@ -29,28 +29,28 @@
   item: "A bird's-eye view of template C++"
   speaker: "Kris van Rens"
   abstract: "C++ is a multi-paradigm programming language. This means it lends itself to solve a specific problem in various forms or styles. One of those forms or styles is object-oriented programming, with which C++ is often identified. Another strong suit of C++ is the support for generic programming and template metaprogramming. In this session we are going to look at modern-day C++ templates, and how we can use them effectively. Template programming sometimes has the reputation of being hard to understand and adopt, which surely may be the case for highly advanced usage. However, we will see that templates can be used for a myriad of purposes, which often have a low barrier to entry. Command of templates will greatly improve your efficiency and productivity as a C++ programmer. The topics we are going to cover include: generic programming, metaprogramming, type traits, static/compile-time polymorphism, variadic templates, and much more. Not only will we look at the state of templates in C++17, we will also address what C++20 and the future has to offer. Join me in this session exploring the wonderful and interesting world of C++ templates, and improve or refresh your knowledge."
-  feedback: "https://forms.gle/???"
+  feedback: "https://forms.gle/VKGZx5A7boYRgXSK6"
   slides:
 
 - time: 14:45 - 15:45
   item: "PMRs for performance in C++17/20"
   speaker: "Marek Krajewski"
   abstract: "In this talk we will discuss polymorphic memory resources. We start with a little of history of allocators in STL, their shortcommings and evolution. Next, we will have a look at the PMR design origins at Bloomberg, then discuss some basic PMR usage and than follow up with advanced patterns like \"Winking Out\"  and \"Local Garbage Collection\". Later we will have a brief look at the practical applications of PMRs and the possible performance improvements. Finaly we will discuss changes introduced to PMR in C++20."
-  feedback: "https://forms.gle/???"
+  feedback: "https://forms.gle/5B5JTieGp1mQS5Fy6"
   slides:
   
 - time: 16:00 - 17:00
-  item: "Hook: The C++ library you were waiting for."
+  item: "Hook: The C++ library you were waiting for"
   speaker: "Marcos Rojas"
   abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
-  feedback: "https://forms.gle/???"
+  feedback: "https://forms.gle/YYDjY14s84Pp1fsR7"
   slides:
   
 - time: 17:15 - 17:45
   item: "<i>Extrema</i>:  Correctly Calculating <code>min</code> and <code>max</code>."
   speaker: "Walter E Brown"
   abstract: "The C++ standard library long ago selected operator< as its ordering primitive. This brief talk will explain why this operator must be used with care, in even such seemingly simple algorithms as max and min. We also discuss the use of operator< in other order-related algorithms, showing how easy it is to make mistakes when directly using the primitive."
-  feedback: "https://forms.gle/???"
+  feedback: "https://forms.gle/DmM88sDjuroULpBR6"
   slides:
   
 - time: 18:00 - 18:15
