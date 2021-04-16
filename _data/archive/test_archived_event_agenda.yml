@@ -1,6 +1,8 @@
 - time: 08:30 - 10:00
   item: "Introduction and Keynote"
-  speaker: "Marco Arena"
+  speaker: 
+    - Marco Arena
+    - e i suoi scagnozzi
   abstract:
 
 - time: 10:30 - 11:20

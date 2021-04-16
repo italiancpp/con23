@@ -64,7 +64,7 @@
                         {% for talk in event_data %}
                             <li class="archived-agenda-list">
                                 <b>{{talk.item}}</b><br>
-                                <em>{{talk.speaker}}</em><br>
+                                <em>{{talk.speaker | join: ", "}}</em><br>
                                 {% if talk.slides %}
                                     <a href="{{talk.slides}}" 
                                        target="_blank">&#x1F64B; Slides</a>
