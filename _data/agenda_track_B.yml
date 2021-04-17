@@ -1,8 +1,11 @@
 - time: 08:30 - 08:45
   item: "Welcome Message in Track A"
   
-- time: 08:45 - 10:30
+- time: 08:45 - 10:15
   item: "Keynote in Track A"
+  
+ - time: 10:15 - 10:45
+  item: "Networking Break" 
   
 - time: 10:45 - 11:45
   item: "The Quest For A Better Crash"
@@ -28,14 +31,17 @@
   feedback: "https://forms.gle/VKGZx5A7boYRgXSK6"
   slides:
 
-- time: 14:45 - 15:45
+- time: 14:45 - 15:35
   item: "PMRs for performance in C++17/20"
   speaker: "Marek Krajewski"
   abstract: "In this talk we will discuss polymorphic memory resources. We start with a little of history of allocators in STL, their shortcommings and evolution. Next, we will have a look at the PMR design origins at Bloomberg, then discuss some basic PMR usage and than follow up with advanced patterns like \"Winking Out\"  and \"Local Garbage Collection\". Later we will have a brief look at the practical applications of PMRs and the possible performance improvements. Finaly we will discuss changes introduced to PMR in C++20."
   feedback: "https://forms.gle/5B5JTieGp1mQS5Fy6"
   slides:
-  
-- time: 16:00 - 17:00
+
+- time: 15:35 - 16:05
+  item: "Networking Break"
+
+- time: 16:05 - 17:05
   item: "Hook: The C++ library you were waiting for"
   speaker: "Marcos Rojas"
   abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
