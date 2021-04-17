@@ -49,7 +49,7 @@
   slides:
   
 - time: 17:15 - 17:45
-  item: "<i>Extrema</i>:  Correctly Calculating <code>min</code> and <code>max</code>."
+  item: "<i>Extrema</i>:  Correctly Calculating <code>min</code> and <code>max</code>"
   speaker: "Walter E Brown"
   abstract: "The C++ standard library long ago selected operator< as its ordering primitive. This brief talk will explain why this operator must be used with care, in even such seemingly simple algorithms as max and min. We also discuss the use of operator< in other order-related algorithms, showing how easy it is to make mistakes when directly using the primitive."
   feedback: "https://forms.gle/DmM88sDjuroULpBR6"
