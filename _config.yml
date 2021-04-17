@@ -13,7 +13,7 @@ url: "Your-Link.github.io" # the base hostname & protocol for your site
 sections: ['reservation', 'speakers', 'agenda']
 
 general_feedback: "https://forms.gle/rctcxe9jou87TydF8"
-eventbrite_id: "150003704117"
+eventbrite_id: "150150445023"
 
 # Build settings
 markdown: kramdown
