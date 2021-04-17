@@ -1,12 +1,9 @@
 - time: 08:30 - 08:45
-  item: " "
-  speaker: 
-    - Welcome Message in Track A
-
+  item: "Welcome Message in Track A"
+  
 - time: 08:45 - 10:30
-  item: " "
-  speaker: "Keynote in Track A"
-
+  item: "Keynote in Track A"
+  
 - time: 10:45 - 11:45
   item: "The Quest For A Better Crash"
   speaker: "Victor Ciura"
@@ -23,8 +20,7 @@
 
 - time: 13:00 - 13:30
   item: "Lunch and Networking"
-  speaker: "Everyone! Networking ;)"
-
+  
 - time: 13:30 - 14:30
   item: "A bird's-eye view of template C++"
   speaker: "Kris van Rens"
@@ -54,5 +50,5 @@
   slides:
   
 - time: 18:00 - 18:15
-  item: " "
-  speaker: "Closing message in Track A"
+  item: "Closing message in Track A"
+  
