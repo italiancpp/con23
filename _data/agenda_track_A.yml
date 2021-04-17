@@ -4,13 +4,16 @@
     - Marco Arena
   abstract:
   
-- time: 08:45 - 10:30
+- time: 08:45 - 10:15
   item: "Keynote: WARNING: <code>std::find()</code> is broken!"
   speaker: 
     - "Sean Parent"
   abstract: "We often take it for granted that calling one of the Standard algorithms will do something meaningful. For example, when invoking <code>position = find(first, last, value)</code> we expect that if an element equal to <code>value</code> is contained in the range <code>[first, last)</code> then <code>position</code> will point to the first such element, otherwise <code>position</code> will equal <code>last</code>. But how do we know <code>find</code> will perform this operation? This talk explores requirements, guarantees, and domains, and we'll discover that maybe <code>find</code> doesn't."
   feedback: "https://forms.gle/d9ssD7FGFBWDB8Tq7"
 
+- time: 10:15 - 10:45
+  item: "Networking Break"
+  
 - time: 10:45 - 11:45
   item: "WebAssembly for non-beginners"
   speaker:
@@ -38,14 +41,16 @@
   abstract: "Ai4Prod is an end-to-end tested pipeline that enables you to train Machine Learning models in python and directly deploy them in a production environment with minimum effort, through our inference platform built in C++. The software stack relies on libraries such as OpenCV, LibTorch and ONNX Runtime and it supports both Linux and Windows. In this session you will learn about Ai4Prod, and see some practical examples on how to exploit it for different use cases."
   feedback: "https://forms.gle/58i57CV3oXF1zTSq8"
 
-
-- time: 14:45 - 15:45
+- time: 14:45 - 15:35
   item: "How to use correctly the const qualifier?"
   speaker: "Sandor Dargo"
   abstract: "We all use const in our code. But why? Do we use it enough or too much? Do we use it well? This presentation will provide the answers to those questions! We'll discuss why we need to bring constness to our code and why we need more of it. We'll go into detail to see all the different contexts where const can appear, where it helps, where it's ignored and where it's even harmful!"
   feedback: "https://forms.gle/1BkBFaJjMyFHUqbo7"
-  
-- time: 16:00 - 17:00
+
+- time: 15:35 - 16:05
+  item: "Networking Break"
+
+- time: 16:05 - 17:05
   item: "Concepts, Type Traits and Specialization"
   speaker: 
     - "Roi Barkan"
