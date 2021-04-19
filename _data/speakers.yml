@@ -17,7 +17,7 @@
   img: walter.png
   alt: Walter E Brown
   topic: "<i>Extrema</i>: Correctly Calculating <code>min</code> and <code>max</code>"
-  description: "With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a C++ programmer for 40 years.<br/>He joined the C++ standards effort in 2000, and has since written circa 170 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and <code><cmath></code>’s mathematical special functions, as well as the headers <code><random></code> and <code><ratio></code>. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator<=> (the C++20 “spaceship operator”)."
+  description: "With broad experience in industry, academia, consulting, and research, Dr. Walter E. Brown has been a C++ programmer for 40 years.<br/>He joined the C++ standards effort in 2000, and has since written circa 170 proposal papers. Among numerous other contributions, he is responsible for introducing such now-standard C++ library features as cbegin/cend, common_type, gcd/lcm, void_t, and &lt;cmath&gt;’s mathematical special functions, as well as the headers &lt;random&gt; and &lt;ratio&gt;. He has also significantly impacted such C++ core language features as alias templates, contextual conversions, variable templates, static_assert, and operator<=> (the C++20 “spaceship operator”)."
   
 - name: Paolo Severini
   job: Senior Software Engineer at Microsoft
