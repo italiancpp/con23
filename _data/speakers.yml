@@ -42,7 +42,7 @@
 
 - name: Yuri Minaev
   alt: Yuri Minaev
-  job: CTO at GrinisRIT,  Researcher at MIPT-NPM
+  job: C++ programmer at PVS-Studio
   img: yuri.png  
   topic: "Inside a static analyser: type system"
   description: "Yuri is working in the PVS-Studio company as one of developers of the C++ static analyzer. His primary responsibility is to keep low-level stuff in order and add new features to the core module. He joined the team in 2018 after about 12 years of IT experience. Apart from that, he periodically gives talks at various conferences - mainly on topics related to static analysis and C++."
