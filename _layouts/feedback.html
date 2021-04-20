@@ -40,7 +40,7 @@
         	<p>Sessions at {{time}} </p>
         	
         	{% if track_a[i].feedback %}
-	        <li><p class="trackA">Track A: <a href="{{track_a[i].feedback}}" target="_blank">{{track_a[i].item}}</a>{{ track_a[i].speaker | join: ", " }}</p></li>
+	        <li><p class="trackA">Track A: <a href="{{track_a[i].feedback}}" target="_blank">{{track_a[i].item}}</a> {{ track_a[i].speaker | join: ", " }}</p></li>
 	    	{% endif %}
 	    	
 	    	{% if track_b[i].feedback %}
