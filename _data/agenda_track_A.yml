@@ -10,6 +10,7 @@
     - "Sean Parent"
   abstract: "We often take it for granted that calling one of the Standard algorithms will do something meaningful. For example, when invoking <code>position = find(first, last, value)</code> we expect that if an element equal to <code>value</code> is contained in the range <code>[first, last)</code> then <code>position</code> will point to the first such element, otherwise <code>position</code> will equal <code>last</code>. But how do we know <code>find</code> will perform this operation? This talk explores requirements, guarantees, and domains, and we'll discover that maybe <code>find</code> doesn't."
   feedback: "https://forms.gle/d9ssD7FGFBWDB8Tq7"
+  video: https://www.youtube.com/watch?v=NO5wHzI_oug&t=1103s
 
 - time: 10:15 - 10:45
   item: "Networking Break"
@@ -21,6 +22,7 @@
   abstract: "As WebAssembly (Wasm) is becoming more and more popular in the industry, there is a variety of introductory talks and blog posts. The purpose of this talk is to take the next step and quickly dive into more advanced details of this interesting technology. We’ll see how script engines turn WebAssembly into machine code, how Wasm is used in real-world applications, how debugging works and what the future holds for WebAssembly. "
   feedback: "https://forms.gle/n4dqgY8gYzpxcBM29"
   slides:
+  video: https://youtu.be/VNwm_9QaQHI?t=64
   
 - time: 12:00 - 13:00
   item: "Refactoring Superpowers: make your IDE do your work, faster and more safely"
@@ -29,6 +31,7 @@
   abstract: "You've got to make a change, and the tests are passing, but you're struggling to get the code to do what you need. You think you can see a way... Maybe the code won't compile for half an hour whilst you bend it to your will... And maybe your code reviewers won't complain about the size of the change, taking them hours to review? And if you're lucky and concentrate very hard, it will be OK. Won't it? As Kent Beck says, \"Make the change easy (warning: this may be hard), then make the easy change.\" This talk will show you techniques to be kind to yourself - and your team - by making seemingly complex edits in small, safe steps, with your IDE doing much of the heavy lifting. You'll be less tired at the end, and confident that the behaviour is unchanged. And users get the feature sooner - win, win!"
   feedback: "https://forms.gle/SYdbPUoD6TiG2vZn8"
   slides:
+  video: https://youtu.be/KM26VufN9TA?t=38
 
 - time: 13:00 - 13:30
   item: "Lunch and Networking"
@@ -40,12 +43,14 @@
     - Eric Tondelli
   abstract: "Ai4Prod is an end-to-end tested pipeline that enables you to train Machine Learning models in python and directly deploy them in a production environment with minimum effort, through our inference platform built in C++. The software stack relies on libraries such as OpenCV, LibTorch and ONNX Runtime and it supports both Linux and Windows. In this session you will learn about Ai4Prod, and see some practical examples on how to exploit it for different use cases."
   feedback: "https://forms.gle/58i57CV3oXF1zTSq8"
+  video: https://youtu.be/J0trdQCLZ5A?t=39
 
 - time: 14:45 - 15:35
   item: "How to use correctly the const qualifier?"
   speaker: "Sandor Dargo"
   abstract: "We all use const in our code. But why? Do we use it enough or too much? Do we use it well? This presentation will provide the answers to those questions! We'll discuss why we need to bring constness to our code and why we need more of it. We'll go into detail to see all the different contexts where const can appear, where it helps, where it's ignored and where it's even harmful!"
   feedback: "https://forms.gle/1BkBFaJjMyFHUqbo7"
+  video: https://youtu.be/g4IOEUjTDn0?t=41
 
 - time: 15:35 - 16:05
   item: "Networking Break"
@@ -57,6 +62,7 @@
   abstract: "C++20 concepts give us a brand new way to specify how our generic libraries and algorithms should be used and allow library users to better understand what is expected of them. However, concepts didn't rise from chaos, and before their adoption C++ library authors had other mechanisms to meet that goal. In this talk I'll briefly discuss concepts, and focus on their pros and cons compared to more mature mechanisms. Special attention will be given to the 'semantic' vs. 'syntactic' nature of concepts, and I'll try to give motivating examples of semantic-only concepts. I'll explore best practices, and show potential pitfalls in various approaches to the challenge of defining interactions between generic code authors and users."
   feedback: "https://forms.gle/VSPeUJCZPS8ZTJ7s6"
   slides:
+  video: https://youtu.be/WmHQw5F7nMY?t=47
    
 - time: 17:15 - 17:45
   item: "Bayesian Computation for Deep Learning in Modern C++"
@@ -65,6 +71,7 @@
   abstract: "In this talk I will introduce NOA - a C++17 library built on top of LibTorch. With this library, we aim to make it easier to integrate Bayesian computation algorithms with Deep Learning applications, larger simulation frameworks, as well as performance demanding systems such as the ones encountered in streaming analytics, games, high frequency trading and many other applications. "
   feedback: "https://forms.gle/GWpFk78uDZjK5vsK9"
   slides:  
+  video: https://youtu.be/d6ezzxzqEaA?t=25
 
 - time: 18:00 - 18:15
   item: "Closing message"
