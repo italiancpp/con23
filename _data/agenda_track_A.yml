@@ -1,10 +1,10 @@
-- time: 08:30 - 08:45
+- time: 06:30 - 06:45
   item: "Welcome Message"
   speaker: 
     - Marco Arena
   abstract:
   
-- time: 08:45 - 10:15
+- time: 06:45 - 08:15
   item: "Keynote: WARNING: <code>std::find()</code> is broken!"
   speaker: 
     - "Sean Parent"
@@ -12,10 +12,10 @@
   feedback: "https://forms.gle/d9ssD7FGFBWDB8Tq7"
   video: https://www.youtube.com/watch?v=NO5wHzI_oug&t=1103s
 
-- time: 10:15 - 10:45
+- time: 08:15 - 08:45
   item: "Networking Break"
   
-- time: 10:45 - 11:45
+- time: 08:45 - 08:45
   item: "WebAssembly for non-beginners"
   speaker:
     - Paolo Severini
@@ -24,7 +24,7 @@
   slides:
   video: https://youtu.be/VNwm_9QaQHI?t=64
   
-- time: 12:00 - 13:00
+- time: 10:00 - 12:00
   item: "Refactoring Superpowers: make your IDE do your work, faster and more safely"
   speaker: 
     - "Clare Macrae"
@@ -33,10 +33,10 @@
   slides:
   video: https://youtu.be/KM26VufN9TA?t=38
 
-- time: 13:00 - 13:30
+- time: 11:00 - 11:30
   item: "Lunch and Networking"
 
-- time: 13:30 - 14:30
+- time: 11:30 - 12:30
   item: "Ai4Prod: the ecosystem to bring AI in production through C++"
   speaker: 
     - Mattia Verasani
@@ -45,17 +45,17 @@
   feedback: "https://forms.gle/58i57CV3oXF1zTSq8"
   video: https://youtu.be/J0trdQCLZ5A?t=39
 
-- time: 14:45 - 15:35
+- time: 12:45 - 13:35
   item: "How to use correctly the const qualifier?"
   speaker: "Sandor Dargo"
   abstract: "We all use const in our code. But why? Do we use it enough or too much? Do we use it well? This presentation will provide the answers to those questions! We'll discuss why we need to bring constness to our code and why we need more of it. We'll go into detail to see all the different contexts where const can appear, where it helps, where it's ignored and where it's even harmful!"
   feedback: "https://forms.gle/1BkBFaJjMyFHUqbo7"
   video: https://youtu.be/g4IOEUjTDn0?t=41
 
-- time: 15:35 - 16:05
+- time: 13:35 - 14:05
   item: "Networking Break"
 
-- time: 16:05 - 17:05
+- time: 14:05 - 15:05
   item: "Concepts, Type Traits and Specialization"
   speaker: 
     - "Roi Barkan"
@@ -64,7 +64,7 @@
   slides:
   video: https://youtu.be/WmHQw5F7nMY?t=47
    
-- time: 17:15 - 17:45
+- time: 15:15 - 15:45
   item: "Bayesian Computation for Deep Learning in Modern C++"
   speaker: 
     - "Roland Grinis"
@@ -73,7 +73,7 @@
   slides:  
   video: https://youtu.be/d6ezzxzqEaA?t=25
 
-- time: 18:00 - 18:15
+- time: 16:00 - 16:15
   item: "Closing message"
   speaker: 
     - "Marco Arena"
