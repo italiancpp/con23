@@ -956,6 +956,12 @@ body {
     color: #{{ site.data.template.color.italiacpp-blue }};
 }
 
+.timeZone {
+    color: #{{ site.data.template.color.italiacpp-blue }};
+    margin: 0px;
+    padding: 0px;
+}
+
 .guest-star {
     float: none;
     display: inline;

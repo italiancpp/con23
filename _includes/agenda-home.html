@@ -1,8 +1,4 @@
 <section >
-<a id="agenda" class="push-down-anchor"></a>
-<div class="text-center">
-    <h1>Agenda (time in CEST)</h1>
-</div>
 
 <script type="text/javascript">
 function swapShortVersion(abstract_id) {
@@ -24,7 +20,79 @@ function swapShortVersion(abstract_id) {
     short_toggle.style.display = "block";
   }
 } 
+
+function ChangeTimeZone() {
+    var timeZoneSelector = document.getElementById("timeZone");
+    var selectedZone = timeZoneSelector.value;
+}
+
+function GetSelectedTimeZone() {
+    return document.getElementById("timeZone").value;
+}
+
+function SetLocale() {
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    var localTimeZone = document.getElementById("localTimeZone");
+    localTimeZone.text = tz;
+    localTimeZone.value = tz;
+}
+
+function ConvertToTimeZone(isoDate, timeZone) {
+    var date = new Date(isoDate);
+    
+    if (timeZone == "UTC") {
+        // https://stackoverflow.com/questions/55427168/is-there-a-function-to-get-the-utc-date-in-the-locale-string-format
+        return (
+            new Date(
+              date.getUTCFullYear(),
+              date.getUTCMonth(),
+              date.getUTCDate(),
+              date.getUTCHours(),
+              date.getUTCMinutes(),
+              date.getUTCSeconds()
+            ).toLocaleString('es-ES')
+        )
+    }
+    
+    return date.toLocaleString("it-IT", {timeZone: timeZone});   
+}
+
+function ToFullIsoDate(agendaTimeString) {
+    var dayString = document.getElementById("baseIsoDate").value;
+    return dayString + "T" + agendaTimeString.trim() + ":00Z";
+}
+
+function ConvertToSelectedTimeZone() {
+    var timesToConvert = document.getElementsByClassName("convertibleTime"); 
+    var targetTimeZone = GetSelectedTimeZone();
+    
+    if (targetTimeZone == "CEST")
+        targetTimeZone = "Europe/Rome";
+
+    
+    for (var i = 0; i < timesToConvert.length; ++i) {
+        var timeRoot = timesToConvert[i];
+        var utcContainer = timeRoot.childNodes[0];
+        var dateAsText = timeRoot.childNodes[1];
+        var utcTimes = utcContainer.value.split("-");  // Time must be like 11:30 - 12:30.
+   
+        var startTime = ToFullIsoDate(utcTimes[0]);
+        var endTime = ToFullIsoDate(utcTimes[1]);
+        
+        dateAsText.nodeValue = 
+            ConvertToTimeZone(startTime, targetTimeZone) +
+            " - " +
+            ConvertToTimeZone(endTime, targetTimeZone);
+    } 
+       
+}
+
 </script>
+
+<a id="agenda" class="push-down-anchor"></a>
+<div class="text-center">
+    <h1>Agenda (time in dd/mm/YYYY!)</h1>
+</div>
 
     <!-- TODO: this may "corrupt" elements we add after. Bring out? Include in home itself? -->
   <style type="text/css">
@@ -35,12 +103,20 @@ function swapShortVersion(abstract_id) {
     {{ criticalcss | scssify }}
   </style>
 
+    <input type="hidden" id="baseIsoDate" value="{{ site.date }}">
+
     <!--This div sizes the agenda and gives rule context to inner elements. -->
     <div class="event">
         <table class="agenda">
             <thead>
                 <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
+                    <th class="row-1 agenda-time"><center>Time</center><select class="timeZone" name="timeZone" id="timeZone" onChange="ChangeTimeZone();ConvertToSelectedTimeZone();">
+  <option value="UTC" selected="selected">UTC</option>
+  <option value="CEST">CEST</option>
+  <option value="America/New_York">U. S. East Coast</option>
+  <option value="Asia/Tokyo">Japan</option>
+  <option value="LOCALE" id="localTimeZone">Your Locale</option>
+</select></th>
                     <th class="row-2 agenda-activity"><center>Track A</center></th>
                     <th class="row-2 agenda-activity"><center>Track B</center></th>  
                 </tr>
@@ -57,7 +133,7 @@ function swapShortVersion(abstract_id) {
                 {% assign video_link = track_a[i].video %}
                 
                 <tr>
-                    <td>{{ track_a[i].time }}</td>
+                    <td class="convertibleTime"><input type="hidden" value="{{ track_a[i].time }}">{{ track_a[i].time }}</td>
                     <td class="content-on-top"><b>{{- track_a[i].item -}}</b><br>{% for person in track_a[i].speaker %}{% assign speaker_id = person | replace: " ", "_"  %}<a href="#speaker_id_{{speaker_id}}" class="speakers-link" data-toggle="modal">{{- person -}}</a><br>{% endfor %}{% if slides_link %}<a href="{{slides_link}}" target="_blank">&#x1F64B; Slides</a>{% endif %}{% if video_link and slides_link %} - {% endif %}{% if video_link %}<a href="{{video_link}}" target="_blank">📽 Video</a>{% endif %}
                     {%- if abstract.size > truncation_limit -%}
                         <p class="abstract" 
@@ -96,4 +172,9 @@ function swapShortVersion(abstract_id) {
             {%- endfor -%}
     </table>
     </div>
+    
+<script>
+    SetLocale();
+    ConvertToSelectedTimeZone();
+</script>
 </section>
