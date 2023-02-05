@@ -1,9 +1,0 @@
-- inverted:
-  img: icon-agenda.jpeg
-  name: Agenda
-  link: /agenda
-
-- inverted: timeline-inverted
-  img: icon-team.jpeg
-  name: How to connect 
-  link: https://cppday.italiancpp.org/howto.pdf
