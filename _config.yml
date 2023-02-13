@@ -7,8 +7,8 @@ place: # Included in intro image. Online
 
 description: > # this means to ignore newlines until "baseurl:"
   The biggest online event about C++ development organized with passion by the Italian C++ Community. Original live keynote by Sean Parent, 12 live tech sessions, virtual networking space open all day long. Free to attend.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "italiancpp.github.io/site-itcppcon2023" # the base hostname & protocol for your site
+baseurl: "/site-itcppcon2023" # the subpath of your site, e.g. /blog
+url: "italiancpp.github.io" # the base hostname & protocol for your site
 
 # Allowed values: cfs, reservation speakers, agenda, 'map'.
 sections: ['reservation', 'speakers', 'agenda', 'map']
