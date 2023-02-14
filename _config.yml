@@ -11,8 +11,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/site-itcppcon2023" # the subpath of your site, e.g. /blog Remove to serve the site locally.
 url: "italiancpp.github.io" # the base hostname & protocol for your site
 
-# Allowed values: cfs, reservation speakers, agenda, 'map'.
-sections: ['cfs', 'map']
+# Allowed values: cfs, reservation speakers, agenda, map, sponsors.
+sections: ['cfs', 'sponsors', 'map']
 
 general_feedback: "https://forms.gle/rctcxe9jou87TydF8"
 eventbrite_id: "150150445023"
