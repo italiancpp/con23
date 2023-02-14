@@ -301,6 +301,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.italiacpp-blue }}   !important;
 }
 
+.navbar-logo {
+        width: auto;
+        height: 50px;
+    }
+
 @media(min-width:768px) {
     .navbar-default-color {
         padding: 25px 0;
@@ -329,6 +334,11 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .navbar-logo {
+        width: 150px;
+        height: auto;
     }
 }
 
