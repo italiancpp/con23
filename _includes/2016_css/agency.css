@@ -1012,19 +1012,6 @@ body {
 }
 
 
-.archive-event-image {
-    width: 15%;
-}
-
-.archived-agenda-list {
-    margin-bottom: 2%;
-}
-
-.archive-break {
-  border-top: 1px solid grey;
-  width: 100%;
-}
-
 .content-on-top {
     vertical-align:top
 }
