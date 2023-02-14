@@ -6,12 +6,13 @@ date: 2023-06-10
 place: # Included in intro image. Online
 
 description: > # this means to ignore newlines until "baseurl:"
-  The biggest online event about C++ development organized with passion by the Italian C++ Community. Original live keynote by Sean Parent, 12 live tech sessions, virtual networking space open all day long. Free to attend.
+  The biggest in-person event about C++ development organized with passion by the Italian C++ Community. In Rome, free to attend.
+  
 baseurl: "/site-itcppcon2023" # the subpath of your site, e.g. /blog Remove to serve the site locally.
 url: "italiancpp.github.io" # the base hostname & protocol for your site
 
 # Allowed values: cfs, reservation speakers, agenda, 'map'.
-sections: ['reservation', 'speakers', 'agenda', 'map']
+sections: ['cfs', 'map']
 
 general_feedback: "https://forms.gle/rctcxe9jou87TydF8"
 eventbrite_id: "150150445023"
