@@ -332,6 +332,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
 header {
     height: 100vh;
     text-align: center;
@@ -339,19 +340,19 @@ header {
     background-color: #294AA5;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/{{site.poster}}');
-     background-position: top center;
+    background-position: top center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin-top: {{site.navbar_height}}px;
 }
 
 @media (max-width: 765px) {
-    header {
-    padding-top: 15vh;
+header {
     background-origin: content-box;
-    background-size: contain;
+    background-size: cover;
     height: unset;
     }
 }
@@ -944,7 +945,7 @@ body {
 }
 
 .navbar-header {
-    min-height: 70px;
+    min-height: {{site.navbar_height}}px;
 }
 
 .narrow {
