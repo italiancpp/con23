@@ -1028,12 +1028,13 @@ body {
 }
 
 .grid-partners {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 1rem;
   padding: 2%;
+  flex-wrap: wrap;
 }
 
+.grid-partners > div {
+    width: 20%;
+}
 
 .grid-partners > div img {
   max-width: 100%;
