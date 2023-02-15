@@ -1034,6 +1034,7 @@ body {
 
 .grid-partners > div {
     width: 20%;
+    margin: 10px;
 }
 
 .grid-partners > div img {
