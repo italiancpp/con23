@@ -1,3 +1,7 @@
+- name: AIV
+  link: https://www.aiv01.it/
+  logo: aiv.png
+  
 - name: You?
   link: mailto:info@italiancpp.org?subject=Sponsoring%20Italian%20C%2B%2B%20Conference%202023
   logo: TBD.jpg
