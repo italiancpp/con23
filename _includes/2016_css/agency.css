@@ -998,6 +998,15 @@ body {
     height: 32px;
 }
 
+
+
+.content-on-top {
+    vertical-align:top
+}
+
+}
+
+
 .h-flex {
  display: flex;
  flex-direction: row;
@@ -1026,10 +1035,6 @@ body {
 }
 
 
-.content-on-top {
-    vertical-align:top
-}
-
 .grid-partners {
   padding: 2%;
   flex-wrap: wrap;
@@ -1049,4 +1054,3 @@ body {
 
 .grid-partners > div:hover {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #{{ site.data.template.color.italiacpp-blue }};
-}
