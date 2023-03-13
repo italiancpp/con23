@@ -1009,6 +1009,9 @@ body {
  flex-direction: column;
 }
 
+.v-flex-center {
+  justify-content: center;
+}
 
 .one-third-wide {
  width: 30%;
