@@ -5,6 +5,10 @@
 - name: Luxoft
   link: https://www.luxoft.com
   logo: "Luxoft Purple RGB.png"
+
+- name: KDAB
+  link: https://kdab.com/
+  logo: "KDAB.png"
   
 - name: You?
   link: mailto:info@italiancpp.org?subject=Sponsoring%20Italian%20C%2B%2B%20Conference%202023
