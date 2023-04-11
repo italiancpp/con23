@@ -55,7 +55,9 @@ Finally, we'll discuss what the future of game development might look like, and 
   item: "Networking Break"
 
 - time: 14:30 - 15:30
-  item: "Hole!"
+  item: "..."
+  speaker: 
+    - Luxoft
 
 - time: 15:30 - 16:00
   item: "Closing Message In Track A"
