@@ -9,6 +9,10 @@
 - name: KDAB
   link: https://kdab.com/
   logo: "KDAB.png"
+
+- name: ZURU Tech Italy
+  link: https://zuru.tech/join-the-team
+  logo: "zuru.png"
   
 - name: You?
   link: mailto:info@italiancpp.org?subject=Sponsoring%20Italian%20C%2B%2B%20Conference%202023
