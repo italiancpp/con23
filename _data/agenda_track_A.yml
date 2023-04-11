@@ -1,79 +1,83 @@
-- time: 06:30 - 06:45
+- time: 07:20 - 08:00
   item: "Welcome Message"
   speaker: 
     - Marco Arena
   abstract:
   
-- time: 06:45 - 08:15
-  item: "Keynote: WARNING: <code>std::find()</code> is broken!"
+- time: 08:00 - 09:00
+  item: "Improving Compilation Times: Tools & Techniques"
   speaker: 
-    - "Sean Parent"
-  abstract: "We often take it for granted that calling one of the Standard algorithms will do something meaningful. For example, when invoking <code>position = find(first, last, value)</code> we expect that if an element equal to <code>value</code> is contained in the range <code>[first, last)</code> then <code>position</code> will point to the first such element, otherwise <code>position</code> will equal <code>last</code>. But how do we know <code>find</code> will perform this operation? This talk explores requirements, guarantees, and domains, and we'll discover that maybe <code>find</code> doesn't."
-  feedback: "https://forms.gle/d9ssD7FGFBWDB8Tq7"
-  video: https://www.youtube.com/watch?v=NO5wHzI_oug&t=1103s
+    -Vittorio Romeo
+  abstract: "\"Modules will solve everything\", people say -- some optimistically, others sarcastically. However, modules are far from reaching real-world maturity, and it is still not certain whether they will improve compilation times in every situation and how costly it will be to migrate a large codebase. Do we have to suffer with excruciating compilation times until we are able to migrate to modules? Not at all!
+  
+If you are interested in learning about practical tools and techniques to improve compilation times on codebases of any size, *today*, this talk is for you! We will cover:
 
-- time: 08:15 - 08:45
+- How to accurately benchmark the compilation time of a codebase and detect bottlenecks;
+- Enabling precompiled headers in CMake, leveraging the \"reuse from\" feature;
+- Automatically transforming your build into a \"unity build\";
+- When to selectively replace heavyweight standard library headers;
+- General techniques to reduce physical dependencies between components."
+# feedback:
+#  slides:
+#  video:
+
+- time: 09:00 - 09:30
   item: "Networking Break"
   
-- time: 08:45 - 08:45
-  item: "WebAssembly for non-beginners"
+- time: 09:30 - 10:30
+  item: "Back-to-Basics: Design Patterns"
   speaker:
-    - Paolo Severini
-  abstract: "As WebAssembly (Wasm) is becoming more and more popular in the industry, there is a variety of introductory talks and blog posts. The purpose of this talk is to take the next step and quickly dive into more advanced details of this interesting technology. We’ll see how script engines turn WebAssembly into machine code, how Wasm is used in real-world applications, how debugging works and what the future holds for WebAssembly. "
-  feedback: "https://forms.gle/n4dqgY8gYzpxcBM29"
-  slides:
-  video: https://youtu.be/VNwm_9QaQHI?t=64
+    - Chris Ryan
+  abstract: "Join me on a tour of some of the more useful C++ Design Patterns that you will likely see and need to know. Knowing how to use Design Patterns will help your code's robustness and will enable others to better read your code and intent.
+When designing and writing code you will see similar techniques and patterns repeatedly used throughout different systems and programs. An experienced developer saves these tried and true, well debugged techniques in their personal toolbox for later use.
+
+Others have also noticed these patterns in designs. Some of the more useful techniques have been documented and organized in books like \"Design Patterns\" by the \"Gang of Four\" (aka \"GoF\"), \"Code Complete\" by Steve McConnell,... As coding paradigms have changed new design patterns have evolved.
+
+Other design patterns have worked their way into common use through usefulness. Techniques have been given names for quick reference and as a shorthand in the exchange of ideas. Think of Design Patterns as a mental standard library of building blocks for your designs."
   
-- time: 10:00 - 12:00
-  item: "Refactoring Superpowers: make your IDE do your work, faster and more safely"
+  
+- time: 10:30 - 11:30
+  item: "C++ Features You Might Not Know"
   speaker: 
-    - "Clare Macrae"
-  abstract: "You've got to make a change, and the tests are passing, but you're struggling to get the code to do what you need. You think you can see a way... Maybe the code won't compile for half an hour whilst you bend it to your will... And maybe your code reviewers won't complain about the size of the change, taking them hours to review? And if you're lucky and concentrate very hard, it will be OK. Won't it? As Kent Beck says, \"Make the change easy (warning: this may be hard), then make the easy change.\" This talk will show you techniques to be kind to yourself - and your team - by making seemingly complex edits in small, safe steps, with your IDE doing much of the heavy lifting. You'll be less tired at the end, and confident that the behaviour is unchanged. And users get the feature sooner - win, win!"
-  feedback: "https://forms.gle/SYdbPUoD6TiG2vZn8"
-  slides:
-  video: https://youtu.be/KM26VufN9TA?t=38
+    - Jonathan Müller
+  abstract: " 
+C++ is a big language -- the upcoming C++23 standard will be over 2000 pages long. This talk will cover some obscure features you might not know. We will cover strange syntax like commutative array indexing and complicated declarators, surprising cases of undefined behavior in frequently used operators contrasted with a surprising lack of undefined behavior in operations that really shouldn't work, overlooked language facilities -- some of them actually useful, and half-forgotten standard library functions -- some of them for good reason.
 
-- time: 11:00 - 11:30
-  item: "Lunch and Networking"
+For each feature, we will talk about the what, the why, and how you can use it to write better (or much, *much* worse) C++ programs."
 
+ 
 - time: 11:30 - 12:30
-  item: "Ai4Prod: the ecosystem to bring AI in production through C++"
+  item: "Lunch"
+
+- time: 12:30 - 13:30
+  item: "Optimization Design Patterns"
   speaker: 
-    - Mattia Verasani
-    - Eric Tondelli
-  abstract: "Ai4Prod is an end-to-end tested pipeline that enables you to train Machine Learning models in python and directly deploy them in a production environment with minimum effort, through our inference platform built in C++. The software stack relies on libraries such as OpenCV, LibTorch and ONNX Runtime and it supports both Linux and Windows. In this session you will learn about Ai4Prod, and see some practical examples on how to exploit it for different use cases."
-  feedback: "https://forms.gle/58i57CV3oXF1zTSq8"
-  video: https://youtu.be/J0trdQCLZ5A?t=39
+    - Mike Shah
+  abstract:  "\"Premature optimization is the root of all evil\" is a saying credited to Donald Knuth that speaks to many programmers with experience -- nut anecdotally I have observed folks overlooking the next sentence stating: \"Yet we should not pass up our opportunities in that critical 3%\". In this talk, the audience will be introduced to some common optimization design patterns. I will discuss precomputation, lazy versus eager evaluation, batching, caching, specialization, hinting, hashing, and using your compiler among 'optimization design patterns' that every programmer should be aware of. Examples will be demonstrated in Modern C++, and the goal is for the audience to leave feeling comfortable implementing each optimization design pattern to improve performance of their code."
 
-- time: 12:45 - 13:35
-  item: "How to use correctly the const qualifier?"
-  speaker: "Sandor Dargo"
-  abstract: "We all use const in our code. But why? Do we use it enough or too much? Do we use it well? This presentation will provide the answers to those questions! We'll discuss why we need to bring constness to our code and why we need more of it. We'll go into detail to see all the different contexts where const can appear, where it helps, where it's ignored and where it's even harmful!"
-  feedback: "https://forms.gle/1BkBFaJjMyFHUqbo7"
-  video: https://youtu.be/g4IOEUjTDn0?t=41
 
-- time: 13:35 - 14:05
+- time: 13:30 - 14:00
+  item: "A case for non-virtual virtual inheritance"
+  speaker: 
+    - Marco Manino
+  abstract: " 
+In the context of DSP, C++20's `std::span` offers a great abstraction, allowing the user to write a code once, that can work both at compile-time and at run-time.
+However, oftentimes data processing needs some memory space to store transient results or cache intermediate values. While `constexpr` memory allocation are allowed in C++20, functions which explicitly allocate are cumbersome for embedded systems, as the size of the allocation can't be checked at compile-time for correctness.
+In this talk I will try to explore first some design alternatives to give the user more control on where to store transient data, and then a case for non-virtual virtual inheritance as a means to share buffers among similar algorithms, together with some metaprogramming tricks to ease their usage. "
+
+- time: 14:00 - 14:30
   item: "Networking Break"
-
-- time: 14:05 - 15:05
-  item: "Concepts, Type Traits and Specialization"
+  
+- time: 14:30 - 15:30
+  item: "Things you can learn by the C++ standard library"
   speaker: 
-    - "Roi Barkan"
-  abstract: "C++20 concepts give us a brand new way to specify how our generic libraries and algorithms should be used and allow library users to better understand what is expected of them. However, concepts didn't rise from chaos, and before their adoption C++ library authors had other mechanisms to meet that goal. In this talk I'll briefly discuss concepts, and focus on their pros and cons compared to more mature mechanisms. Special attention will be given to the 'semantic' vs. 'syntactic' nature of concepts, and I'll try to give motivating examples of semantic-only concepts. I'll explore best practices, and show potential pitfalls in various approaches to the challenge of defining interactions between generic code authors and users."
-  feedback: "https://forms.gle/VSPeUJCZPS8ZTJ7s6"
-  slides:
-  video: https://youtu.be/WmHQw5F7nMY?t=47
-   
-- time: 15:15 - 15:45
-  item: "Bayesian Computation for Deep Learning in Modern C++"
-  speaker: 
-    - "Roland Grinis"
-  abstract: "In this talk I will introduce NOA - a C++17 library built on top of LibTorch. With this library, we aim to make it easier to integrate Bayesian computation algorithms with Deep Learning applications, larger simulation frameworks, as well as performance demanding systems such as the ones encountered in streaming analytics, games, high frequency trading and many other applications. "
-  feedback: "https://forms.gle/GWpFk78uDZjK5vsK9"
-  slides:  
-  video: https://youtu.be/d6ezzxzqEaA?t=25
+    - Davide Bianchi
+  abstract: "C++ programmers often complain about the lack of features, featuring in the standard library. Many community favorites - like optional, variant and byte - took years to come in; networking is yet unreachable and graphics is nowhere to be seen.
+But taking a closer look at the algorithms and data structures that are already in the standard, it is easy to witness a world full of clever solutions and efficient ideas: from what drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensures that 0-cost abstractions are, indeed, free.
+In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
+  
 
-- time: 16:00 - 16:15
-  item: "Closing message"
+- time: 15:30 - 16:00
+  item: "Closing Message"
   speaker: 
     - "Marco Arena"

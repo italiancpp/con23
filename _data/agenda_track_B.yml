@@ -1,66 +1,61 @@
-- time: 06:30 - 06:45
-  item: "Welcome Message in Track A"
+- time: 07:20 - 08:00
+  item: "Welcome Message In Track A"
   
-- time: 06:45 - 08:15
-  item: "Keynote in Track A"
-  
-- time: 08:15 - 08:45
-  item: "Networking Break" 
-  
-- time: 08:45 - 09:45
-  item: "The Quest For A Better Crash"
-  speaker: "Victor Ciura"
-  abstract: "Crashed! Now What? Sometimes reproducing a crash on a developer's machine is next to impossible. Most of the time remote debugging is out of the question and all you’re left with are some scant log files and maybe a memory dump file, if you’re lucky. Wouldn’t you like to know the exact point of failure in the program and how it got there, on the client’s PC? How can you get your hands on a StackTrace of that crash on the client’s machine? And how can you make any sense of it without symbols? In this session, I’ll present a Windows specific technique we developed, that my team uses regularly to debug such scenarios in production. We leverage OS APIs like the Image Help Library (ImageHlp.dll), the Debug Help Library (DbgHelp.dll) to work with PE/COFF images and PDBs and reconstruct symbolicated StackTraces for Release crashes in production. The technique and APIs work all the way from Windows XP up to Windows 10, both for x86 and x64 executables. We’ll see how symbols are loaded and how PDBs work; we’ll discuss partial/incremental PDBs and we’ll have to get comfortable with Structured Exception Handling and Address Space Layout Randomization."
-  feedback: "https://forms.gle/BQEtCuaWqeGPymCX9"
-  slides:
-  video: https://www.youtube.com/watch?v=uvVN3L1sjyw&t=7s
-  
-- time: 10:00-11:00
-  item: "Inside a static analyser: type system"
-  speaker: "Yuri Minaev"
-  abstract: "C++ is a wonderful language to use. It becomes even more wonderful if you're looking at it from the other side of the fence. Parsing and compiling C++ code is far from trivial. We'll take a look at possible representations of types inside a program which does just that. For that, we'll look at the PVS-Studio C++ analyser's internal mechanisms that deal with types. The current implementation is somewhat questionable, so, it is being redone. I'll give you an idea of how it currently works and how it will be working. We'll also take a look at some implementation details of the new type system."
-  feedback: "https://forms.gle/uBqxQ18z26Cr5X4S9"
-  slides:
-  video: https://youtu.be/qwnJWPuLNwo?t=24
+- time: 08:00 - 09:00
+  item: "Raffaele Rialdi"
+  speaker: 
+    - "Unreal Engine in C++, from scratch"
+  abstract: "The graphic framework Unreal Engine by Epic is one for the most popular and sophisticated game engines to create videogames but, more and more often, it is also used in other fields to build high-quality and stunning graphics interactive applications.
+The Unreal Engine learning curve is steep not only because of its large codebase but also because most of the developers use almost exclusively the \"blueprints\" with a graphical editor, with almost no-code.
+Behind the scenes there is of course C++ which thankfully is open source, but also very poorly documented. This makes the development process hard, with rare articles and videos showing C++ and its big advantages.
+In this session I will tell you my adventure as a novice in this world, how to create objects, the main libraries we can use and how to create animations."
 
-- time: 11:00 - 11:30
-  item: "Lunch and Networking"
+- time: 09:00 - 09:30
+  item: "Networking Break"
   
+- time: 09:30 - 10:30
+  item: "Conan 2.0: lessons learned from the C++ ecosystem"
+  speaker:
+    - Luis Caro Campos
+  abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
+
+This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
+  
+- time: 10:30 - 11:30
+  item: "New Algorithms in C++23"
+  speaker: 
+    - Conor Hoekstra
+  abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
+ 
 - time: 11:30 - 12:30
-  item: "A bird's-eye view of template C++"
-  speaker: "Kris van Rens"
-  abstract: "C++ is a multi-paradigm programming language. This means it lends itself to solve a specific problem in various forms or styles. One of those forms or styles is object-oriented programming, with which C++ is often identified. Another strong suit of C++ is the support for generic programming and template metaprogramming. In this session we are going to look at modern-day C++ templates, and how we can use them effectively. Template programming sometimes has the reputation of being hard to understand and adopt, which surely may be the case for highly advanced usage. However, we will see that templates can be used for a myriad of purposes, which often have a low barrier to entry. Command of templates will greatly improve your efficiency and productivity as a C++ programmer. The topics we are going to cover include: generic programming, metaprogramming, type traits, static/compile-time polymorphism, variadic templates, and much more. Not only will we look at the state of templates in C++17, we will also address what C++20 and the future has to offer. Join me in this session exploring the wonderful and interesting world of C++ templates, and improve or refresh your knowledge."
-  feedback: "https://forms.gle/VKGZx5A7boYRgXSK6"
-  slides:
-  video: https://youtu.be/mfHFU9Zq_L4?t=24
+  item: "Lunch"
 
-- time: 12:45 - 13:35
-  item: "PMRs for performance in C++17/20"
-  speaker: "Marek Krajewski"
-  abstract: "In this talk we will discuss polymorphic memory resources. We start with a little of history of allocators in STL, their shortcommings and evolution. Next, we will have a look at the PMR design origins at Bloomberg, then discuss some basic PMR usage and than follow up with advanced patterns like \"Winking Out\"  and \"Local Garbage Collection\". Later we will have a brief look at the practical applications of PMRs and the possible performance improvements. Finaly we will discuss changes introduced to PMR in C++20."
-  feedback: "https://forms.gle/5B5JTieGp1mQS5Fy6"
-  slides:
-  video: https://youtu.be/zB2L6HRR-qQ?t=24
+- time: 12:30 - 13:30
+  item: "C++ and Game Development: the Good, the Bad, and the Ugly"
+  speaker: 
+    - Maurizio de Pascale
+  abstract: "Video games are some of the largest and most complex codebases today, usually measured in millions of lines of codes, with extreme requirements in terms of performance and memory efficiency, and a ton of concurrency sprinkled everywhere.
+Game developers also operates in an industry whose tempo is often dictated by strict milestones and unmovable release windows.
+These factors make C++ the best friend, but also the worst enemy, of game coders.
 
-- time: 13:35 - 14:05
+This talk will describe the AAA game development industry from a programmer's point of view (tools, environments, habits, processes and so forth), and recommend which bits of the language to embrace and which ones to stay away from. We will share lessons learned in developing a few videogames over the past 15 years.
+
+In particular, we will touch topics like concurrency, debugability, compilation time, memory management, hot-reloading, modern C++, data oriented design and functional style programming.
+
+Finally, we'll discuss what the future of game development might look like, and what are the challenges for C++ to stay relevant as the language of choice for game programmers in the future."
+
+
+- time: 13:30 - 14:00
+  item: "Hello, std::generator"
+  speaker: 
+    - Alberto Barbati
+  abstract: "C++ 23 introduces std::generator, a library facility that allows programmers to write ranges factories using coroutines, similarly to what can already be done in other languages."
+
+- time: 14:00 - 14:30
   item: "Networking Break"
 
-- time: 14:05 - 15:05
-  item: "Hook: The C++ library you were waiting for"
-  speaker: "Marcos Rojas"
-  abstract: "There are some really good C++ libraries out there, that is a fact. They provide for a comprehensive set of functionalities that C++ developers would definitely use on their software in order to shorten development times. So, we are not trying to reinvent the wheel. We decided to create hook, mainly, for one reason: Provide for a set of non-existent high-performance (and low consumption of system resources) modules that can be used in a modern (high-level idiomatic) way and can be directly used in different architectures (cross-platform design) without requiring for any additional binary files (header-only approach). ​What do we mean by modern? Well, imagine yourself using any other language (e.g.: javascript, golang, rust, …). It is a fact that these languages provide for a full set of built-in capabilities that make developer's life easier (e.g.: setting up an http server). C++ is a beast, there is no doubt about it, the only thing we need (as a C++ developer) is a way to simplify complex development by using the appropriate set of tools. This set of tools is what we provide with hook."
-  feedback: "https://forms.gle/YYDjY14s84Pp1fsR7"
-  slides:
-  video: https://youtu.be/kVqmbAaMz_4?t=23
-  
-- time: 15:15 - 15:45
-  item: "<i>Extrema</i>:  Correctly Calculating <code>min</code> and <code>max</code>"
-  speaker: "Walter E Brown"
-  abstract: "The C++ standard library long ago selected <code>operator<</code> as its ordering primitive.  This brief talk will explain why this operator must be used with care, in even such seemingly simple algorithms as <code>max</code> and <code>min</code>.  We also discuss the use of <code>operator<</code> in other order-related algorithms, showing how easy it is to make mistakes when directly using the primitive."
-  feedback: "https://forms.gle/DmM88sDjuroULpBR6"
-  slides:
-  video: https://www.youtube.com/watch?v=e-TNCbX8mOQ&t=23s
-  
-- time: 16:00 - 16:15
-  item: "Closing message in Track A"
-  
+- time: 14:30 - 15:30
+  item: "Hole!"
+
+- time: 15:30 - 16:00
+  item: "Closing Message In Track A"
