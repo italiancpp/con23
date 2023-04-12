@@ -1,7 +1,7 @@
-- time: 07:20 - 08:00
+- time: 07:15 - 07:50
   item: "Welcome Message In Track A"
   
-- time: 08:00 - 09:00
+- time: 07:50 - 08:40
   item: "Raffaele Rialdi"
   speaker: 
     - "Unreal Engine in C++, from scratch"
@@ -10,10 +10,10 @@ The Unreal Engine learning curve is steep not only because of its large codebase
 Behind the scenes there is of course C++ which thankfully is open source, but also very poorly documented. This makes the development process hard, with rare articles and videos showing C++ and its big advantages.
 In this session I will tell you my adventure as a novice in this world, how to create objects, the main libraries we can use and how to create animations."
 
-- time: 09:00 - 09:30
+- time: 08:40 - 09:15
   item: "Networking Break"
   
-- time: 09:30 - 10:30
+- time: 09:15 - 10:15
   item: "Conan 2.0: lessons learned from the C++ ecosystem"
   speaker:
     - Luis Caro Campos
@@ -21,16 +21,16 @@ In this session I will tell you my adventure as a novice in this world, how to c
 
 This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
   
-- time: 10:30 - 11:30
+- time: 10:15 - 11:05
   item: "New Algorithms in C++23"
   speaker: 
     - Conor Hoekstra
   abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
  
-- time: 11:30 - 12:30
+- time: 11:05 - 12:15
   item: "Lunch"
 
-- time: 12:30 - 13:30
+- time: 12:15 - 13:15
   item: "C++ and Game Development: the Good, the Bad, and the Ugly"
   speaker: 
     - Maurizio de Pascale
@@ -45,19 +45,19 @@ In particular, we will touch topics like concurrency, debugability, compilation 
 Finally, we'll discuss what the future of game development might look like, and what are the challenges for C++ to stay relevant as the language of choice for game programmers in the future."
 
 
-- time: 13:30 - 14:00
+- time: 13:15 - 14:05
   item: "Hello, std::generator"
   speaker: 
     - Alberto Barbati
   abstract: "C++ 23 introduces std::generator, a library facility that allows programmers to write ranges factories using coroutines, similarly to what can already be done in other languages."
 
-- time: 14:00 - 14:30
+- time: 14:05 - 14:40
   item: "Networking Break"
 
-- time: 14:30 - 15:30
+- time: 14:40 - 15:15
   item: "..."
   speaker: 
     - Luxoft
 
-- time: 15:30 - 16:00
+- time: 15:15 - 16:45
   item: "Closing Message In Track A"
