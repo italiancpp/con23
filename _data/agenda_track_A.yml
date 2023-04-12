@@ -7,7 +7,7 @@
 - time: 07:50 - 08:40
   item: "Improving Compilation Times: Tools & Techniques"
   speaker: 
-    -Vittorio Romeo
+    - Vittorio Romeo
   abstract: "\"Modules will solve everything\", people say -- some optimistically, others sarcastically. However, modules are far from reaching real-world maturity, and it is still not certain whether they will improve compilation times in every situation and how costly it will be to migrate a large codebase. Do we have to suffer with excruciating compilation times until we are able to migrate to modules? Not at all!
   
 If you are interested in learning about practical tools and techniques to improve compilation times on codebases of any size, *today*, this talk is for you! We will cover:
