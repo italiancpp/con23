@@ -25,17 +25,10 @@ If you are interested in learning about practical tools and techniques to improv
   item: "Coffee & Networking Break"
   
 - time: 09:15 - 10:15
-  item: "Back-to-Basics: Design Patterns"
-  speaker:
-    - Chris Ryan
-  abstract: "Join me on a tour of some of the more useful C++ Design Patterns that you will likely see and need to know. Knowing how to use Design Patterns will help your code's robustness and will enable others to better read your code and intent.
-When designing and writing code you will see similar techniques and patterns repeatedly used throughout different systems and programs. An experienced developer saves these tried and true, well debugged techniques in their personal toolbox for later use.
-
-Others have also noticed these patterns in designs. Some of the more useful techniques have been documented and organized in books like \"Design Patterns\" by the \"Gang of Four\" (aka \"GoF\"), \"Code Complete\" by Steve McConnell,... As coding paradigms have changed new design patterns have evolved.
-
-Other design patterns have worked their way into common use through usefulness. Techniques have been given names for quick reference and as a shorthand in the exchange of ideas. Think of Design Patterns as a mental standard library of building blocks for your designs."
-  
-  
+  item: "..."
+  speaker: 
+    - Luxoft
+ 
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"
   speaker: 
@@ -44,18 +37,16 @@ Other design patterns have worked their way into common use through usefulness. 
 C++ is a big language -- the upcoming C++23 standard will be over 2000 pages long. This talk will cover some obscure features you might not know. We will cover strange syntax like commutative array indexing and complicated declarators, surprising cases of undefined behavior in frequently used operators contrasted with a surprising lack of undefined behavior in operations that really shouldn't work, overlooked language facilities -- some of them actually useful, and half-forgotten standard library functions -- some of them for good reason.
 
 For each feature, we will talk about the what, the why, and how you can use it to write better (or much, *much* worse) C++ programs."
-
  
 - time: 11:05 - 12:15
   item: "Lunch"
 
 - time: 12:15 - 13:15
-  item: "Optimization Design Patterns"
+  item: "New Algorithms in C++23"
   speaker: 
-    - Mike Shah
-  abstract:  "\"Premature optimization is the root of all evil\" is a saying credited to Donald Knuth that speaks to many programmers with experience -- nut anecdotally I have observed folks overlooking the next sentence stating: \"Yet we should not pass up our opportunities in that critical 3%\". In this talk, the audience will be introduced to some common optimization design patterns. I will discuss precomputation, lazy versus eager evaluation, batching, caching, specialization, hinting, hashing, and using your compiler among 'optimization design patterns' that every programmer should be aware of. Examples will be demonstrated in Modern C++, and the goal is for the audience to leave feeling comfortable implementing each optimization design pattern to improve performance of their code."
-
-
+    - Conor Hoekstra
+  abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
+ 
 - time: 13:15 - 14:05
   item: "A case for non-virtual virtual inheritance"
   speaker: 
@@ -66,7 +57,7 @@ However, oftentimes data processing needs some memory space to store transient r
 In this talk I will try to explore first some design alternatives to give the user more control on where to store transient data, and then a case for non-virtual virtual inheritance as a means to share buffers among similar algorithms, together with some metaprogramming tricks to ease their usage. "
 
 - time: 14:05 - 14:40
-  item: "Networking Break"
+  item: "Coffee & Networking Break"
   
 - time: 14:40 - 15:15
   item: "Things you can learn by the C++ standard library"
@@ -76,7 +67,6 @@ In this talk I will try to explore first some design alternatives to give the us
 But taking a closer look at the algorithms and data structures that are already in the standard, it is easy to witness a world full of clever solutions and efficient ideas: from what drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensures that 0-cost abstractions are, indeed, free.
 In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
   
-
 - time: 15:15 - 16:45
   item: "Closing Message"
   speaker: 

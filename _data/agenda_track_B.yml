@@ -11,29 +11,12 @@ Behind the scenes there is of course C++ which thankfully is open source, but al
 In this session I will tell you my adventure as a novice in this world, how to create objects, the main libraries we can use and how to create animations."
 
 - time: 08:40 - 09:15
-  item: "Networking Break"
+  item: "Coffee & Networking Break"
   
 - time: 09:15 - 10:15
-  item: "Conan 2.0: lessons learned from the C++ ecosystem"
-  speaker:
-    - Luis Caro Campos
-  abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
-
-This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
-  
-- time: 10:15 - 11:05
-  item: "New Algorithms in C++23"
-  speaker: 
-    - Conor Hoekstra
-  abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
- 
-- time: 11:05 - 12:15
-  item: "Lunch"
-
-- time: 12:15 - 13:15
   item: "C++ and Game Development: the Good, the Bad, and the Ugly"
   speaker: 
-    - Maurizio de Pascale
+    - Maurizio De Pascale
   abstract: "Video games are some of the largest and most complex codebases today, usually measured in millions of lines of codes, with extreme requirements in terms of performance and memory efficiency, and a ton of concurrency sprinkled everywhere.
 Game developers also operates in an industry whose tempo is often dictated by strict milestones and unmovable release windows.
 These factors make C++ the best friend, but also the worst enemy, of game coders.
@@ -43,7 +26,26 @@ This talk will describe the AAA game development industry from a programmer's po
 In particular, we will touch topics like concurrency, debugability, compilation time, memory management, hot-reloading, modern C++, data oriented design and functional style programming.
 
 Finally, we'll discuss what the future of game development might look like, and what are the challenges for C++ to stay relevant as the language of choice for game programmers in the future."
+ 
+- time: 10:15 - 11:05
+  item: "Back-to-Basics: Design Patterns"
+  speaker:
+    - Chris Ryan
+  abstract: "Join me on a tour of some of the more useful C++ Design Patterns that you will likely see and need to know. Knowing how to use Design Patterns will help your code's robustness and will enable others to better read your code and intent.
+When designing and writing code you will see similar techniques and patterns repeatedly used throughout different systems and programs. An experienced developer saves these tried and true, well debugged techniques in their personal toolbox for later use.
 
+Others have also noticed these patterns in designs. Some of the more useful techniques have been documented and organized in books like \"Design Patterns\" by the \"Gang of Four\" (aka \"GoF\"), \"Code Complete\" by Steve McConnell,... As coding paradigms have changed new design patterns have evolved.
+
+Other design patterns have worked their way into common use through usefulness. Techniques have been given names for quick reference and as a shorthand in the exchange of ideas. Think of Design Patterns as a mental standard library of building blocks for your designs."
+  
+- time: 11:05 - 12:15
+  item: "Lunch"
+
+- time: 12:15 - 13:15
+  item: "Optimization Design Patterns"
+  speaker: 
+    - Mike Shah
+  abstract:  "\"Premature optimization is the root of all evil\" is a saying credited to Donald Knuth that speaks to many programmers with experience -- nut anecdotally I have observed folks overlooking the next sentence stating: \"Yet we should not pass up our opportunities in that critical 3%\". In this talk, the audience will be introduced to some common optimization design patterns. I will discuss precomputation, lazy versus eager evaluation, batching, caching, specialization, hinting, hashing, and using your compiler among 'optimization design patterns' that every programmer should be aware of. Examples will be demonstrated in Modern C++, and the goal is for the audience to leave feeling comfortable implementing each optimization design pattern to improve performance of their code."
 
 - time: 13:15 - 14:05
   item: "Hello, std::generator"
@@ -52,12 +54,14 @@ Finally, we'll discuss what the future of game development might look like, and 
   abstract: "C++ 23 introduces std::generator, a library facility that allows programmers to write ranges factories using coroutines, similarly to what can already be done in other languages."
 
 - time: 14:05 - 14:40
-  item: "Networking Break"
+  item: "Coffee & Networking Break"
 
 - time: 14:40 - 15:15
-  item: "..."
-  speaker: 
-    - Luxoft
+  item: "Conan 2.0: lessons learned from the C++ ecosystem"
+  speaker:
+    - Luis Caro Campos
+  abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
+This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
 
 - time: 15:15 - 16:45
   item: "Closing Message In Track A"
