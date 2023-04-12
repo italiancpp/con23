@@ -28,10 +28,6 @@
     {% if site.sections contains "cfs" %}
         {% include cfs-form.html %}
     {% endif %}
-    
-    {% if site.sections contains "sponsors" %}
-        {% include sponsors-home.html %}
-    {% endif %}
    
     {% if site.sections contains "reservation" %}
         {% include embedded-reservation-modal.html %}
@@ -44,6 +40,10 @@
     
     {% if site.sections contains "agenda" %}
         {% include agenda-home.html %}
+    {% endif %}
+    
+    {% if site.sections contains "sponsors" %}
+        {% include sponsors-home.html %}
     {% endif %}
     
     {% if site.sections contains "map" %}
