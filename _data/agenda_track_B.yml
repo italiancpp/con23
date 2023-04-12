@@ -2,9 +2,9 @@
   item: "Welcome Message In Track A"
   
 - time: 07:50 - 08:40
-  item: "Raffaele Rialdi"
+  item: "Unreal Engine in C++, from scratch"
   speaker: 
-    - "Unreal Engine in C++, from scratch"
+    - Raffaele Rialdi
   abstract: "The graphic framework Unreal Engine by Epic is one for the most popular and sophisticated game engines to create videogames but, more and more often, it is also used in other fields to build high-quality and stunning graphics interactive applications.
 The Unreal Engine learning curve is steep not only because of its large codebase but also because most of the developers use almost exclusively the \"blueprints\" with a graphical editor, with almost no-code.
 Behind the scenes there is of course C++ which thankfully is open source, but also very poorly documented. This makes the development process hard, with rare articles and videos showing C++ and its big advantages.
