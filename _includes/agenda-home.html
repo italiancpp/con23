@@ -50,11 +50,11 @@ function ConvertToTimeZone(isoDate, timeZone) {
               date.getUTCHours(),
               date.getUTCMinutes(),
               date.getUTCSeconds()
-            ).toLocaleString('es-ES')
-        )
+            ).toLocaleString('es-ES', {hour: "numeric", minute: "numeric"})
+        );
     }
     
-    return date.toLocaleString("it-IT", {timeZone: timeZone});   
+    return date.toLocaleString("it-IT", {timeZone: timeZone, hour: "numeric", minute: "numeric"});   
 }
 
 function ToFullIsoDate(agendaTimeString) {
@@ -91,7 +91,7 @@ function ConvertToSelectedTimeZone() {
 
 <a id="agenda" class="push-down-anchor"></a>
 <div class="text-center">
-    <h1>Agenda (time in dd/mm/YYYY!)</h1>
+    <h1>Agenda</h1>
 </div>
 
     <!-- TODO: this may "corrupt" elements we add after. Bring out? Include in home itself? -->
