@@ -33,8 +33,7 @@ If you are interested in learning about practical tools and techniques to improv
   item: "C++ Features You Might Not Know"
   speaker: 
     - Jonathan Müller
-  abstract: " 
-C++ is a big language -- the upcoming C++23 standard will be over 2000 pages long. This talk will cover some obscure features you might not know. We will cover strange syntax like commutative array indexing and complicated declarators, surprising cases of undefined behavior in frequently used operators contrasted with a surprising lack of undefined behavior in operations that really shouldn't work, overlooked language facilities -- some of them actually useful, and half-forgotten standard library functions -- some of them for good reason.
+  abstract: "C++ is a big language -- the upcoming C++23 standard will be over 2000 pages long. This talk will cover some obscure features you might not know. We will cover strange syntax like commutative array indexing and complicated declarators, surprising cases of undefined behavior in frequently used operators contrasted with a surprising lack of undefined behavior in operations that really shouldn't work, overlooked language facilities -- some of them actually useful, and half-forgotten standard library functions -- some of them for good reason.
 
 For each feature, we will talk about the what, the why, and how you can use it to write better (or much, *much* worse) C++ programs."
  
