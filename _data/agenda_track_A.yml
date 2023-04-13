@@ -59,13 +59,12 @@ In this talk I will try to explore first some design alternatives to give the us
   item: "Coffee & Networking Break"
   
 - time: 14:40 - 15:15
-  item: "Things you can learn by the C++ standard library"
-  speaker: 
-    - Davide Bianchi
-  abstract: "C++ programmers often complain about the lack of features, featuring in the standard library. Many community favorites - like optional, variant and byte - took years to come in; networking is yet unreachable and graphics is nowhere to be seen.
-But taking a closer look at the algorithms and data structures that are already in the standard, it is easy to witness a world full of clever solutions and efficient ideas: from what drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensures that 0-cost abstractions are, indeed, free.
-In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
-  
+  item: "Conan 2.0: lessons learned from the C++ ecosystem"
+  speaker:
+    - Luis Caro Campos
+  abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
+This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
+
 - time: 15:15 - 16:45
   item: "Closing Message"
   speaker: 
