@@ -24,10 +24,10 @@ If you are interested in learning about practical tools and techniques to improv
 - time: 08:40 - 09:15
   item: "Coffee & Networking Break"
   
-- time: 09:15 - 10:15
-  item: "..."
+- time: 09:15 - 10:05
+  item: "TBA"
   speaker: 
-    - Luxoft
+    - TBA
  
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"
@@ -37,16 +37,16 @@ If you are interested in learning about practical tools and techniques to improv
 
 For each feature, we will talk about the what, the why, and how you can use it to write better (or much, *much* worse) C++ programs."
  
-- time: 11:05 - 12:15
+- time: 11:05 - 12:20
   item: "Lunch"
 
-- time: 12:15 - 13:15
+- time: 12:20 - 13:10
   item: "New Algorithms in C++23"
   speaker: 
     - Conor Hoekstra
   abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
  
-- time: 13:15 - 14:05
+- time: 13:20 - 13:50
   item: "A case for non-virtual virtual inheritance"
   speaker: 
     - Marco Manino
@@ -55,17 +55,17 @@ In the context of DSP, C++20's `std::span` offers a great abstraction, allowing 
 However, oftentimes data processing needs some memory space to store transient results or cache intermediate values. While `constexpr` memory allocation are allowed in C++20, functions which explicitly allocate are cumbersome for embedded systems, as the size of the allocation can't be checked at compile-time for correctness.
 In this talk I will try to explore first some design alternatives to give the user more control on where to store transient data, and then a case for non-virtual virtual inheritance as a means to share buffers among similar algorithms, together with some metaprogramming tricks to ease their usage. "
 
-- time: 14:05 - 14:40
+- time: 13:50 - 14:25
   item: "Coffee & Networking Break"
   
-- time: 14:40 - 15:15
+- time: 14:25 - 15:15
   item: "Conan 2.0: lessons learned from the C++ ecosystem"
   speaker:
     - Luis Caro Campos
   abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
 This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
 
-- time: 15:15 - 16:45
+- time: 15:20 - 15:50
   item: "Closing Message"
   speaker: 
     - "Marco Arena"
