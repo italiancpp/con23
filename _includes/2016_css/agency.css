@@ -990,6 +990,7 @@ body {
 
 .agenda-toggle:hover {
     color: #{{ site.data.template.color.italiacpp-blue }} !important;
+    cursor: pointer;
 }
 
 
