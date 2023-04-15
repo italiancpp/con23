@@ -140,11 +140,11 @@ function ConvertToSelectedTimeZone() {
                     {%- if abstract.size > truncation_limit -%}
                         <p class="abstract" 
                            id="{{i}}A_long"
-                           style="display:none">{{- abstract -}} </p><p class="abstract"
+                           style="display:none">{{- abstract -}} </p><p class="agenda-toggle abstract"
                           id="{{i}}A_long_toggle"
                           onclick="swapShortVersion('{{i}}A')"
                           style="display:none">(click here to reduce)</p><p class="abstract"
-                          id="{{i}}A_short">{{- abstract | truncate: truncation_limit -}}</p><p class="abstract"
+                          id="{{i}}A_short">{{- abstract | truncate: truncation_limit -}}</p><p class="agenda-toggle abstract"
                           id="{{i}}A_short_toggle"
                           onclick="swapShortVersion('{{i}}A')">(click here to read more)</p>
                     {%- else -%}
@@ -159,11 +159,11 @@ function ConvertToSelectedTimeZone() {
                     {%- if abstract.size > truncation_limit -%}
                         <p class="abstract" 
                            id="{{i}}B_long"
-                           style="display:none">{{- abstract -}} </p><p class="abstract"
+                           style="display:none">{{- abstract -}} </p><p class="agenda-toggle abstract"
                           id="{{i}}B_long_toggle"
                           onclick="swapShortVersion('{{i}}B')"
                           style="display:none">(click here to reduce)</p><p class="abstract"
-                          id="{{i}}B_short">{{- abstract | truncate: truncation_limit -}}</p><p class="abstract"
+                          id="{{i}}B_short">{{- abstract | truncate: truncation_limit -}}</p><p class="agenda-toggle abstract"
                           id="{{i}}B_short_toggle"
                           onclick="swapShortVersion('{{i}}B')">(click here to read more)</p>
                     {%- else -%}
