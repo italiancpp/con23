@@ -8,9 +8,9 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="grid-speakers h-flex">
             {% for speaker in  site.data.speakers %}
-                <div class="col-md-2 col-sm-6 speakers-item">
+                <div class="speakers-item">
                     <a href="#speaker_id_{{ speaker.name | replace: " ", "_" }}" class="speakers-link" data-toggle="modal">
                         <img src="img/Speaker_{{ speaker.name | replace: " ", "_"  }}.{{ speaker.format }}" class="img-responsive img-centered" alt="Picture of {{ speaker.name }}">
                     </a>
