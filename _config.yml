@@ -12,10 +12,10 @@ baseurl: "/con23" # the subpath of your site, e.g. /blog Remove to serve the sit
 url: "italiancpp.github.io" # the base hostname & protocol for your site
 
 # Allowed values: cfs, reservation, speakers, agenda, map, sponsors.
-sections: ['speakers', 'agenda', 'sponsors', 'map']
+sections: ['reservation', 'speakers', 'agenda', 'sponsors', 'map']
 
 general_feedback: "https://forms.gle/rctcxe9jou87TydF8"
-eventbrite_id: "150150445023"
+eventbrite_id: "612358138677"
 
 # Build settings
 markdown: kramdown
@@ -39,7 +39,7 @@ plugins:
 # Social networks usernames 
 social:
   - title: desktop
-    url: https://www.italiancpp.org
+    url: https://italiancpp.org
   - title: facebook
     url: https://www.facebook.com/italiancpp/
   - title: twitter
