@@ -56,11 +56,11 @@ Other design patterns have worked their way into common use through usefulness. 
   item: "Coffee & Networking Break"
 
 - time: 14:25 - 15:15
-  item: "Things you can learn by the C++ standard library"
+  item: "Things you can learn from the C++ standard library"
   speaker: 
     - Davide Bianchi
-  abstract: "C++ programmers often complain about the lack of features, featuring in the standard library. Many community favorites - like optional, variant and byte - took years to come in; networking is yet unreachable and graphics is nowhere to be seen.
-But taking a closer look at the algorithms and data structures that are already in the standard, it is easy to witness a world full of clever solutions and efficient ideas: from what drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensures that 0-cost abstractions are, indeed, free.
+  abstract: "C++ programmers often complain about the lack of features in the standard library. Many community favorites - like optional, variant and byte - took years to come in; networking is not available yet, and graphics is nowhere to be seen.
+But taking a closer look at the algorithms and data structures that are already available, it is easy to witness a world full of clever solutions and efficient ideas: from what it drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensure that 0-cost abstractions are, indeed, free.
 In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
   
 - time: 15:20 - 15:50
