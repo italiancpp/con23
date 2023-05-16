@@ -25,9 +25,10 @@ If you are interested in learning about practical tools and techniques to improv
   item: "Coffee & Networking Break"
   
 - time: 09:15 - 10:05
-  item: "TBA"
+  item: "Towards safe C++: type safety and safety critical domain challenges"
   speaker: 
-    - TBA
+    - Mohamed Selim
+  abstract: "C++ in safety critical domain. How to approach type safety in particular when it comes to safety critical domains e.g. Automotive. Challenges in domain,  beyond C++14 solutions."
  
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"

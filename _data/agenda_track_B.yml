@@ -41,15 +41,10 @@ Finally, we'll discuss what the future of game development might look like, and 
   item: "Lunch"
 
 - time: 12:20 - 13:10
-  item: "Back-to-Basics: Design Patterns"
+  item: "Lock-free Micro Problems"
   speaker:
-    - Chris Ryan
-  abstract: "Join me on a tour of some of the more useful C++ Design Patterns that you will likely see and need to know. Knowing how to use Design Patterns will help your code's robustness and will enable others to better read your code and intent.
-When designing and writing code you will see similar techniques and patterns repeatedly used throughout different systems and programs. An experienced developer saves these tried and true, well debugged techniques in their personal toolbox for later use.
-
-Others have also noticed these patterns in designs. Some of the more useful techniques have been documented and organized in books like \"Design Patterns\" by the \"Gang of Four\" (aka \"GoF\"), \"Code Complete\" by Steve McConnell,... As coding paradigms have changed new design patterns have evolved.
-
-Other design patterns have worked their way into common use through usefulness. Techniques have been given names for quick reference and as a shorthand in the exchange of ideas. Think of Design Patterns as a mental standard library of building blocks for your designs."
+    - Davide Di Gennaro
+  abstract: "Another talk in the micro-problems series, focused on showing small and clever pieces of code that solve practical problems, this talk will be focused on lock-free code and applications."
   
 - time: 13:20 - 13:50
   item: "Hello, std::generator"

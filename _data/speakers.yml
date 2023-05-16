@@ -73,11 +73,11 @@ He began programming around the age of 8 and became a C++ enthusiast shortly aft
 
 He co-authored the acclaimed \"Embracing Modern C++ Safely\" book (published in January 2022) with J. Lakos, R. Khlebnikov, and A. Meredith."
 
-- name: Chris Ryan
-  job: Software Engineer
-  topic: "Back-to-Basics: Design Patterns "
-  format: jpeg
-  description: "Chris Ryan was classically trained in both software and hardware engineering. He is well experienced in Modern C++ and Classic ‘C’ on Embedded/Firmware devices with extremely large/complex problem spaces but believes in simplification and reducing complexity. Chris has no interest in C#/.,Net, Java, js or any web-ish tech."
+- name: Davide Di Gennaro
+  job: Senior Software Engineer
+  topic: "Lock-free Micro Problems"
+  format: jpg
+  description: "C++ Algorithm Designer, author of books on Metaprogramming."
   
 - name: Mike Shah
   job: Associate Teaching Professor and 3D Graphics Engineer
@@ -85,8 +85,8 @@ He co-authored the acclaimed \"Embracing Modern C++ Safely\" book (published in 
   format: JPG
   description: "Mike Shah is an Associate Teaching Professor at Northeastern University in the Khoury College of Computer Sciences. His primary teaching interests are in computer systems, computer graphics, and software engineering. His research interests are related to performance engineering (dynamic analysis), software visualization, and computer graphics. Along with teaching and research work, he have juggled occasional consulting work as a 3D Senior Graphics Engineer in C++"
  
-#- name: TBA
-#  job: tba
-#  topic: "TBA"
-#  format: jpg
-#  description: "TBA"
+- name: Mohamed Selim
+  job: Senior Software Engineer at Luxoft Italy
+  topic: "Towards safe C++: type safety and safety critical domain challenges"
+  format: jpg
+  description: "C++ software engineer passionate about performance, design and quality. Coming from various domains: automotive, industry , research and medical imaging."
