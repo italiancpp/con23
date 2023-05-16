@@ -29,7 +29,7 @@ If you are interested in learning about practical tools and techniques to improv
   speaker: 
     - Mohamed Selim
   abstract: "C++ in safety critical domain. How to approach type safety in particular when it comes to safety critical domains e.g. Automotive. Challenges in domain,  beyond C++14 solutions."
-  feedback: https://docs.google.com/forms/d/e/1FAIpQLSdGaWPFE3oZ6rp2zfEan2uA5SqNpKhsYwZQ6jAXLnOBbKourQ/
+  feedback: https://forms.gle/TViX8DgSk5YUqPsv9
 
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"
@@ -48,7 +48,8 @@ For each feature, we will talk about the what, the why, and how you can use it t
   speaker: 
     - Conor Hoekstra
   abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
- 
+  feedback: https://forms.gle/GMjf8uMQSG7CZnyP6
+
 - time: 13:20 - 13:50
   item: "A case for non-virtual virtual inheritance"
   speaker: 

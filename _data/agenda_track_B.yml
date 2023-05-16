@@ -45,7 +45,7 @@ Finally, we'll discuss what the future of game development might look like, and 
   speaker:
     - Davide Di Gennaro
   abstract: "Another talk in the micro-problems series, focused on showing small and clever pieces of code that solve practical problems, this talk will be focused on lock-free code and applications."
-  feedback: https://docs.google.com/forms/d/e/1FAIpQLSeB7ZdxrexDSZSNFlU78X2t4PXHN4hO0RVr49Z93ysAeSH3Xg/
+  feedback: https://forms.gle/86dcZaBV2wc4udHfA
 
 - time: 13:20 - 13:50
   item: "Hello, std::generator"
