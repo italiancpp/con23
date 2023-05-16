@@ -17,7 +17,7 @@ If you are interested in learning about practical tools and techniques to improv
 - Automatically transforming your build into a \"unity build\";
 - When to selectively replace heavyweight standard library headers;
 - General techniques to reduce physical dependencies between components."
-  feedback: https://docs.google.com/forms/d/1sFL5bzcwKkscs9GVGV_AUu5yuB7Npu64YDSw8ClQcKQ/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1sFL5bzcwKkscs9GVGV_AUu5yuB7Npu64YDSw8ClQcKQ/
 #  slides:
 #  video:
 
@@ -25,10 +25,12 @@ If you are interested in learning about practical tools and techniques to improv
   item: "Coffee & Networking Break"
   
 - time: 09:15 - 10:05
-  item: "TBA"
+  item: "Towards safe C++: type safety and safety critical domain challenges"
   speaker: 
-    - TBA
- 
+    - Mohamed Selim
+  abstract: "C++ in safety critical domain. How to approach type safety in particular when it comes to safety critical domains e.g. Automotive. Challenges in domain,  beyond C++14 solutions."
+  feedback: https://forms.gle/TViX8DgSk5YUqPsv9
+
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"
   speaker: 
@@ -36,7 +38,7 @@ If you are interested in learning about practical tools and techniques to improv
   abstract: "C++ is a big language -- the upcoming C++23 standard will be over 2000 pages long. This talk will cover some obscure features you might not know. We will cover strange syntax like commutative array indexing and complicated declarators, surprising cases of undefined behavior in frequently used operators contrasted with a surprising lack of undefined behavior in operations that really shouldn't work, overlooked language facilities -- some of them actually useful, and half-forgotten standard library functions -- some of them for good reason.
 
 For each feature, we will talk about the what, the why, and how you can use it to write better (or much, *much* worse) C++ programs."
-  feedback: https://docs.google.com/forms/d/1RMH5gEYyxUbxNCzuOMrBTk_Je8EChqCHzuFtEJVBV4M/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1RMH5gEYyxUbxNCzuOMrBTk_Je8EChqCHzuFtEJVBV4M/
  
 - time: 11:05 - 12:20
   item: "Lunch"
@@ -46,7 +48,8 @@ For each feature, we will talk about the what, the why, and how you can use it t
   speaker: 
     - Conor Hoekstra
   abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
- 
+  feedback: https://forms.gle/GMjf8uMQSG7CZnyP6
+
 - time: 13:20 - 13:50
   item: "A case for non-virtual virtual inheritance"
   speaker: 
@@ -55,7 +58,7 @@ For each feature, we will talk about the what, the why, and how you can use it t
 In the context of DSP, C++20's `std::span` offers a great abstraction, allowing the user to write a code once, that can work both at compile-time and at run-time.
 However, oftentimes data processing needs some memory space to store transient results or cache intermediate values. While `constexpr` memory allocation are allowed in C++20, functions which explicitly allocate are cumbersome for embedded systems, as the size of the allocation can't be checked at compile-time for correctness.
 In this talk I will try to explore first some design alternatives to give the user more control on where to store transient data, and then a case for non-virtual virtual inheritance as a means to share buffers among similar algorithms, together with some metaprogramming tricks to ease their usage. "
-  feedback: https://docs.google.com/forms/d/1pddlx3u5nevhzq_Y0La5XFqe5njUGDaMKkNXa45gPX4/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1pddlx3u5nevhzq_Y0La5XFqe5njUGDaMKkNXa45gPX4/
 
 - time: 13:50 - 14:25
   item: "Coffee & Networking Break"
@@ -66,7 +69,7 @@ In this talk I will try to explore first some design alternatives to give the us
     - Luis Caro Campos
   abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
 This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
-  feedback: https://docs.google.com/forms/d/1H_0czURbxEHHGO74N7hzl3G-pP1zRNxq-riVS2OGxgY/edit
+  feedback: https://docs.google.com/forms/d/1H_0czURbxEHHGO74N7hzl3G-pP1zRNxq-riVS2OGxgY/
 
 - time: 15:20 - 15:50
   item: "Closing Message"

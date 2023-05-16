@@ -9,7 +9,7 @@
 The Unreal Engine learning curve is steep not only because of its large codebase but also because most of the developers use almost exclusively the \"blueprints\" with a graphical editor, with almost no-code.
 Behind the scenes there is of course C++ which thankfully is open source, but also very poorly documented. This makes the development process hard, with rare articles and videos showing C++ and its big advantages.
 In this session I will tell you my adventure as a novice in this world, how to create objects, the main libraries we can use and how to create animations."
-  feedback: https://docs.google.com/forms/d/1snUOYbrrfrrIOulDvNcoZZHctsphfdAo5_V6gEFv4aw/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1snUOYbrrfrrIOulDvNcoZZHctsphfdAo5_V6gEFv4aw/
 
 - time: 08:40 - 09:15
   item: "Coffee & Networking Break"
@@ -27,36 +27,32 @@ This talk will describe the AAA game development industry from a programmer's po
 In particular, we will touch topics like concurrency, debugability, compilation time, memory management, hot-reloading, modern C++, data oriented design and functional style programming.
 
 Finally, we'll discuss what the future of game development might look like, and what are the challenges for C++ to stay relevant as the language of choice for game programmers in the future."
-  feedback: https://docs.google.com/forms/d/1T8YPcYdzhGZ70n-4Vcvgjz_jzatWPPB7FJ73SBPFchY/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1T8YPcYdzhGZ70n-4Vcvgjz_jzatWPPB7FJ73SBPFchY/
  
 - time: 10:15 - 11:05
   item: "Optimization Design Patterns"
   speaker: 
     - Mike Shah
   abstract:  "\"Premature optimization is the root of all evil\" is a saying credited to Donald Knuth that speaks to many programmers with experience -- nut anecdotally I have observed folks overlooking the next sentence stating: \"Yet we should not pass up our opportunities in that critical 3%\". In this talk, the audience will be introduced to some common optimization design patterns. I will discuss precomputation, lazy versus eager evaluation, batching, caching, specialization, hinting, hashing, and using your compiler among 'optimization design patterns' that every programmer should be aware of. Examples will be demonstrated in Modern C++, and the goal is for the audience to leave feeling comfortable implementing each optimization design pattern to improve performance of their code."
-  feedback: https://docs.google.com/forms/d/1tDYdEU6pTkaiYVqZ7T-AkHku9shTnJkkQXGCpS5dnFo/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1tDYdEU6pTkaiYVqZ7T-AkHku9shTnJkkQXGCpS5dnFo/
   
   
 - time: 11:05 - 12:20
   item: "Lunch"
 
 - time: 12:20 - 13:10
-  item: "Back-to-Basics: Design Patterns"
+  item: "Lock-free Micro Problems"
   speaker:
-    - Chris Ryan
-  abstract: "Join me on a tour of some of the more useful C++ Design Patterns that you will likely see and need to know. Knowing how to use Design Patterns will help your code's robustness and will enable others to better read your code and intent.
-When designing and writing code you will see similar techniques and patterns repeatedly used throughout different systems and programs. An experienced developer saves these tried and true, well debugged techniques in their personal toolbox for later use.
+    - Davide Di Gennaro
+  abstract: "Another talk in the micro-problems series, focused on showing small and clever pieces of code that solve practical problems, this talk will be focused on lock-free code and applications."
+  feedback: https://forms.gle/86dcZaBV2wc4udHfA
 
-Others have also noticed these patterns in designs. Some of the more useful techniques have been documented and organized in books like \"Design Patterns\" by the \"Gang of Four\" (aka \"GoF\"), \"Code Complete\" by Steve McConnell,... As coding paradigms have changed new design patterns have evolved.
-
-Other design patterns have worked their way into common use through usefulness. Techniques have been given names for quick reference and as a shorthand in the exchange of ideas. Think of Design Patterns as a mental standard library of building blocks for your designs."
-  
 - time: 13:20 - 13:50
   item: "Hello, std::generator"
   speaker: 
     - Alberto Barbati
   abstract: "C++ 23 introduces std::generator, a library facility that allows programmers to write ranges factories using coroutines, similarly to what can already be done in other languages."
-  feedback: https://docs.google.com/forms/d/1hbhFnSydocQqQ5iWku6ZjfC9Rgjzg6LG7bFy5GbRG9U/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1hbhFnSydocQqQ5iWku6ZjfC9Rgjzg6LG7bFy5GbRG9U/
 
 - time: 13:50 - 14:25
   item: "Coffee & Networking Break"
@@ -68,7 +64,7 @@ Other design patterns have worked their way into common use through usefulness. 
   abstract: "C++ programmers often complain about the lack of features in the standard library. Many community favorites - like optional, variant and byte - took years to come in; networking is not available yet, and graphics is nowhere to be seen.
 But taking a closer look at the algorithms and data structures that are already available, it is easy to witness a world full of clever solutions and efficient ideas: from what it drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensure that 0-cost abstractions are, indeed, free.
 In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
-  feedback: https://docs.google.com/forms/d/1QbCt98j-CDL8fP5dpN_bIsTMiW0K8PqpDyyz0Y_a0og/edit?usp=drive_web
+  feedback: https://docs.google.com/forms/d/1QbCt98j-CDL8fP5dpN_bIsTMiW0K8PqpDyyz0Y_a0og/
   
 - time: 15:20 - 15:50
   item: "Closing Message In Track A"
