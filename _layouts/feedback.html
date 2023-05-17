@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 {% include head.html %}
@@ -19,8 +20,45 @@
     }
 </style>
 
+<script type="text/javascript">
+
+function ToFullIsoDate(agendaTimeString, dayString) {
+    return dayString + "T" + agendaTimeString.trim() + ":00Z";
+}
+
+function ConvertToRomeTimeZone(isoDate) {
+    var timeZone = "Europe/Rome";
+    var date = new Date(isoDate);
+    return date.toLocaleString("it-IT", {timeZone: timeZone, hour: "numeric", minute: "numeric"});   
+}
+
+
+function AllTimesToRomeTime() {
+    var dayString = document.getElementById("baseIsoDate").value;
+    
+    var timesToConvert = document.getElementsByClassName("convertibleTime"); 
+    for (var i = 0; i < timesToConvert.length; ++i) {
+        var timeParagraph = timesToConvert[i];
+        var dateAsText = timeParagraph.textContent;
+        var utcTimes = dateAsText.split("-"); // Time must be like 11:30 - 12:30.
+        
+        var startTime = ToFullIsoDate(utcTimes[0], dayString);
+        var endTime = ToFullIsoDate(utcTimes[1], dayString);
+        
+         dateAsText = 
+            ConvertToRomeTimeZone(startTime) +
+            " - " +
+            ConvertToRomeTimeZone(endTime);
+            
+        timeParagraph.textContent= dateAsText;
+    } 
+}
+</script>
+
 </head>
 <body>
+
+<input type="hidden" id="baseIsoDate" value="{{ site.date }}">
 
 <div>
     <div class="text-center">
@@ -52,7 +90,7 @@
                 {% if track_a[i].feedback or track_b[i].feedback%}
                     <div class="h-flex">
                     {%- assign time = track_a[i].time -%}
-            	    <p class="time-col">{{time}} </p>
+            	    <p class="time-col convertibleTime">{{time}}</p>
             	    <p class="track-col">
             	        {% if track_a[i].feedback %}
 	                        <a href="{{track_a[i].feedback}}" target="_blank">{{track_a[i].item}}</a>
@@ -74,6 +112,10 @@
         </div>
     </hr>
 </div>
-  
+ 
+ <script type="text/javascript">
+    AllTimesToRomeTime();
+ </script>
+ 
 </body>
 </html>
