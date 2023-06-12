@@ -72,7 +72,8 @@ In this talk I will try to explore first some design alternatives to give the us
   abstract: "Developers often look at the package managers of other languages with envy: Python (pip), Java (Maven, Gradle), Javascript (npm), Rust (Cargo). Arguably, the C++ ecosystem has challenges that are unique and not found in other languages, with decades of history. What is holding us back? With Conan, we aim to support this huge ecosystem: multiple build systems, managing and reusing system native libraries, static and dynamic/shared linking, multiple platforms, ability to cross-build, symbol visibility, propagation of usage requirements, and so on. All of these (and more!) place impossibly high expectations on a C++ package manager, in particular when developers want a powerful solution that doesn’t require them to compromise.
 This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
   feedback: https://docs.google.com/forms/d/1H_0czURbxEHHGO74N7hzl3G-pP1zRNxq-riVS2OGxgY/
-
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Conan%202.0_%20lessons%20learned%20from%20the%20C%2B%2B%20ecosystem%20-%20Luis%20Campos.pdf
+  
 - time: 15:20 - 15:50
   item: "Closing Message"
   speaker: 
