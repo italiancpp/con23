@@ -30,7 +30,8 @@ If you are interested in learning about practical tools and techniques to improv
     - Mohamed Selim
   abstract: "C++ in safety critical domain. How to approach type safety in particular when it comes to safety critical domains e.g. Automotive. Challenges in domain,  beyond C++14 solutions."
   feedback: https://forms.gle/TViX8DgSk5YUqPsv9
-
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Towards%20safe%20C%2B%2B%20-%20Mohamed%20Selim.pdf
+  
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"
   speaker: 
