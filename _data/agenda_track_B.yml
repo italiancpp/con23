@@ -10,6 +10,7 @@ The Unreal Engine learning curve is steep not only because of its large codebase
 Behind the scenes there is of course C++ which thankfully is open source, but also very poorly documented. This makes the development process hard, with rare articles and videos showing C++ and its big advantages.
 In this session I will tell you my adventure as a novice in this world, how to create objects, the main libraries we can use and how to create animations."
   feedback: https://docs.google.com/forms/d/1snUOYbrrfrrIOulDvNcoZZHctsphfdAo5_V6gEFv4aw/
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Unreal%20Engine%20In%20C%2B%2B%20From%20Scratch%20-%20Raffaele%20Rialdi.pdf
 
 - time: 08:40 - 09:15
   item: "Coffee & Networking Break"
@@ -46,6 +47,7 @@ Finally, we'll discuss what the future of game development might look like, and 
     - Davide Di Gennaro
   abstract: "Another talk in the micro-problems series, focused on showing small and clever pieces of code that solve practical problems, this talk will be focused on lock-free code and applications."
   feedback: https://forms.gle/86dcZaBV2wc4udHfA
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Lock-free%20micro%20problems%20-%20Davide%20Di%20Gennaro.pdf
 
 - time: 13:20 - 13:50
   item: "Hello, std::generator"
@@ -53,6 +55,7 @@ Finally, we'll discuss what the future of game development might look like, and 
     - Alberto Barbati
   abstract: "C++ 23 introduces std::generator, a library facility that allows programmers to write ranges factories using coroutines, similarly to what can already be done in other languages."
   feedback: https://docs.google.com/forms/d/1hbhFnSydocQqQ5iWku6ZjfC9Rgjzg6LG7bFy5GbRG9U/
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Hello%20std%20generator%20-%20Alberto%20Barbati.pdf
 
 - time: 13:50 - 14:25
   item: "Coffee & Networking Break"
