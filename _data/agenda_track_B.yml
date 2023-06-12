@@ -68,6 +68,7 @@ Finally, we'll discuss what the future of game development might look like, and 
 But taking a closer look at the algorithms and data structures that are already available, it is easy to witness a world full of clever solutions and efficient ideas: from what it drives the STL containers, to clever implementations of algorithm's functions down to some of the tricks that ensure that 0-cost abstractions are, indeed, free.
 In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
   feedback: https://docs.google.com/forms/d/1QbCt98j-CDL8fP5dpN_bIsTMiW0K8PqpDyyz0Y_a0og/
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Things%20you%20can%20learn%20from%20the%20C%2B%2B%20standard%20library%20-%20Davide%20Bianchi.pptx
   
 - time: 15:20 - 15:50
   item: "Closing Message In Track A"
