@@ -29,7 +29,8 @@ In particular, we will touch topics like concurrency, debugability, compilation 
 
 Finally, we'll discuss what the future of game development might look like, and what are the challenges for C++ to stay relevant as the language of choice for game programmers in the future."
   feedback: https://docs.google.com/forms/d/1T8YPcYdzhGZ70n-4Vcvgjz_jzatWPPB7FJ73SBPFchY/
- 
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/C%2B%2B%20and%20Game%20Development%20-%20Maurizio%20De%20Pascale.pdf
+
 - time: 10:15 - 11:05
   item: "Optimization Design Patterns"
   speaker: 
