@@ -18,7 +18,7 @@ If you are interested in learning about practical tools and techniques to improv
 - When to selectively replace heavyweight standard library headers;
 - General techniques to reduce physical dependencies between components."
   feedback: https://docs.google.com/forms/d/1sFL5bzcwKkscs9GVGV_AUu5yuB7Npu64YDSw8ClQcKQ/
-#  slides: 
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Improving%20compilation%20times%20-%20Vittorio%20Romeo.pdf
 #  video:
 
 - time: 08:40 - 09:15
