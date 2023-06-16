@@ -37,7 +37,7 @@ Finally, we'll discuss what the future of game development might look like, and 
     - Mike Shah
   abstract:  "\"Premature optimization is the root of all evil\" is a saying credited to Donald Knuth that speaks to many programmers with experience -- nut anecdotally I have observed folks overlooking the next sentence stating: \"Yet we should not pass up our opportunities in that critical 3%\". In this talk, the audience will be introduced to some common optimization design patterns. I will discuss precomputation, lazy versus eager evaluation, batching, caching, specialization, hinting, hashing, and using your compiler among 'optimization design patterns' that every programmer should be aware of. Examples will be demonstrated in Modern C++, and the goal is for the audience to leave feeling comfortable implementing each optimization design pattern to improve performance of their code."
   feedback: https://docs.google.com/forms/d/1tDYdEU6pTkaiYVqZ7T-AkHku9shTnJkkQXGCpS5dnFo/
-  
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/Optimization%20Design%20Patterns%20-%20Mike%20Shah.pdf
   
 - time: 11:05 - 12:20
   item: "Lunch"
