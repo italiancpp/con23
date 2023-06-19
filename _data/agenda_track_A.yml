@@ -19,7 +19,7 @@ If you are interested in learning about practical tools and techniques to improv
 - General techniques to reduce physical dependencies between components."
   feedback: https://docs.google.com/forms/d/1sFL5bzcwKkscs9GVGV_AUu5yuB7Npu64YDSw8ClQcKQ/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Improving%20compilation%20times%20-%20Vittorio%20Romeo.pdf
-#  video:
+  video: https://youtu.be/qeLPeuQ5-TI
 
 - time: 08:40 - 09:15
   item: "Coffee & Networking Break"
@@ -31,7 +31,8 @@ If you are interested in learning about practical tools and techniques to improv
   abstract: "C++ in safety critical domain. How to approach type safety in particular when it comes to safety critical domains e.g. Automotive. Challenges in domain,  beyond C++14 solutions."
   feedback: https://forms.gle/TViX8DgSk5YUqPsv9
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Towards%20safe%20C%2B%2B%20-%20Mohamed%20Selim.pdf
-  
+  video: https://youtu.be/ZkhzciTC2JA
+
 - time: 10:15 - 11:05
   item: "C++ Features You Might Not Know"
   speaker: 
@@ -41,6 +42,7 @@ If you are interested in learning about practical tools and techniques to improv
 For each feature, we will talk about the what, the why, and how you can use it to write better (or much, *much* worse) C++ programs."
   feedback: https://docs.google.com/forms/d/1RMH5gEYyxUbxNCzuOMrBTk_Je8EChqCHzuFtEJVBV4M/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/C%2B%2B%20Features%20You%20Might%20Not%20Know%20-%20Jonathan%20Muller.pdf
+  video: https://youtu.be/BlFCpddXLLY
 
 - time: 11:05 - 12:20
   item: "Lunch"
@@ -51,6 +53,7 @@ For each feature, we will talk about the what, the why, and how you can use it t
     - Conor Hoekstra
   abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
   feedback: https://forms.gle/GMjf8uMQSG7CZnyP6
+  video: https://youtu.be/5FU7Gtkb0IA
 
 - time: 13:20 - 13:50
   item: "A case for non-virtual virtual inheritance"
@@ -62,6 +65,7 @@ However, oftentimes data processing needs some memory space to store transient r
 In this talk I will try to explore first some design alternatives to give the user more control on where to store transient data, and then a case for non-virtual virtual inheritance as a means to share buffers among similar algorithms, together with some metaprogramming tricks to ease their usage. "
   feedback: https://docs.google.com/forms/d/1pddlx3u5nevhzq_Y0La5XFqe5njUGDaMKkNXa45gPX4/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/A%20case%20for%20virtual%20non-virtual%20inheritance%20-%20Marco%20Manino.pdf
+  video: https://youtu.be/W5a74qoUacI
 
 - time: 13:50 - 14:25
   item: "Coffee & Networking Break"
@@ -74,7 +78,8 @@ In this talk I will try to explore first some design alternatives to give the us
 This talk will describe and present these different challenges, define the problems, how different platforms and existing solutions like system package managers approach them, discuss potential solutions, and finally connect the dots to the latest Conan 2.0, explaining the rationale behind some of the newer approaches introduced in this recent major release, and why writing a C++ package manager is a bigger challenge than it seems."
   feedback: https://docs.google.com/forms/d/1H_0czURbxEHHGO74N7hzl3G-pP1zRNxq-riVS2OGxgY/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Conan%202.0_%20lessons%20learned%20from%20the%20C%2B%2B%20ecosystem%20-%20Luis%20Campos.pdf
-  
+  video: https://youtu.be/mBlE4VoLTbo
+
 - time: 15:20 - 15:50
   item: "Closing Message"
   speaker: 

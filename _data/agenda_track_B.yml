@@ -11,6 +11,7 @@ Behind the scenes there is of course C++ which thankfully is open source, but al
 In this session I will tell you my adventure as a novice in this world, how to create objects, the main libraries we can use and how to create animations."
   feedback: https://docs.google.com/forms/d/1snUOYbrrfrrIOulDvNcoZZHctsphfdAo5_V6gEFv4aw/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Unreal%20Engine%20In%20C%2B%2B%20From%20Scratch%20-%20Raffaele%20Rialdi.pdf
+  video: https://youtu.be/6_ojuQl2Kx8
 
 - time: 08:40 - 09:15
   item: "Coffee & Networking Break"
@@ -30,6 +31,7 @@ In particular, we will touch topics like concurrency, debugability, compilation 
 Finally, we'll discuss what the future of game development might look like, and what are the challenges for C++ to stay relevant as the language of choice for game programmers in the future."
   feedback: https://docs.google.com/forms/d/1T8YPcYdzhGZ70n-4Vcvgjz_jzatWPPB7FJ73SBPFchY/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/C%2B%2B%20and%20Game%20Development%20-%20Maurizio%20De%20Pascale.pdf
+  video: https://youtu.be/IVtqpqHaln0
 
 - time: 10:15 - 11:05
   item: "Optimization Design Patterns"
@@ -38,7 +40,8 @@ Finally, we'll discuss what the future of game development might look like, and 
   abstract:  "\"Premature optimization is the root of all evil\" is a saying credited to Donald Knuth that speaks to many programmers with experience -- nut anecdotally I have observed folks overlooking the next sentence stating: \"Yet we should not pass up our opportunities in that critical 3%\". In this talk, the audience will be introduced to some common optimization design patterns. I will discuss precomputation, lazy versus eager evaluation, batching, caching, specialization, hinting, hashing, and using your compiler among 'optimization design patterns' that every programmer should be aware of. Examples will be demonstrated in Modern C++, and the goal is for the audience to leave feeling comfortable implementing each optimization design pattern to improve performance of their code."
   feedback: https://docs.google.com/forms/d/1tDYdEU6pTkaiYVqZ7T-AkHku9shTnJkkQXGCpS5dnFo/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Optimization%20Design%20Patterns%20-%20Mike%20Shah.pdf
-  
+  video: https://youtu.be/ZQ0lGrDs9bI
+
 - time: 11:05 - 12:20
   item: "Lunch"
 
@@ -49,6 +52,7 @@ Finally, we'll discuss what the future of game development might look like, and 
   abstract: "Another talk in the micro-problems series, focused on showing small and clever pieces of code that solve practical problems, this talk will be focused on lock-free code and applications."
   feedback: https://forms.gle/86dcZaBV2wc4udHfA
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Lock-free%20micro%20problems%20-%20Davide%20Di%20Gennaro.pdf
+  video: https://youtu.be/N-3Hxgan1KA
 
 - time: 13:20 - 13:50
   item: "Hello, std::generator"
@@ -57,6 +61,7 @@ Finally, we'll discuss what the future of game development might look like, and 
   abstract: "C++ 23 introduces std::generator, a library facility that allows programmers to write ranges factories using coroutines, similarly to what can already be done in other languages."
   feedback: https://docs.google.com/forms/d/1hbhFnSydocQqQ5iWku6ZjfC9Rgjzg6LG7bFy5GbRG9U/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Hello%20std%20generator%20-%20Alberto%20Barbati.pdf
+  video: https://youtu.be/Fl6xYZOFlhk
 
 - time: 13:50 - 14:25
   item: "Coffee & Networking Break"
@@ -70,6 +75,7 @@ But taking a closer look at the algorithms and data structures that are already 
 In this talk we will present 1 container and 4 famous algorithm that are taught in AIV during the first year, discuss how they work and how they are implemented in the standard library and show how those algorithm are used in the context of video-game programming."
   feedback: https://docs.google.com/forms/d/1QbCt98j-CDL8fP5dpN_bIsTMiW0K8PqpDyyz0Y_a0og/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Things%20you%20can%20learn%20from%20the%20C%2B%2B%20standard%20library%20-%20Davide%20Bianchi.pptx
-  
+  video: https://youtu.be/uLIYRuDjkAg
+
 - time: 15:20 - 15:50
   item: "Closing Message In Track A"
