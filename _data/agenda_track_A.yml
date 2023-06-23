@@ -54,7 +54,8 @@ For each feature, we will talk about the what, the why, and how you can use it t
   abstract: "C++23 has made a number of very important additions to the Ranges library that was introduced in C++20. This talk will be an overview everything new in the C++23 Ranges library as well as a high level overview of all the different \"types\" of algorithms in C++ (from C++98 to C++23)."
   feedback: https://forms.gle/GMjf8uMQSG7CZnyP6
   video: https://youtu.be/5FU7Gtkb0IA
-
+  slides: https://github.com/italiancpp/itcppcon23/blob/main/New%20Algorithms%20in%20C%2B%2B23%20-%20Conor%20Hoekstra.pdf
+  
 - time: 13:20 - 13:50
   item: "A case for non-virtual virtual inheritance"
   speaker: 
