@@ -12,7 +12,7 @@ baseurl: "/con23" # the subpath of your site, e.g. /blog Remove to serve the sit
 url: "italiancpp.github.io" # the base hostname & protocol for your site
 
 # Allowed values: cfs, reservation, speakers, agenda, map, sponsors.
-sections: ['reservation', 'speakers', 'agenda', 'sponsors', 'map']
+sections: ['speakers', 'agenda', 'sponsors', 'map']
 
 general_feedback: "https://forms.gle/1maJLDzTMoSyzcBq6"
 eventbrite_id: "612358138677"
