@@ -12,7 +12,9 @@
   
 If you are interested in learning about practical tools and techniques to improve compilation times on codebases of any size, *today*, this talk is for you! We will cover:
 
-- How to accurately benchmark the compilation time of a codebase and detect bottlenecks;
+<ul>
+<li>- How to accurately benchmark the compilation time of a codebase and detect bottlenecks;</li>
+</ul>
 - Enabling precompiled headers in CMake, leveraging the \"reuse from\" feature;
 - Automatically transforming your build into a \"unity build\";
 - When to selectively replace heavyweight standard library headers;
