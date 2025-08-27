@@ -8,19 +8,22 @@
   item: "Improving Compilation Times: Tools & Techniques"
   speaker: 
     - Vittorio Romeo
-  abstract: "\"Modules will solve everything\", people say -- some optimistically, others sarcastically. However, modules are far from reaching real-world maturity, and it is still not certain whether they will improve compilation times in every situation and how costly it will be to migrate a large codebase. Do we have to suffer with excruciating compilation times until we are able to migrate to modules? Not at all!
+  abstract: </p> "\"Modules will solve everything\", people say -- some optimistically, others sarcastically. However, modules are far from reaching real-world maturity, and it is still not certain whether they will improve compilation times in every situation and how costly it will be to migrate a large codebase. Do we have to suffer with excruciating compilation times until we are able to migrate to modules? Not at all!
   
 If you are interested in learning about practical tools and techniques to improve compilation times on codebases of any size, *today*, this talk is for you! We will cover:
 
-- How to accurately benchmark the compilation time of a codebase and detect bottlenecks;</li>
-- Enabling precompiled headers in CMake, leveraging the \"reuse from\" feature;
-- Automatically transforming your build into a \"unity build\";
-- When to selectively replace heavyweight standard library headers;
-- General techniques to reduce physical dependencies between components."
+<ul>
+<li>How to accurately benchmark the compilation time of a codebase and detect bottlenecks;</li>
+<li>Enabling precompiled headers in CMake, leveraging the \"reuse from\" feature;</li>
+<li>Automatically transforming your build into a \"unity build\";</li>
+<li>When to selectively replace heavyweight standard library headers;</li>
+<li>General techniques to reduce physical dependencies between components.</li>"
+<p class=\"abstract\">
+  
   feedback: https://docs.google.com/forms/d/1sFL5bzcwKkscs9GVGV_AUu5yuB7Npu64YDSw8ClQcKQ/
   slides: https://github.com/italiancpp/itcppcon23/blob/main/Improving%20compilation%20times%20-%20Vittorio%20Romeo.pdf
   video: https://youtu.be/qeLPeuQ5-TI
-
+  
 - time: 08:40 - 09:15
   item: "Coffee & Networking Break"
   
